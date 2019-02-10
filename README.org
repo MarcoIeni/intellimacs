@@ -1,0 +1,46 @@
+* IntelliSpace
+
+[[http://spacemacs.org][file:https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg]]
+[[https://paypal.me/MarcoIeni][https://img.shields.io/badge/Paypal-Donate-blue.svg]]
+
+** Presentation
+This project tries to mimic [[http://spacemacs.org][Spacemacs]] key bindings in IDEs based on the [[https://www.jetbrains.com][intelliJ]] platform, i.e. IntelliJ IDEA, PyCharm, CLion, PhpStorm, WebStorm, RubyMine, AppCode, DataGrip, GoLand, Rider, Cursive, and Android Studio.
+
+For instance, =SPC f f= in Spacemacs opens a file, so it make sense to map it to the "GotoFile" IntelliJ action.
+
+** How it works
+This project can be seen as a set of configuration files for the [[https://plugins.jetbrains.com/plugin/164-ideavim][IdeaVim]] plugin, which enables vim emulation inside IntelliJ platform.
+=~/.ideavimrc= is the file where IdeaVim lets you add Vim initialization commands, i.e. this file is like =~/.vimrc= for vim.
+
+IdeaVim parses the [[https://github.com/JetBrains/ideavim/blob/master/src/com/maddyhome/idea/vim/package-info.java][most common]] vim commands, together with the custom =:action {name}= command, used to execute arbitrary IDE actions.
+To list all IDE actions use the command =:actionlist [pattern]=.
+
+Instead of providing the =.ideavimrc= file to be copied and pasted to your home directory directly, IntelliSpace provides different files, that can be included individually in your own =.ideavimrc= file, in order to get only the functionalities you want and being able to add your own vim commands without conflicting with the upstream.
+
+** Installation
+1. Install IdeaVim by using the IDE's plugin manager.
+2. Clone this repository into a directory:
+  #+begin_src sh
+  cd /destination/directory/for/this/repo
+  git clone https://github.com/MarcoIeni/intelli-space
+  #+end_src
+3. move into your home directory, create the file =.ideavimrc= and edit it in order to include the functionalities you want by sourcing the relative source file and adding your own vim commands. In the following there is an example of =.ideavimrc= file that includes all the functionalities offered by IntelliSpace and has some of the most common vim commands. It assumes that this repo has been saved into directory =~/intelli-space/=.
+  #+begin_src vimrc
+  " selected intelli space modules
+  source ~/intelli-space/basic
+  source ~/intelli-space/hybrid_mode
+  source ~/intelli-space/version_control
+
+  " my own vim commands
+
+  #+end_src
+4. (optional) source you own vimrc file by adding the line =source ~/.vimrc= in your =.ideavimrc= file.
+
+In order to update run =git pull= inside the intelli-space directory.
+** Keybindings
+
+** Resources
+- [[https://github.com/JetBrains/ideavim][IdeaVim]]
+
+** Related projects
+- [[https://github.com/VSpaceCode/VSpaceCode][VSpaceCode]] - Spacemacs' like keybindings for Visual Studio Code (thanks for the inspiration)
