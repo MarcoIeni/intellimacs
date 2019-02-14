@@ -3,14 +3,19 @@ set surround
 set showmode
 
 " show methods, variables, etc. declared in the file
- :action FileStructurePopup<CR>
-
- :action FindUsages<CR>
-
- :action Generate<CR>
 
 map <Leader>i :action GotoImplementation<CR>
+vmap <leader>i :<Backspace><Backspace><Backspace><Backspace><Backspace>action GotoImplementation<CR>
 
+nnoremap gs :action GotoSuperMethod<CR>
+nnoremap gb :action JumpToLastChange<CR>
+inoremap <C-n> <C-o>:action InsertLiveTemplate<CR>
+nnoremap ,p :action PasteMultiple<CR>
+nnoremap ,P :action PasteMultiple<CR>
+nnoremap Q :action ShowIntentionActions<CR>
+
+nnoremap <leader>only :action CloseAllEditorsButActive<cr>
+nnoremap <leader>clear :action CloseAllEditors<cr>
 
 " Toggle distraction free mode
 nmap <leader>wz :action ToggleDistractionFreeMode<CR>
@@ -20,28 +25,22 @@ vmap <leader>wz :<Backspace><Backspace><Backspace><Backspace><Backspace>action T
 " IDE actions
 " ============================================================================
 
-nmap <leader><Space> :action GotoAction<CR>
 nmap <leader>ff      :action GotoFile<CR>
 nmap <leader>fs      :action SaveAll<CR>
 nmap <leader>fd      :action DashLauncherAction<CR>
 nmap <leader>bi      :action ActivateStructureToolWindow<CR>
 nmap <leader>bp      :action FileStructurePopup<CR>
 nmap <leader>im      :action ImplementMethods<CR>
-"nmap <leader>'       :action ActivateTerminalToolWindow<CR>
 nmap gh              :action QuickJavaDoc<CR>
 nmap gs              :action GotoSymbol<CR>
-nmap ,=              :action ReformatCode<CR>
 nmap <leader>gm      :action Generate<CR>
 
-vmap <leader><Space> :<Backspace><Backspace><Backspace><Backspace><Backspace>action GotoAction<CR>
 vmap <leader>ff      :<Backspace><Backspace><Backspace><Backspace><Backspace>action GotoFile<CR>
 vmap <leader>fs      :<Backspace><Backspace><Backspace><Backspace><Backspace>actio SaveAll<CR>
 vmap <leader>fd      :<Backspace><Backspace><Backspace><Backspace><Backspace>action DashLauncherAction<CR>
 vmap <leader>bi      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ActivateStructureToolWindow<CR>
 vmap <leader>bp      :<Backspace><Backspace><Backspace><Backspace><Backspace>action FileStructurePopup<cr>
 vmap <leader>im      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ImplementMethods<CR>
-" vmap <leader>'       :<Backspace><Backspace><Backspace><Backspace><Backspace>action ActivateTerminalToolWindow<CR>
-vmap ,=              :<Backspace><Backspace><Backspace><Backspace><Backspace>action ReformatCode<CR>
 
 " Comment by Line
 " TODO is gc the right keybinding?
@@ -54,6 +53,7 @@ vmap <leader>; :<Backspace><Backspace><Backspace><Backspace><Backspace>action Co
 
 nmap <c-i>           :action Forward<CR>
 nmap <c-o>           :action Back<CR>
+" TODO this should be '
 nmap <leader>oS      :action ActivateTerminalToolWindow<CR>
 nmap <leader><tab>   :action RecentFiles<CR>
 nmap <leader>aa      :action $SelectAll<CR>
@@ -71,8 +71,6 @@ nmap <leader>fb      :action ShowBookmarks<CR>
 nmap <leader>fd      :action SmartSearchAction<CR>
 nmap <leader>ft      :action ActivateProjectToolWindow<CR>
 nmap <leader>im      :action ImplementMethods<CR>
-nmap <leader>/i      :action FileStructurePopup<CR>
-nmap <leader>cf      :action ReformatCode<CR>
 " TODO invert rr and rR?
 nmap <leader>rR      :action RunClass<CR>
 nmap <leader>rr      :action Run<CR>
@@ -88,6 +86,7 @@ nmap gs              :action StepOver<CR>
 
 vmap <c-i>           :<Backspace><Backspace><Backspace><Backspace><Backspace>action Forward<CR>
 vmap <c-o>           :<Backspace><Backspace><Backspace><Backspace><Backspace>action Back<CR>
+" TODO this should be '
 vmap <leader>oS      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ActivateTerminalToolWindow<CR>
 vmap <leader><tab>   :<Backspace><Backspace><Backspace><Backspace><Backspace>action RecentFiles<CR>
 vmap <leader>aa      :<Backspace><Backspace><Backspace><Backspace><Backspace>action $SelectAll<CR>
@@ -107,8 +106,6 @@ vmap <leader>ff      :<Backspace><Backspace><Backspace><Backspace><Backspace>act
 vmap <leader>fs      :<Backspace><Backspace><Backspace><Backspace><Backspace>action SaveAll<CR>
 vmap <leader>ft      :<Backspace><Backspace><Backspace><Backspace><Backspace>:action ActivateProjectToolWindow<CR>
 vmap <leader>im      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ImplementMethods<CR>
-vmap <leader>/i      :<Backspace><Backspace><Backspace><Backspace><Backspace>action FileStructurePopup<CR>
-vmap <leader>cf      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ReformatCode<CR>
 vmap <leader>rR      :<Backspace><Backspace><Backspace><Backspace><Backspace>action RunClass<CR>
 vmap <leader>rr      :<Backspace><Backspace><Backspace><Backspace><Backspace>action Run<CR>
 vmap <leader>ss      :<Backspace><Backspace><Backspace><Backspace><Backspace>action Stop<CR>
@@ -142,6 +139,8 @@ vmap <leader>gg :<Backspace><Backspace><Backspace><Backspace><Backspace>action V
 nmap <leader>gG :action ActivateVersionControlToolWindow<CR>
 vmap <leader>gG :<Backspace><Backspace><Backspace><Backspace><Backspace>action ActivateVersionControlToolWindow<CR>
 
+nnoremap <leader>gh :action LocalHistory.ShowHistory<cr>
+
 " search in project
 " TODO is sp the right keybinding?
 nmap <leader>// :action FindInPath<CR>
@@ -149,7 +148,6 @@ vmap <leader>// :<Backspace><Backspace><Backspace><Backspace><Backspace>action F
 
 " replace in project
 nmap <leader>rp :action ReplaceInPath<CR>
-vmap <leader>rp :<Backspace><Backspace><Backspace><Backspace><Backspace>action FindInPath<CR>
 
 " select occurrence, they do not work when editing
 nmap mn :action SelectNextOccurrence<CR>
@@ -166,3 +164,19 @@ vmap <CR> :
 " show action list
 nmap <leader>al :actionlist<CR>
 vmap <leader>al :<Backspace><Backspace><Backspace><Backspace><Backspace>actionlist<CR>
+
+" Refactor
+nnoremap <leader>R :action Refactorings.QuickListPopupAction<cr>
+nnoremap <leader>ic :action InspectCode<cr>
+nnoremap <leader>rm :action ExtractMethod<cr>
+nnoremap <leader>re :action RenameElement<cr>
+nnoremap <leader>rf :action RenameFile<cr>
+nnoremap <leader>rv :action IntroduceVariable<cr>
+nnoremap <leader>rs :action ExtractSuperclass<cr>
+nnoremap <leader>ri :action Inline<cr>
+" TODO alternative to cf: gq
+nmap <leader>cf      :action ReformatCode<CR>
+vmap <leader>cf      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ReformatCode<CR>
+
+" Tool
+nnoremap <leader>lc :action ActivateLogcatToolWindow<cr>

@@ -56,3 +56,7 @@ nmap zC :action CollapseAllRegions<CR>
 " Quit
 nmap <leader>qq :action Exit<CR>
 vmap <leader>qq :<Backspace><Backspace><Backspace><Backspace><Backspace>action Exit<CR>
+
+" Window
+nnoremap <leader>sp :action SplitVertically<cr>
+nnoremap <leader>hsp :action SplitHorizontally<cr>
