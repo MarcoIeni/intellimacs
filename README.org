@@ -18,7 +18,7 @@ To list all IDE actions use the command =:actionlist [pattern]=.
 Instead of providing the =.ideavimrc= file to be copied and pasted to your home directory directly, IntelliSpace provides different files, that can be included individually in your own =.ideavimrc= file, in order to get only the functionalities you want and being able to add your own vim commands without conflicting with the upstream.
 
 ** Installation
-1. Install IdeaVim by using the IDE's plugin manager.
+1. Install IdeaVim by using the IDE's plugin manager (File -> Settings -> Plugins -> Search for IdeaVim -> Install IdeaVim).
 2. Clone this repository into a directory:
   #+begin_src sh
   cd /destination/directory/for/this/repo
@@ -32,7 +32,7 @@ Instead of providing the =.ideavimrc= file to be copied and pasted to your home 
   source ~/intelli-space/version_control
 
   " my own vim commands
-
+  nnoremap Y y$
   #+end_src
 4. (optional) source you own vimrc file by adding the line =source ~/.vimrc= in your =.ideavimrc= file.
 
@@ -41,6 +41,7 @@ In order to update run =git pull= inside the intelli-space directory.
 
 ** Resources
 - [[https://github.com/JetBrains/ideavim][IdeaVim]]
-
+- [[https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf][Intellij default keymap]]
+- [[https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository][Share IDE settings]]
 ** Related projects
 - [[https://github.com/VSpaceCode/VSpaceCode][VSpaceCode]] - Spacemacs' like keybindings for Visual Studio Code (thanks for the inspiration)
