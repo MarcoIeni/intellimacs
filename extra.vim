@@ -43,7 +43,6 @@ vmap <leader>bp      :<Backspace><Backspace><Backspace><Backspace><Backspace>act
 vmap <leader>im      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ImplementMethods<CR>
 
 " Comment by Line
-" TODO is gc the right keybinding?
 nmap <leader>; :action CommentByBlockComment<CR>
 vmap <leader>; :<Backspace><Backspace><Backspace><Backspace><Backspace>action CommentByLineComment<CR>
 
@@ -54,10 +53,12 @@ vmap <leader>; :<Backspace><Backspace><Backspace><Backspace><Backspace>action Co
 nmap <c-i>           :action Forward<CR>
 nmap <c-o>           :action Back<CR>
 " TODO this should be '
-nmap <leader>oS      :action ActivateTerminalToolWindow<CR>
-nmap <leader><tab>   :action RecentFiles<CR>
+nmap <leader>!      :action ActivateTerminalToolWindow<CR>
+nmap <leader><tab>   :action VimFilePrevious<CR>
 nmap <leader>aa      :action $SelectAll<CR>
-nmap <leader>al      :actionlist<CR>
+" TODO print keybindings
+nmap <leader>?       :!date<CR>
+vmap <leader>?      :<Backspace><Backspace><Backspace><Backspace><Backspace>actionlist<CR>
 nmap <leader>bb      :action RecentFiles<CR>
 nmap <leader>/i      :action ActivateStructureToolWindow<CR>
 nmap <leader>bu      :action ReopenClosedTab<CR>
@@ -69,6 +70,8 @@ nmap <leader>op      :action SelectInProjectView<CR>
 nmap <leader>o,      :action Tool_External Tools_Open in Emacs<CR>
 nmap <leader>fb      :action ShowBookmarks<CR>
 nmap <leader>fd      :action SmartSearchAction<CR>
+" sadly when you are inside the project window this keybinding does not work
+" anymore. You can use <A-1> instead
 nmap <leader>ft      :action ActivateProjectToolWindow<CR>
 nmap <leader>im      :action ImplementMethods<CR>
 " TODO invert rr and rR?
@@ -79,7 +82,9 @@ nmap <leader>tb      :action ToggleBookmark<CR>
 nmap <leader>tt      :action ToggleLineBreakpoint<CR>
 nmap gR              :action Resume<CR>
 nmap gd              :action GotoDeclaration<CR>
-nmap gD              :action FindUsages<CR>
+" ideal for this should be FindInPath the current word, but since I think that
+" is not possible, I think that find usages is not that bad
+nmap <leader>*       :action FindUsages<CR>
 nmap gi              :action StepInto<CR>
 nmap go              :action StepOut<CR>
 nmap gs              :action StepOver<CR>
@@ -87,10 +92,9 @@ nmap gs              :action StepOver<CR>
 vmap <c-i>           :<Backspace><Backspace><Backspace><Backspace><Backspace>action Forward<CR>
 vmap <c-o>           :<Backspace><Backspace><Backspace><Backspace><Backspace>action Back<CR>
 " TODO this should be '
-vmap <leader>oS      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ActivateTerminalToolWindow<CR>
-vmap <leader><tab>   :<Backspace><Backspace><Backspace><Backspace><Backspace>action RecentFiles<CR>
+vmap <leader>!      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ActivateTerminalToolWindow<CR>
+vmap <leader><tab>   :<Backspace><Backspace><Backspace><Backspace><Backspace>action VimFilePrevious<CR>
 vmap <leader>aa      :<Backspace><Backspace><Backspace><Backspace><Backspace>action $SelectAll<CR>
-vmap <leader>al      :<Backspace><Backspace><Backspace><Backspace><Backspace>actionlist<CR>
 vmap <leader>bb      :<Backspace><Backspace><Backspace><Backspace><Backspace>action RecentFiles<CR>
 vmap <leader>/i      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ActivateStructureToolWindow<CR>
 vmap <leader>bu      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ReopenClosedTab<CR>
@@ -113,7 +117,7 @@ vmap <leader>tb      :<Backspace><Backspace><Backspace><Backspace><Backspace>act
 vmap <leader>tt      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ToggleLineBreakpoint<CR>
 vmap gR              :<Backspace><Backspace><Backspace><Backspace><Backspace>action Resume<CR>
 vmap gd              :<Backspace><Backspace><Backspace><Backspace><Backspace>action GotoDeclaration<CR>
-vmap gD              :<Backspace><Backspace><Backspace><Backspace><Backspace>action FindUsages<CR>
+vmap <leader>*       :<Backspace><Backspace><Backspace><Backspace><Backspace>action FindUsages<CR>
 vmap gi              :<Backspace><Backspace><Backspace><Backspace><Backspace>action StepInto<CR>
 vmap go              :<Backspace><Backspace><Backspace><Backspace><Backspace>action StepOut<CR>
 vmap gs              :<Backspace><Backspace><Backspace><Backspace><Backspace>action StepOver<CR>
@@ -141,10 +145,6 @@ vmap <leader>gG :<Backspace><Backspace><Backspace><Backspace><Backspace>action A
 
 nnoremap <leader>gh :action LocalHistory.ShowHistory<cr>
 
-" search in project
-" TODO is sp the right keybinding?
-nmap <leader>// :action FindInPath<CR>
-vmap <leader>// :<Backspace><Backspace><Backspace><Backspace><Backspace>action FindInPath<CR>
 
 " replace in project
 nmap <leader>rp :action ReplaceInPath<CR>
@@ -158,15 +158,15 @@ vmap mp :<Backspace><Backspace><Backspace><Backspace><Backspace>action UnselectP
 vmap ma :<Backspace><Backspace><Backspace><Backspace><Backspace>action SelectAllOccurrences<CR>
 
 " Enter the command-line mode
-nmap <CR> :
-vmap <CR> :
+" nmap <CR> :
+" vmap <CR> :
 
 " show action list
 nmap <leader>al :actionlist<CR>
 vmap <leader>al :<Backspace><Backspace><Backspace><Backspace><Backspace>actionlist<CR>
 
 " Refactor
-nnoremap <leader>R :action Refactorings.QuickListPopupAction<cr>
+nnoremap <leader>gR :action Refactorings.QuickListPopupAction<cr>
 nnoremap <leader>ic :action InspectCode<cr>
 nnoremap <leader>rm :action ExtractMethod<cr>
 nnoremap <leader>re :action RenameElement<cr>
