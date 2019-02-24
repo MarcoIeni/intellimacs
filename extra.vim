@@ -5,7 +5,7 @@ set showmode
 " show methods, variables, etc. declared in the file
 
 map <Leader>i :action GotoImplementation<CR>
-vmap <leader>i :<Backspace><Backspace><Backspace><Backspace><Backspace>action GotoImplementation<CR>
+vnoremap <leader>i <Esc>:action GotoImplementation<CR>
 
 nnoremap gs :action GotoSuperMethod<CR>
 nnoremap gb :action JumpToLastChange<CR>
@@ -18,152 +18,137 @@ nnoremap <leader>only :action CloseAllEditorsButActive<cr>
 nnoremap <leader>clear :action CloseAllEditors<cr>
 
 " Toggle distraction free mode
-nmap <leader>wz :action ToggleDistractionFreeMode<CR>
-vmap <leader>wz :<Backspace><Backspace><Backspace><Backspace><Backspace>action ToggleDistractionFreeMode<CR>
+nnoremap <leader>wz :action ToggleDistractionFreeMode<CR>
+vnoremap <leader>wz <Esc>:action ToggleDistractionFreeMode<CR>
 
 " ============================================================================
 " IDE actions
 " ============================================================================
 
-nmap <leader>ff      :action GotoFile<CR>
-nmap <leader>fs      :action SaveAll<CR>
-nmap <leader>fd      :action DashLauncherAction<CR>
-nmap <leader>bi      :action ActivateStructureToolWindow<CR>
-nmap <leader>bp      :action FileStructurePopup<CR>
-nmap <leader>im      :action ImplementMethods<CR>
-nmap gh              :action QuickJavaDoc<CR>
-nmap gs              :action GotoSymbol<CR>
-nmap <leader>gm      :action Generate<CR>
+nnoremap <leader>ff      :action GotoFile<CR>
+nnoremap <leader>fs      :action SaveAll<CR>
+nnoremap <leader>fd      :action DashLauncherAction<CR>
+nnoremap <leader>bi      :action ActivateStructureToolWindow<CR>
+nnoremap <leader>basdp   :action FileStructurePopup<CR>
+nnoremap <leader>im      :action ImplementMethods<CR>
+nnoremap gh              :action QuickJavaDoc<CR>
+nnoremap gs              :action GotoSymbol<CR>
+nnoremap <leader>gm      :action Generate<CR>
 
-vmap <leader>ff      :<Backspace><Backspace><Backspace><Backspace><Backspace>action GotoFile<CR>
-vmap <leader>fs      :<Backspace><Backspace><Backspace><Backspace><Backspace>actio SaveAll<CR>
-vmap <leader>fd      :<Backspace><Backspace><Backspace><Backspace><Backspace>action DashLauncherAction<CR>
-vmap <leader>bi      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ActivateStructureToolWindow<CR>
-vmap <leader>bp      :<Backspace><Backspace><Backspace><Backspace><Backspace>action FileStructurePopup<cr>
-vmap <leader>im      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ImplementMethods<CR>
+vnoremap <leader>ff      <Esc>:action GotoFile<CR>
+vnoremap <leader>fs      <Esc>:actio SaveAll<CR>
+vnoremap <leader>fd      <Esc>:action DashLauncherAction<CR>
+vnoremap <leader>bi      <Esc>:action ActivateStructureToolWindow<CR>
+vnoremap <leader>basdp   <Esc>:action FileStructurePopup<cr>
+vnoremap <leader>im      <Esc>:action ImplementMethods<CR>
 
-" Comment by Line
-nmap <leader>; :action CommentByBlockComment<CR>
-vmap <leader>; :<Backspace><Backspace><Backspace><Backspace><Backspace>action CommentByLineComment<CR>
+" Comment lines
+nnoremap <leader>; :action CommentByLineComment<CR>
+vnoremap <leader>; :action CommentByLineComment<CR>:action VimVisualExitMode<CR>
 
+nnoremap <leader>cb :action CommentByBlockComment<CR>
 " ============================================================================
 " IDE actions
 " ============================================================================
 
-nmap <c-i>           :action Forward<CR>
-nmap <c-o>           :action Back<CR>
-" TODO this should be '
-nmap <leader>!      :action ActivateTerminalToolWindow<CR>
-nmap <leader><tab>   :action VimFilePrevious<CR>
-nmap <leader>aa      :action $SelectAll<CR>
-" TODO print keybindings
-nmap <leader>?       :!date<CR>
-vmap <leader>?      :<Backspace><Backspace><Backspace><Backspace><Backspace>actionlist<CR>
-nmap <leader>bb      :action RecentFiles<CR>
-nmap <leader>/i      :action ActivateStructureToolWindow<CR>
-nmap <leader>bu      :action ReopenClosedTab<CR>
-nmap <leader>cc      :action GotoClass<CR>
-nmap <leader>dD      :action DebugClass<CR>
-nmap <leader>dd      :action Debug<CR>
-nmap <leader>ee      :action ShowErrorDescription<CR>
-nmap <leader>op      :action SelectInProjectView<CR>
-nmap <leader>o,      :action Tool_External Tools_Open in Emacs<CR>
-nmap <leader>fb      :action ShowBookmarks<CR>
-nmap <leader>fd      :action SmartSearchAction<CR>
+nnoremap <c-i>           :action Forward<CR>
+nnoremap <c-o>           :action Back<CR>
+nnoremap <leader>aa      :action $SelectAll<CR>
+nnoremap <leader>/i      :action ActivateStructureToolWindow<CR>
+nnoremap <leader>cc      :action GotoClass<CR>
+nnoremap <leader>dD      :action DebugClass<CR>
+nnoremap <leader>dd      :action Debug<CR>
+nnoremap <leader>ee      :action ShowErrorDescription<CR>
+nnoremap <leader>op      :action SelectInProjectView<CR>
+nnoremap <leader>o,      :action Tool_External Tools_Open in Emacs<CR>
+nnoremap <leader>fb      :action ShowBookmarks<CR>
+nnoremap <leader>fd      :action SmartSearchAction<CR>
 " sadly when you are inside the project window this keybinding does not work
 " anymore. You can use <A-1> instead
-nmap <leader>ft      :action ActivateProjectToolWindow<CR>
-nmap <leader>im      :action ImplementMethods<CR>
+nnoremap <leader>ft      :action ActivateProjectToolWindow<CR>
+nnoremap <leader>im      :action ImplementMethods<CR>
 " TODO invert rr and rR?
-nmap <leader>rR      :action RunClass<CR>
-nmap <leader>rr      :action Run<CR>
-nmap <leader>ss      :action Stop<CR>
-nmap <leader>tb      :action ToggleBookmark<CR>
-nmap <leader>tt      :action ToggleLineBreakpoint<CR>
-nmap gR              :action Resume<CR>
-nmap gd              :action GotoDeclaration<CR>
-" ideal for this should be FindInPath the current word, but since I think that
-" is not possible, I think that find usages is not that bad
-nmap <leader>*       :action FindUsages<CR>
-nmap gi              :action StepInto<CR>
-nmap go              :action StepOut<CR>
-nmap gs              :action StepOver<CR>
+nnoremap <leader>rR      :action RunClass<CR>
+nnoremap <leader>rr      :action Run<CR>
+nnoremap <leader>ss      :action Stop<CR>
+nnoremap <leader>tb      :action ToggleBookmark<CR>
+nnoremap <leader>tt      :action ToggleLineBreakpoint<CR>
+nnoremap gR              :action Resume<CR>
+nnoremap gd              :action GotoDeclaration<CR>
+nnoremap gi              :action StepInto<CR>
+nnoremap go              :action StepOut<CR>
+nnoremap gs              :action StepOver<CR>
 
-vmap <c-i>           :<Backspace><Backspace><Backspace><Backspace><Backspace>action Forward<CR>
-vmap <c-o>           :<Backspace><Backspace><Backspace><Backspace><Backspace>action Back<CR>
-" TODO this should be '
-vmap <leader>!      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ActivateTerminalToolWindow<CR>
-vmap <leader><tab>   :<Backspace><Backspace><Backspace><Backspace><Backspace>action VimFilePrevious<CR>
-vmap <leader>aa      :<Backspace><Backspace><Backspace><Backspace><Backspace>action $SelectAll<CR>
-vmap <leader>bb      :<Backspace><Backspace><Backspace><Backspace><Backspace>action RecentFiles<CR>
-vmap <leader>/i      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ActivateStructureToolWindow<CR>
-vmap <leader>bu      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ReopenClosedTab<CR>
-vmap <leader>cc      :<Backspace><Backspace><Backspace><Backspace><Backspace>action GotoClass<CR>
-vmap <leader>dD      :<Backspace><Backspace><Backspace><Backspace><Backspace>action DebugClass<CR>
-vmap <leader>dd      :<Backspace><Backspace><Backspace><Backspace><Backspace>action Debug<CR>
-vmap <leader>ee      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ShowErrorDescription<CR>
-vmap <leader>op      :<Backspace><Backspace><Backspace><Backspace><Backspace>action SelectInProjectView<CR>
-vmap <leader>o,      :<Backspace><Backspace><Backspace><Backspace><Backspace>action Tool_External Tools_Open in Emacs<CR>
-vmap <leader>fb      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ShowBookmarks<CR>
-vmap <leader>fd      :<Backspace><Backspace><Backspace><Backspace><Backspace>action SmartSearchAction<CR>
-vmap <leader>ff      :<Backspace><Backspace><Backspace><Backspace><Backspace>action SearchEverywhere<CR>
-vmap <leader>fs      :<Backspace><Backspace><Backspace><Backspace><Backspace>action SaveAll<CR>
-vmap <leader>ft      :<Backspace><Backspace><Backspace><Backspace><Backspace>:action ActivateProjectToolWindow<CR>
-vmap <leader>im      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ImplementMethods<CR>
-vmap <leader>rR      :<Backspace><Backspace><Backspace><Backspace><Backspace>action RunClass<CR>
-vmap <leader>rr      :<Backspace><Backspace><Backspace><Backspace><Backspace>action Run<CR>
-vmap <leader>ss      :<Backspace><Backspace><Backspace><Backspace><Backspace>action Stop<CR>
-vmap <leader>tb      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ToggleBookmark<CR>
-vmap <leader>tt      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ToggleLineBreakpoint<CR>
-vmap gR              :<Backspace><Backspace><Backspace><Backspace><Backspace>action Resume<CR>
-vmap gd              :<Backspace><Backspace><Backspace><Backspace><Backspace>action GotoDeclaration<CR>
-vmap <leader>*       :<Backspace><Backspace><Backspace><Backspace><Backspace>action FindUsages<CR>
-vmap gi              :<Backspace><Backspace><Backspace><Backspace><Backspace>action StepInto<CR>
-vmap go              :<Backspace><Backspace><Backspace><Backspace><Backspace>action StepOut<CR>
-vmap gs              :<Backspace><Backspace><Backspace><Backspace><Backspace>action StepOver<CR>
+vnoremap <c-i>           <Esc>:action Forward<CR>
+vnoremap <c-o>           <Esc>:action Back<CR>
+vnoremap <leader>aa      <Esc>:action $SelectAll<CR>
+vnoremap <leader>/i      <Esc>:action ActivateStructureToolWindow<CR>
+vnoremap <leader>cc      <Esc>:action GotoClass<CR>
+vnoremap <leader>dD      <Esc>:action DebugClass<CR>
+vnoremap <leader>dd      <Esc>:action Debug<CR>
+vnoremap <leader>ee      <Esc>:action ShowErrorDescription<CR>
+vnoremap <leader>op      <Esc>:action SelectInProjectView<CR>
+vnoremap <leader>o,      <Esc>:action Tool_External Tools_Open in Emacs<CR>
+vnoremap <leader>fb      <Esc>:action ShowBookmarks<CR>
+vnoremap <leader>fd      <Esc>:action SmartSearchAction<CR>
+vnoremap <leader>ff      <Esc>:action SearchEverywhere<CR>
+vnoremap <leader>fs      <Esc>:action SaveAll<CR>
+vnoremap <leader>ft      <Esc>::action ActivateProjectToolWindow<CR>
+vnoremap <leader>im      <Esc>:action ImplementMethods<CR>
+vnoremap <leader>rR      <Esc>:action RunClass<CR>
+vnoremap <leader>rr      <Esc>:action Run<CR>
+vnoremap <leader>ss      <Esc>:action Stop<CR>
+vnoremap <leader>tb      <Esc>:action ToggleBookmark<CR>
+vnoremap <leader>tt      <Esc>:action ToggleLineBreakpoint<CR>
+vnoremap gR              <Esc>:action Resume<CR>
+vnoremap gd              <Esc>:action GotoDeclaration<CR>
+vnoremap gi              <Esc>:action StepInto<CR>
+vnoremap go              <Esc>:action StepOut<CR>
+vnoremap gs              <Esc>:action StepOver<CR>
 
 " tab is used in karabiner as <C-i>, <C-d> as delete
-nmap <tab>           :action Forward<CR>
-nmap <delete>        <C-d>
-vmap <tab>           :<Backspace><Backspace><Backspace><Backspace><Backspace>action Forward<CR>
-vmap <delete>        <C-d>
+" TODO include the following?
+" nnoremap <tab>           :action Forward<CR>
+" nnoremap <delete>        <C-d>
+" vnoremap <tab>           <Esc>:action Forward<CR>
+" vnoremap <delete>        <C-d>
 
 " Reload .ideavimrc
-nmap <leader>R :source ~/.ideavimrc<CR>
-vmap <leader>R :<Backspace><Backspace><Backspace><Backspace><Backspace>source ~/.ideavimrc<CR>
+nnoremap <leader>R :source ~/.ideavimrc<CR>
+vnoremap <leader>R <Esc>:source ~/.ideavimrc<CR>
 
 " check the action list
-nmap <leader>al :actionlist<CR>
-vmap <leader>al :a<Backspace><Backspace><Backspace><Backspace><Backspace>ctionlist<CR>
+nnoremap <leader>al :actionlist<CR>
+vnoremap <leader>al :a<Backspace><Backspace><Backspace><Backspace><Backspace>ctionlist<CR>
 
 " git
 " TODO are gs and gS the right keybinding?
-nmap <leader>gg :action Vcs.QuickListPopupAction<CR>
-vmap <leader>gg :<Backspace><Backspace><Backspace><Backspace><Backspace>action Vcs.QuickListPopupAction<CR>
-nmap <leader>gG :action ActivateVersionControlToolWindow<CR>
-vmap <leader>gG :<Backspace><Backspace><Backspace><Backspace><Backspace>action ActivateVersionControlToolWindow<CR>
+nnoremap <leader>gg :action Vcs.QuickListPopupAction<CR>
+vnoremap <leader>gg <Esc>:action Vcs.QuickListPopupAction<CR>
+nnoremap <leader>gG :action ActivateVersionControlToolWindow<CR>
+vnoremap <leader>gG <Esc>:action ActivateVersionControlToolWindow<CR>
 
 nnoremap <leader>gh :action LocalHistory.ShowHistory<cr>
 
 
 " replace in project
-nmap <leader>rp :action ReplaceInPath<CR>
+nnoremap <leader>rp :action ReplaceInPath<CR>
 
 " select occurrence, they do not work when editing
-nmap mn :action SelectNextOccurrence<CR>
-nmap mp :action UnselectPreviousOccurrence<CR>
-nmap ma :action SelectAllOccurrences<CR>
-vmap mn :<Backspace><Backspace><Backspace><Backspace><Backspace>action SelectNextOccurrence<CR>
-vmap mp :<Backspace><Backspace><Backspace><Backspace><Backspace>action UnselectPreviousOccurrence<CR>
-vmap ma :<Backspace><Backspace><Backspace><Backspace><Backspace>action SelectAllOccurrences<CR>
+nnoremap mn :action SelectNextOccurrence<CR>
+nnoremap mp :action UnselectPreviousOccurrence<CR>
+nnoremap ma :action SelectAllOccurrences<CR>
+vnoremap mn <Esc>:action SelectNextOccurrence<CR>
+vnoremap mp <Esc>:action UnselectPreviousOccurrence<CR>
+vnoremap ma <Esc>:action SelectAllOccurrences<CR>
 
 " Enter the command-line mode
-" nmap <CR> :
-" vmap <CR> :
+" nnoremap <CR> :
+" vnoremap <CR> :
 
 " show action list
-nmap <leader>al :actionlist<CR>
-vmap <leader>al :<Backspace><Backspace><Backspace><Backspace><Backspace>actionlist<CR>
+nnoremap <leader>al :actionlist<CR>
+vnoremap <leader>al <Esc>:actionlist<CR>
 
 " Refactor
 nnoremap <leader>gR :action Refactorings.QuickListPopupAction<cr>
@@ -175,8 +160,8 @@ nnoremap <leader>rv :action IntroduceVariable<cr>
 nnoremap <leader>rs :action ExtractSuperclass<cr>
 nnoremap <leader>ri :action Inline<cr>
 " TODO alternative to cf: gq
-nmap <leader>cf      :action ReformatCode<CR>
-vmap <leader>cf      :<Backspace><Backspace><Backspace><Backspace><Backspace>action ReformatCode<CR>
+nnoremap <leader>cf      :action ReformatCode<CR>
+vnoremap <leader>cf      <Esc>:action ReformatCode<CR>
 
 " Tool
 nnoremap <leader>lc :action ActivateLogcatToolWindow<cr>

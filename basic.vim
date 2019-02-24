@@ -5,63 +5,83 @@ let mapleader = " "
 " Clear search highlights.
 nnoremap <leader>sc :nohlsearch<CR>
 
-nmap <leader><Space> :action GotoAction<CR>
-vmap <leader><Space> :<Backspace><Backspace><Backspace><Backspace><Backspace>action GotoAction<CR>
+" last buffer
+nnoremap <leader><tab>   :action VimFilePrevious<CR>
+vnoremap <leader><tab>   <Esc>:action VimFilePrevious<CR>
+
+" <M-x>
+nnoremap <leader><Space> :action GotoAction<CR>
+vnoremap <leader><Space> <Esc>:action GotoAction<CR>
+
+" TODO this should be also '
+" open the terminal window (use :! for a single shell cmd)
+nnoremap <leader>!      :action ActivateTerminalToolWindow<CR>
+vnoremap <leader>!      <Esc>:action ActivateTerminalToolWindow<CR>
+
+" print keybindings
+nnoremap <leader>?      :map<CR>
+vnoremap <leader>?      <Esc>:map<CR>
+
+" ideal for this should be FindInPath the current word, but since I think that
+" is not possible, I think that find usages is not that bad
+nnoremap <leader>*       :action FindUsages<CR>
+vnoremap <leader>*       <Esc>:action FindUsages<CR>
+
 " ============================================================================
 " moving between windows
 " ============================================================================
-nmap <leader>wh <c-w>h
-nmap <leader>wl <c-w>l
-nmap <leader>wk <c-w>k
-nmap <leader>wj <c-w>j
+nnoremap <leader>wh <c-w>h
+nnoremap <leader>wl <c-w>l
+nnoremap <leader>wk <c-w>k
+nnoremap <leader>wj <c-w>j
 
-nmap <leader>wv <c-w>v
-nmap <leader>w/ <c-w>v
-nmap <leader>ws <c-w>s
+nnoremap <leader>wv <c-w>v
+nnoremap <leader>w/ <c-w>v
+nnoremap <leader>ws <c-w>s
 " spacemacs/toggle-centered-buffer-mode
-nmap <leader>wc <c-w>c
-nmap <leader>wo :action HideAllWindows<CR>
+nnoremap <leader>wc <c-w>c
+nnoremap <leader>wo :action HideAllWindows<CR>
 
-vmap <leader>wh <c-w>h
-vmap <leader>wl <c-w>l
-vmap <leader>wk <c-w>k
-vmap <leader>wj <c-w>j
-vmap <leader>wv <c-w>v
-vmap <leader>ws <c-w>s
-vmap <leader>wc <c-w>c
-vmap <leader>wo :<Backspace><Backspace><Backspace><Backspace><Backspace>action HideAllWindows<CR>
+vnoremap <leader>wh <c-w>h
+vnoremap <leader>wl <c-w>l
+vnoremap <leader>wk <c-w>k
+vnoremap <leader>wj <c-w>j
+vnoremap <leader>wv <c-w>v
+vnoremap <leader>ws <c-w>s
+vnoremap <leader>wc <c-w>c
+vnoremap <leader>wo <Esc>:action HideAllWindows<CR>
 
 " TODO compare with these:
-nmap <leader>w/ <c-w>v
-nmap <leader>w- <c-w>s
-nmap <leader>wd <c-w>c
-nmap <leader>wm :action HideAllWindows<CR>
+nnoremap <leader>w/ <c-w>v
+nnoremap <leader>w- <c-w>s
+nnoremap <leader>wd <c-w>c
+nnoremap <leader>wm :action HideAllWindows<CR>
 
-vmap <leader>w/ <c-w>v
-vmap <leader>w- <c-w>s
-vmap <leader>wd <c-w>c
-vmap <leader>wm :<Backspace><Backspace><Backspace><Backspace><Backspace>action HideAllWindows<CR>
+vnoremap <leader>w/ <c-w>v
+vnoremap <leader>w- <c-w>s
+vnoremap <leader>wd <c-w>c
+vnoremap <leader>wm <Esc>:action HideAllWindows<CR>
 
 " ============================================================================
 " expand and collapse
 " ============================================================================
-nmap zr :action ExpandAllRegions<CR>
-nmap zo :action ExpandRegion<CR>
-nmap zc :action CollapseRegion<CR>
-nmap zm :action CollapseAllRegions<CR>
+nnoremap zr :action ExpandAllRegions<CR>
+nnoremap zo :action ExpandRegion<CR>
+nnoremap zc :action CollapseRegion<CR>
+nnoremap zm :action CollapseAllRegions<CR>
 
 " TODO compare with these:
-nmap zO :action ExpandAllRegions<CR>
-nmap zC :action CollapseAllRegions<CR>
+nnoremap zO :action ExpandAllRegions<CR>
+nnoremap zC :action CollapseAllRegions<CR>
 
 " Quit
-nmap <leader>qq :action Exit<CR>
-vmap <leader>qq :<Backspace><Backspace><Backspace><Backspace><Backspace>action Exit<CR>
+nnoremap <leader>qq :action Exit<CR>
+vnoremap <leader>qq <Esc>:action Exit<CR>
 
 " Window
 nnoremap <leader>vsp :action SplitVertically<cr>
 nnoremap <leader>hsp :action SplitHorizontally<cr>
 
 " search in project. Unfortunately <leader>/ does not work.
-nmap <leader>sp :action FindInPath<CR>
-vmap <leader>sp :<Backspace><Backspace><Backspace><Backspace><Backspace>action FindInPath<CR>
+nnoremap <leader>sp :action FindInPath<CR>
+vnoremap <leader>sp <Esc>:action FindInPath<CR>
