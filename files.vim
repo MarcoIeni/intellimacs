@@ -4,6 +4,10 @@
 nnoremap <leader>fb      :action ShowBookmarks<CR>
 vnoremap <leader>fb      <Esc>:action ShowBookmarks<CR>
 
+" Show settings
+nnoremap <leader>fed      :action ShowSettings<CR>
+vnoremap <leader>fed      <Esc>:action ShowSettings<CR>
+
 " Find files
 nnoremap <leader>ff      :action GotoFile<CR>
 vnoremap <leader>ff      <Esc>:action GotoFile<CR>
