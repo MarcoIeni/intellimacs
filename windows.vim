@@ -63,10 +63,10 @@ nnoremap <leader>wS    :action SplitHorizontally<CR>:action VimWindowDown<CR>
 vnoremap <leader>wS    <Esc>:action SplitHorizontally<CR>:action VimWindowDown<CR>
 
 " Close window
-nnoremap <leader>wd    :action vimwindowclose<cr>
-vnoremap <leader>wd    <esc>:action vimwindowclose<cr>
-nnoremap <leader>wx    :action vimwindowclose<cr>
-vnoremap <leader>wx    <esc>:action vimwindowclose<cr>
+nnoremap <leader>wd    :action VimWindowClose<CR>
+vnoremap <leader>wd    <esc>:action VimWindowClose<CR>
+nnoremap <leader>wx    :action VimWindowClose<CR>
+vnoremap <leader>wx    <esc>:action VimWindowClose<CR>
 
 " Show Event Log window
 nnoremap <leader>wpm    :action ActivateEventLogToolWindow<CR>
