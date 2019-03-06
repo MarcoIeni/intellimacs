@@ -15,7 +15,7 @@ This project can be seen as a set of configuration files for the [[https://plugi
 IdeaVim parses the [[https://github.com/JetBrains/ideavim/blob/master/src/com/maddyhome/idea/vim/package-info.java][most common]] vim commands, together with the custom =:action {name}= command, used to execute arbitrary IDE actions.
 To list all IDE actions use the command =:actionlist [pattern]=.
 
-Instead of providing the =.ideavimrc= file to be copied and pasted to your home directory directly, IntelliSpace provides different files, that can be included individually in your own =.ideavimrc= file, in order to get only the functionalities you want and being able to add your own vim commands without conflicting with the upstream.
+Instead of providing the =.ideavimrc= file to be copied and pasted to your home directory directly, IntelliSpace provides different files, which can be included individually in your own =.ideavimrc= file, in order to get only the functionalities you want and being able to add your own vim commands without conflicting with the upstream.
 
 ** Installation
 1. Install IdeaVim by using the IDE's plugin manager (File -> Settings -> Plugins -> Search for IdeaVim -> Install IdeaVim).
@@ -24,7 +24,7 @@ Instead of providing the =.ideavimrc= file to be copied and pasted to your home 
   cd /destination/directory/for/this/repo
   git clone https://github.com/MarcoIeni/intelli-space
   #+end_src
-3. move into your home directory, create the file =.ideavimrc= and edit it in order to include the functionalities you want by sourcing the relative source file and adding your own vim commands. In the following there is an example of =.ideavimrc= file that includes all the functionalities offered by IntelliSpace and has some of the most common vim commands. It assumes that this repo has been saved into directory =~/intelli-space/=.
+3. Move into your home directory, create the file =.ideavimrc= and edit it in order to include the functionalities you want by sourcing the relative source file and adding your own vim commands. In the following there is an example of =.ideavimrc= file that includes all the functionalities offered by IntelliSpace and has some of the most common vim commands. It assumes that this repo has been saved into directory =~/intelli-space/=.
   #+begin_src vimrc
   " selected intelli space modules
   source ~/intelli-space/basic
@@ -39,6 +39,20 @@ Instead of providing the =.ideavimrc= file to be copied and pasted to your home 
 In order to update run =git pull= inside the intelli-space directory.
 ** Keybindings
 
+** Tips
+*** Go back to code
+The keybindings works only when you are inside the code. For example if you are inside the project window they don't work. Just press <Esc> to focus the last visited code window and you will be able to use your keybindings.
+*** Scroll menus without arrow keys
+In IntelliJ's settings, set a custom shortcut for =Keymap -> Editor Actions -> Down= =Keymap -> Editor Actions -> Up=.
+For example you can bind them to =Ctrl + j= and =Ctrl + k=.
+If you have some conflicts search the editor action the key is assigned to, right click and remove the binding.
+*** Open a file in Emacs with keyboard shortcut
+Follow [[https://www.jetbrains.com/help/idea/using-emacs-as-an-external-editor.html][this]] guide.
+** Contributing
+You can contribute in the following ways:
+- A keybinding to which you are used to is missing? Add it with a pull request!
+- In your opinion a keybinding would be more indicated to another IDE action? Edit it with a pull request!
+- There is a plugin which enables nice spacemacs features? Open an issue so we can discuss about it!
 ** Resources
 - [[https://github.com/JetBrains/ideavim][IdeaVim]]
 - [[https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf][Intellij default keymap]]
