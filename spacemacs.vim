@@ -1,0 +1,23 @@
+" This file contains spacemacs keybindings
+source /home/marco/proj/intelli-space/spacemacs/default_set.vim
+source /home/marco/proj/intelli-space/spacemacs/applications.vim
+source /home/marco/proj/intelli-space/spacemacs/basic.vim
+source /home/marco/proj/intelli-space/spacemacs/buffers.vim
+source /home/marco/proj/intelli-space/spacemacs/compile-comments.vim
+source /home/marco/proj/intelli-space/spacemacs/errors.vim
+source /home/marco/proj/intelli-space/spacemacs/files.vim
+source /home/marco/proj/intelli-space/spacemacs/git-vcs.vim
+source /home/marco/proj/intelli-space/spacemacs/help.vim
+source /home/marco/proj/intelli-space/spacemacs/insertion.vim
+source /home/marco/proj/intelli-space/spacemacs/jump-join-split.vim
+source /home/marco/proj/intelli-space/spacemacs/narrow-numbers.vim
+source /home/marco/proj/intelli-space/spacemacs/projects.vim
+source /home/marco/proj/intelli-space/spacemacs/toggles.vim
+source /home/marco/proj/intelli-space/spacemacs/quit.vim
+source /home/marco/proj/intelli-space/spacemacs/registers-rings-resume.vim
+source /home/marco/proj/intelli-space/spacemacs/search-symbol.vim
+source /home/marco/proj/intelli-space/spacemacs/toggles.vim
+source /home/marco/proj/intelli-space/spacemacs/windows.vim
+source /home/marco/proj/intelli-space/spacemacs/ui-toogles-themes.vim
+source /home/marco/proj/intelli-space/spacemacs/text.vim
+source /home/marco/proj/intelli-space/spacemacs/zoom.vim
