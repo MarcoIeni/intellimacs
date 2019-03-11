@@ -1,5 +1,8 @@
 " Settings to behave as similar as possible to spacemacs defaults
 
+" Show vim mode
+set showmode
+
 " Use the clipboard register '*' for all yank, delete, change and put operations
 " which would normally go to the unnamed register.
 set clipboard+=unnamed

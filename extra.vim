@@ -1,6 +1,5 @@
 set surround
 " Show current mode in the bottom left
-set showmode
 
 " show methods, variables, etc. declared in the file
 
