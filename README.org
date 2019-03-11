@@ -37,25 +37,25 @@ Instead of providing the =.ideavimrc= file to be copied and pasted to your home 
 4. (optional) source you own vimrc file by adding the line =source ~/.vimrc= in your =.ideavimrc= file.
 
 In order to update run =git pull= inside the intelli-space directory.
-** Keybindings
+** Key bindings
 
 ** Tips
 *** Go back to code
-The keybindings works only when you are inside the code. For example if you are inside the project window they don't work. Just press <Esc> to focus the last visited code window and you will be able to use your keybindings.
+The key bindings works only when you are inside the code. For example if you are inside the project window they don't work. Just press <Esc> to focus the last visited code window and you will be able to use your key bindings.
 *** Scroll menus without arrow keys
 In IntelliJ's settings, set a custom shortcut for =Keymap -> Editor Actions -> Down= =Keymap -> Editor Actions -> Up=.
 For example you can bind them to =Ctrl + j= and =Ctrl + k=.
 If you have some conflicts search the editor action the key is assigned to, right click and remove the binding.
-*** Open a file in Emacs with keyboard shortcut
+*** Open a file in Emacs with key board shortcut
 Follow [[https://www.jetbrains.com/help/idea/using-emacs-as-an-external-editor.html][this]] guide.
 ** Contributing
 You can contribute in the following ways:
-- A keybinding to which you are used to is missing? Add it with a pull request!
-- In your opinion a keybinding would be more indicated to another IDE action? Edit it with a pull request!
+- A key binding to which you are used to is missing? Add it with a pull request!
+- In your opinion a key binding would be more indicated to another IDE action? Edit it with a pull request!
 - There is a plugin which enables nice spacemacs features? Open an issue so we can discuss about it!
 ** Resources
 - [[https://github.com/JetBrains/ideavim][IdeaVim]]
 - [[https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf][Intellij default keymap]]
 - [[https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository][Share IDE settings]]
 ** Related projects
-- [[https://github.com/VSpaceCode/VSpaceCode][VSpaceCode]] - Spacemacs' like keybindings for Visual Studio Code (thanks for the inspiration)
+- [[https://github.com/VSpaceCode/VSpaceCode][VSpaceCode]] - Spacemacs' like key bindings for Visual Studio Code (thanks for the inspiration)
