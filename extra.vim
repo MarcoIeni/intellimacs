@@ -113,9 +113,6 @@ vnoremap gs              <Esc>:action StepOver<CR>
 " vnoremap <tab>           <Esc>:action Forward<CR>
 " vnoremap <delete>        <C-d>
 
-" Reload .ideavimrc
-nnoremap <leader>R :source ~/.ideavimrc<CR>
-vnoremap <leader>R <Esc>:source ~/.ideavimrc<CR>
 
 " check the action list
 nnoremap <leader>al :actionlist<CR>

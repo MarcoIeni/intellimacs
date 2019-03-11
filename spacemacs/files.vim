@@ -8,6 +8,10 @@ vnoremap <leader>fb      <Esc>:action ShowBookmarks<CR>
 nnoremap <leader>fed      :action ShowSettings<CR>
 vnoremap <leader>fed      <Esc>:action ShowSettings<CR>
 
+" Reload .ideavimrc
+nnoremap <leader>feR :source ~/.ideavimrc<CR>
+vnoremap <leader>feR <Esc>:source ~/.ideavimrc<CR>
+
 " Find files
 nnoremap <leader>ff      :action GotoFile<CR>
 vnoremap <leader>ff      <Esc>:action GotoFile<CR>
