@@ -43,7 +43,7 @@ vnoremap <leader>pI      <Esc>:action InvalidateCaches<CR>
 nnoremap <leader>pR      :action ReplaceInPath<CR>
 vnoremap <leader>pR      <Esc>:action ReplaceInPath<CR>
 
-" Replace in path
+" Rerun tests
 nnoremap <leader>pT      :action RerunTests<CR>
 vnoremap <leader>pT      <Esc>:action RerunTests<CR>
 

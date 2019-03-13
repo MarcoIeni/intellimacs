@@ -8,10 +8,6 @@ vnoremap <leader>rB      <Esc>:action RecentFiles<CR>
 nnoremap <leader>re      :reg<CR>
 vnoremap <leader>re      <Esc>:reg<CR>
 
-" Resume last search
-nnoremap <leader>rs      :action PasteMultiple<CR>
-vnoremap <leader>rs      <Esc>:action PasteMultiple<CR>
-
 " Search in project
 nnoremap <leader>rs      :action FindInPath<CR>
 vnoremap <leader>rs      <Esc>:action FindInPath<CR>

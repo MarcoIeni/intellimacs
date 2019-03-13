@@ -1,11 +1,19 @@
 " Git clone
-nnoremap <leader>gc      :action Git.Clone<CR>
-vnoremap <leader>gc      <Esc>:action Git.Clone<CR>
+nnoremap <leader>gc    :action Git.Clone<CR>
+vnoremap <leader>gc    <Esc>:action Git.Clone<CR>
 
 " Git init
-nnoremap <leader>gi      :action Git.Init<CR>
-vnoremap <leader>gi      <Esc>:action Git.Init<CR>
+nnoremap <leader>gi    :action Git.Init<CR>
+vnoremap <leader>gi    <Esc>:action Git.Init<CR>
 
 " Show local changes (git status)
-nnoremap <leader>gs      :action Vcs.Show.Local.Changes<CR>
-vnoremap <leader>gs      <Esc>:action Vcs.Show.Local.Changes<CR>
+nnoremap <leader>gs    :action Vcs.Show.Local.Changes<CR>
+vnoremap <leader>gs    <Esc>:action Vcs.Show.Local.Changes<CR>
+
+" Update project (git pull)
+nnoremap <leader>gv+    :action Vcs.UpdateProject<CR>
+vnoremap <leader>gv+    <Esc>:action Vcs.UpdateProject<CR>
+
+" Show log (git log)
+nnoremap <leader>gvl    :action Vcs.Show.Log<CR>
+vnoremap <leader>gvl    <Esc>:action Vcs.Show.Log<CR>

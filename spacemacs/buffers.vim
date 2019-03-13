@@ -37,3 +37,7 @@ vnoremap <leader>bu      <Esc>:action ReopenClosedTab<CR>
 " Close a window together with its tabs
 nnoremap <leader>bx      :action CloseAllEditors<CR>
 vnoremap <leader>bx      <Esc>:action CloseAllEditors<CR>
+
+" Close other tabs in current window
+nnoremap <leader>b<C-d> :action CloseAllEditorsButActive<cr>
+nnoremap <leader>b<C-d> <Esc>:action CloseAllEditorsButActive<cr>

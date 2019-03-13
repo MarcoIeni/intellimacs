@@ -23,6 +23,14 @@ vnoremap <leader>?      <Esc>:map<CR>
 nnoremap <leader>*       :action FindUsages<CR>
 vnoremap <leader>*       <Esc>:action FindUsages<CR>
 
+" Comment lines
+nnoremap <leader>;; :action CommentByLineComment<CR>
+vnoremap <leader>; :action CommentByLineComment<CR>:action VimVisualExitMode<CR>
+
+" Go to last change
+nnoremap g; :action JumpToLastChange<CR>
+vnoremap g; :action JumpToLastChange<CR>
+
 " ============================================================================
 " expand and collapse
 " ============================================================================
