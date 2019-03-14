@@ -1,11 +1,15 @@
 " Git checkout
-nnoremap <leader>gb      :action Git.Branches<CR>
-vnoremap <leader>gb      <Esc>:action Git.Branches<CR>
+nnoremap <leader>gb    :action Git.Branches<CR>
+vnoremap <leader>gb    <Esc>:action Git.Branches<CR>
 
 " Select a VCS operation
-nnoremap <leader>gg :action Vcs.QuickListPopupAction<CR>
-vnoremap <leader>gg <Esc>:action Vcs.QuickListPopupAction<CR>
+nnoremap <leader>gg    :action Vcs.QuickListPopupAction<CR>
+vnoremap <leader>gg    <Esc>:action Vcs.QuickListPopupAction<CR>
 
 " Show Version control tool window
-nnoremap <leader>gG :action ActivateVersionControlToolWindow<CR>
-vnoremap <leader>gG <Esc>:action ActivateVersionControlToolWindow<CR>
+nnoremap <leader>gG    :action ActivateVersionControlToolWindow<CR>
+vnoremap <leader>gG    <Esc>:action ActivateVersionControlToolWindow<CR>
+
+" Vcs push (git push)"
+nnoremap <leader>gp    :action Vcs.Push<cr>
+vnoremap <leader>gp    <Esc>:action Vcs.Push<cr>
