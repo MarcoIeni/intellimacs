@@ -17,3 +17,7 @@ vnoremap <leader>gv+    <Esc>:action Vcs.UpdateProject<CR>
 " Show log (git log)
 nnoremap <leader>gvl    :action Vcs.Show.Log<CR>
 vnoremap <leader>gvl    <Esc>:action Vcs.Show.Log<CR>
+
+" Show log of current file
+nnoremap <leader>gfl    :action Vcs.ShowTabbedFileHistory<CR>
+vnoremap <leader>gfl    <Esc>:action Vcs.ShowTabbedFileHistory<CR>

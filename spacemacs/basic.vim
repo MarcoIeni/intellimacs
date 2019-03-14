@@ -46,3 +46,6 @@ nnoremap zC :action CollapseAllRegions<CR>
 " Window
 nnoremap <leader>vsp :action SplitVertically<cr>
 nnoremap <leader>hsp :action SplitHorizontally<cr>
+
+nnoremap <c-i>    :action Forward<CR>
+nnoremap <c-o>    :action Back<CR>
