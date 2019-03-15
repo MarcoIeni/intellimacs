@@ -13,3 +13,7 @@ vnoremap <leader>gG    <Esc>:action ActivateVersionControlToolWindow<CR>
 " Vcs push (git push)"
 nnoremap <leader>gp    :action Vcs.Push<cr>
 vnoremap <leader>gp    <Esc>:action Vcs.Push<cr>
+
+" Show shelf (git stash)
+nnoremap <leader>gS    :action Vcs.Show.Shelf<CR>
+vnoremap <leader>gS    <Esc>:action Vcs.Show.Shelf<CR>
