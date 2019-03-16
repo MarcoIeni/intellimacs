@@ -10,7 +10,7 @@ vnoremap <leader>xd<Space>    <Esc>wh:action EditorHungryBackSpace<CR>
 
 " Delete trailing whitespace
 nnoremap <leader>xdw    $:action EditorHungryBackSpace<CR>
-vnoremap <leader>xdw   <Esc>$:action EditorHungryBackSpace<CR>
+vnoremap <leader>xdw    <Esc>$:action EditorHungryBackSpace<CR>
 
 " Move line down
 nnoremap <leader>xJ    $:action MoveLineDown<CR>
@@ -20,11 +20,11 @@ nnoremap <leader>xK    $:action MoveLineUp<CR>
 
 " Transpose characters
 nnoremap <leader>xtc    xhP
-vnoremap <leader>xtc   <Esc>xhP
+vnoremap <leader>xtc    <Esc>xhP
 
 " Transpose lines
 nnoremap <leader>xtl    ddkP
-vnoremap <leader>xtl   <Esc>ddkP
+vnoremap <leader>xtl    <Esc>ddkP
 
 " Upcase region
 nnoremap <leader>xU    vU

@@ -1,3 +1,3 @@
 " Focus next project
-nnoremap <leader>Fo        :action NextProjectWindow<CR>
-vnoremap <leader>Fo        <Esc>:action NextProjectWindow<CR>
+nnoremap <leader>Fo    :action NextProjectWindow<CR>
+vnoremap <leader>Fo    <Esc>:action NextProjectWindow<CR>
