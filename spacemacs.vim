@@ -16,6 +16,7 @@ source ./intelli-space/spacemacs/help.vim
 source ./intelli-space/spacemacs/insertion.vim
 source ./intelli-space/spacemacs/jump-join-split.vim
 source ./intelli-space/spacemacs/leader.vim
+source ./intelli-space/spacemacs/misc.vim
 source ./intelli-space/spacemacs/narrow-numbers.vim
 source ./intelli-space/spacemacs/projects.vim
 source ./intelli-space/spacemacs/quit.vim
