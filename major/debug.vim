@@ -21,3 +21,19 @@ vnoremap <leader>mdd    <Esc>:action Debug<CR>
 " Debug class
 nnoremap <leader>mdD    :action DebugClass<CR>
 vnoremap <leader>mdD    <Esc>:action DebugClass<CR>
+
+" Continue (Go to next breakpoint). 'c' is the same as gdb.
+nnoremap <leader>mdc    :action Resume<CR>
+vnoremap <leader>mdc    <Esc>:action Resume<CR>
+
+" Step (Step into). 's' is the same as gdb.
+nnoremap <leader>mds    :action StepInto<CR>
+vnoremap <leader>mds    <Esc>:action StepInto<CR>
+
+" Next (Step over). 's' is the same as gdb
+nnoremap <leader>mdn    :action StepOver<CR>
+vnoremap <leader>mdn    <Esc>:action StepOver<CR>
+
+" Step out (same as "finish" in gdb).
+nnoremap <leader>mdo    :action StepOut<CR>
+vnoremap <leader>mdo    <Esc>:action StepOut<CR>
