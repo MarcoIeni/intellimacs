@@ -2,6 +2,10 @@
 nnoremap <leader>mrc      :action GenerateConstructor<CR>
 vnoremap <leader>mrc      <Esc>:action GenerateConstructor<CR>
 
+" Code cleanup
+nnoremap <leader>mrC      :action CodeCleanup<CR>
+vnoremap <leader>mrC      <Esc>:action CodeCleanup<CR>
+
 " Generate getter and setter
 nnoremap <leader>mrg      :action GenerateGetterAndSetter<CR>
 vnoremap <leader>mrg      <Esc>:action GenerateGetterAndSetter<CR>
