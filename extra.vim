@@ -4,6 +4,7 @@
 source ./intelli-space/extra/settings.vim
 
 " Key bindings
+source ./intelli-space/extra/applications.vim
 source ./intelli-space/extra/bookmarks.vim
 source ./intelli-space/extra/buffers.vim
 source ./intelli-space/extra/compile-comments.vim
