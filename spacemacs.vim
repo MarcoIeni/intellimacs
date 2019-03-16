@@ -7,6 +7,7 @@ source ./intelli-space/spacemacs/settings.vim
 source ./intelli-space/spacemacs/applications.vim
 source ./intelli-space/spacemacs/buffers.vim
 source ./intelli-space/spacemacs/compile-comments.vim
+source ./intelli-space/spacemacs/colors.vim
 source ./intelli-space/spacemacs/errors.vim
 source ./intelli-space/spacemacs/files.vim
 source ./intelli-space/spacemacs/frame.vim
