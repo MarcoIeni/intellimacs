@@ -39,5 +39,5 @@ nnoremap <leader>bY    :%y<CR>
 vnoremap <leader>bY    <Esc>:%y<CR>
 
 " Close other tabs in current window
-nnoremap <leader>b<C-d>    :action CloseAllEditorsButActive<cr>
-nnoremap <leader>b<C-d>    <Esc>:action CloseAllEditorsButActive<cr>
+nnoremap <leader>b<C-d>    :action CloseAllEditorsButActive<CR>
+vnoremap <leader>b<C-d>    <Esc>:action CloseAllEditorsButActive<CR>

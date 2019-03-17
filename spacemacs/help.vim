@@ -1,4 +1,4 @@
-" Print keybindings
+" Show key bindings
 nnoremap <leader>hk     :map<CR>
 vnoremap <leader>hk     <Esc>:map<CR>
 nnoremap <leader>hdb    :map<CR>

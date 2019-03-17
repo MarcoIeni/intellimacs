@@ -7,8 +7,6 @@ nnoremap <leader>cc    :action CompileDirty<CR>
 vnoremap <leader>cc    <Esc>:action CompileDirty<CR>
 
 " Comment lines
-" I don't know why the nnoremap command doesn't work well for me, use <leader>;
-" instead.
 nnoremap <leader>cl    :action CommentByLineComment<CR>
 vnoremap <leader>cl    :action CommentByLineComment<CR>:action VimVisualExitMode<CR>
 
@@ -24,6 +22,6 @@ vnoremap <leader>cp    <Esc>vip<CR>:action CommentByLineComment<CR>:action VimVi
 nnoremap <leader>ct    Vgg:action CommentByLineComment<CR>:action VimVisualExitMode<CR>
 vnoremap <leader>ct    <Esc>Vgg:action CommentByLineComment<CR>:action VimVisualExitMode<CR>
 
-" Copy and comment lines
+" Copy and comment current line
 nnoremap <leader>cy    yyP:action CommentByLineComment<CR>
-vnoremap <leader>cy    <Esc>yP:action CommentByLineComment<CR>:action VimVisualExitMode<CR>
+vnoremap <leader>cy    <Esc>yyP:action CommentByLineComment<CR>

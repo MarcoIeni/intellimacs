@@ -19,7 +19,7 @@ nnoremap <leader>pc    :action CompileDirty<CR>
 vnoremap <leader>pc    <Esc>:action CompileDirty<CR>
 
 " Focus on project window.
-" Sadly when you are inside the project window this keybinding does not work
+" Sadly when you are inside the project window this key binding does not work
 " anymore. You can use <A-1> if you want to close the window or <Esc> if you
 " want to leave the window opened and focus on the code.
 nnoremap <leader>pD    :action ActivateProjectToolWindow<CR>

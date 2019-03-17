@@ -16,8 +16,8 @@ vnoremap zr    :action ExpandAllRegions<CR>
 nnoremap zm    :action CollapseAllRegions<CR>
 vnoremap zm    :action CollapseAllRegions<CR>
 
-" Forward
+" Jump to previously visited location
 nnoremap <c-i>    :action Forward<CR>
 
-" Back
+" Jump to lately visited location
 nnoremap <c-o>    :action Back<CR>

@@ -8,10 +8,6 @@ vnoremap <leader>xwc    g<C-g>
 nnoremap <leader>xd<Space>    wh:action EditorHungryBackSpace<CR>
 vnoremap <leader>xd<Space>    <Esc>wh:action EditorHungryBackSpace<CR>
 
-" Delete trailing whitespace
-nnoremap <leader>xdw    $:action EditorHungryBackSpace<CR>
-vnoremap <leader>xdw    <Esc>$:action EditorHungryBackSpace<CR>
-
 " Move line down
 nnoremap <leader>xJ    $:action MoveLineDown<CR>
 vnoremap <leader>xJ    <Esc>$:action MoveLineDown<CR>

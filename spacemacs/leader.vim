@@ -1,13 +1,14 @@
-" Type an action. Like <M-x>
+" Execute an action. Like <M-x>
 nnoremap <leader><Space>    :action GotoAction<CR>
 vnoremap <leader><Space>    <Esc>:action GotoAction<CR>
 
-" Last buffer
+" Focus last buffer
 nnoremap <leader><tab>    :action VimFilePrevious<CR>
 vnoremap <leader><tab>    <Esc>:action VimFilePrevious<CR>
 
-" TODO this should be also '
 " Open the terminal window (use :! for a single shell cmd)
+nnoremap <leader>'    :action Terminal.OpenInTerminal<CR>
+vnoremap <leader>'    <Esc>:action Terminal.OpenInTerminal<CR>
 nnoremap <leader>!    :action Terminal.OpenInTerminal<CR>
 vnoremap <leader>!    <Esc>:action Terminal.OpenInTerminal<CR>
 
@@ -17,7 +18,7 @@ vnoremap <leader>!    <Esc>:action Terminal.OpenInTerminal<CR>
 nnoremap <leader>*    :action ShowUsages<CR>
 vnoremap <leader>*    <Esc>:action ShowUsages<CR>
 
-" Print keybindings
+" Show key bindings
 nnoremap <leader>?    :map<CR>
 vnoremap <leader>?    <Esc>:map<CR>
 

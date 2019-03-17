@@ -2,7 +2,7 @@
 nnoremap <leader>ti    :action EditorToggleShowIndentLines<CR>
 vnoremap <leader>ti    <Esc>:action EditorToggleShowIndentLines<CR>
 
-" Truncate lines
+" Toggle truncate lines
 nnoremap <leader>tl    :action EditorGutterToggleGlobalSoftWraps<CR>
 vnoremap <leader>tl    <Esc>:action EditorGutterToggleGlobalSoftWraps<CR>
 

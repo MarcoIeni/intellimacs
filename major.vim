@@ -1,4 +1,4 @@
-" This file contains the most common spacemacs major mode keybindings
+" This file contains the most common spacemacs major mode key bindings
 source ./intelli-space/major/basic.vim
 source ./intelli-space/major/compile.vim
 source ./intelli-space/major/debug.vim

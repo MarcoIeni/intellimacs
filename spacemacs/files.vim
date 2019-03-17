@@ -18,7 +18,7 @@ vnoremap <leader>ff    <Esc>:action GotoFile<CR>
 nnoremap <leader>fF    :action GotoFile<CR>
 vnoremap <leader>fF    <Esc>:action GotoFile<CR>
 
-" Find in Path
+" Search in project
 nnoremap <leader>fg    :action FindInPath<CR>
 vnoremap <leader>fg    <Esc>:action FindInPath<CR>
 
@@ -39,7 +39,7 @@ nnoremap <leader>fs    :action SaveDocument<CR>
 vnoremap <leader>fs    <Esc>:action SaveDocument<CR>
 
 " Focus on project window.
-" Sadly when you are inside the project window this keybinding does not work
+" Sadly when you are inside the project window this key binding does not work
 " anymore. You can use <A-1> if you want to close the window or <Esc> if you
 " want to leave the window opened and focus on the code.
 nnoremap <leader>ft    :action ActivateProjectToolWindow<CR>
