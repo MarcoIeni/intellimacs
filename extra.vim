@@ -24,7 +24,6 @@ source ./intelli-space/extra/windows.vim
 " show methods, variables, etc. declared in the file
 
 inoremap <C-n> <C-o>:action InsertLiveTemplate<CR>
-nnoremap Q :action ShowIntentionActions<CR>
 
 nnoremap <leader>gm      :action Generate<CR>
 
