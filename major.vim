@@ -5,4 +5,4 @@ source ./intelli-space/major/debug.vim
 source ./intelli-space/major/go.vim
 source ./intelli-space/major/help-hierarchy.vim
 source ./intelli-space/major/projects.vim
-source ./intelli-space/major/refractoring.vim
+source ./intelli-space/major/refactoring.vim
