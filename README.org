@@ -6,7 +6,7 @@
 ** Presentation
 This project tries to mimic [[http://spacemacs.org][Spacemacs]] key bindings in IDEs based on the [[https://www.jetbrains.com][intelliJ]] platform, i.e. IntelliJ IDEA, PyCharm, CLion, PhpStorm, WebStorm, RubyMine, AppCode, DataGrip, GoLand, Rider, Cursive, and Android Studio.
 
-For instance, =SPC f f= in Spacemacs opens a file, so it make sense to map it to the "GotoFile" IntelliJ action.
+For instance, ~SPC f f~ in Spacemacs opens a file, so it make sense to map it to the "GotoFile" IntelliJ action.
 
 ** How it works
 This project can be seen as a set of configuration files for the [[https://plugins.jetbrains.com/plugin/164-ideavim][IdeaVim]] plugin, which enables vim emulation inside IntelliJ platform.

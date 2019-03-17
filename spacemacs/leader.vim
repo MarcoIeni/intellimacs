@@ -12,7 +12,7 @@ vnoremap <leader>'    <Esc>:action Terminal.OpenInTerminal<CR>
 nnoremap <leader>!    :action Terminal.OpenInTerminal<CR>
 vnoremap <leader>!    <Esc>:action Terminal.OpenInTerminal<CR>
 
-" Show usages.
+" Show usages for symbol.
 " Ideally this should be FindInPath the current word, but I think that it is
 " not possible.
 nnoremap <leader>*    :action ShowUsages<CR>

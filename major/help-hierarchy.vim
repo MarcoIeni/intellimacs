@@ -14,7 +14,7 @@ vnoremap <leader>mhh      <Esc>:action QuickJavaDoc<CR>
 nnoremap <leader>mhi      :action TypeHierarchy<CR>
 vnoremap <leader>mhi      <Esc>:action TypeHierarchy<CR>
 
-" Show a popup with usages for symbol
+" Show usages for symbol
 nnoremap <leader>mhU      :action ShowUsages<CR>
 vnoremap <leader>mhU      <Esc>:action ShowUsages<CR>
 

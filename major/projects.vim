@@ -1,4 +1,4 @@
-" Build project
+" Make project (build)
 nnoremap <leader>mpb    :action CompileDirty<CR>
 vnoremap <leader>mpb    <Esc>:action CompileDirty<CR>
 

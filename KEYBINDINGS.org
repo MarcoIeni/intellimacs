@@ -65,6 +65,12 @@
 | ~SPC e s~   | Select inspection |
 | ~SPC e x~   | Explain error     |
 
+** frame
+
+| Key Binding | Description        |
+|-------------+--------------------|
+| ~SPC F o~   | Focus next project |
+
 ** files
 
 | Key Binding | Description           |
@@ -82,13 +88,7 @@
 | ~SPC f t~   | Project window        |
 | ~SPC f y y~ | Copy file path        |
 
-** frame
-
-| Key Binding | Description        |
-|-------------+--------------------|
-| ~SPC F o~   | Focus next project |
-
-** git-vcs
+** git/versions control
 
 | Key Binding | Description           |
 |-------------+-----------------------|
@@ -120,7 +120,7 @@
 | ~SPC i l s~ | Insert lorem ipsum sentence  |
 | ~SPC i s~   | Insert snippet               |
 
-** jump-join-split
+** jump/join/split
 
 | Key Binding | Description                   |
 |-------------+-------------------------------|
@@ -130,7 +130,7 @@
 | ~SPC j n~   | Insert new line and move down |
 | ~SPC j o~   | Insert new line               |
 
-** narrow-numbers
+** narrow/numbers
 
 | Key Binding | Description      |
 |-------------+------------------|
@@ -166,7 +166,7 @@
 | ~SPC q Q~   | Exit (close all projects)  |
 | ~SPC q s~   | Save all and close project |
 
-** registers-rings-resume
+** registers/rings-resume
 
 | Key Binding | Description       |
 |-------------+-------------------|
@@ -176,7 +176,7 @@
 | ~SPC r s~   | Search in project |
 | ~SPC r y~   | Show kill ring    |
 
-** search-symbol
+** search/symbol
 
 | Key Binding | Description                     |
 |-------------+---------------------------------|
@@ -186,6 +186,21 @@
 | ~SPC s p~   | Search in project               |
 | ~SPC s l~   | Search in project               |
 | ~SPC s s~   | Search everywhere               |
+
+** UI toogles/themes
+
+| Key Binding | Description                  |
+|-------------+------------------------------|
+| ~SPC T t~   | Toggle distraction free mode |
+
+** toggles
+
+| Key Binding | Description              |
+|-------------+--------------------------|
+| ~SPC t i~   | Toggle show indent guide |
+| ~SPC t l~   | Toggle truncate lines    |
+| ~SPC t n~   | Toggle line numbers      |
+| ~SPC t w~   | Toggle Show Whitespaces  |
 
 ** text
 
@@ -200,21 +215,6 @@
 | ~SPC x t l~   | Transpose lines              |
 | ~SPC x U~     | Upcase region                |
 | ~SPC x u~     | Downcase region              |
-
-** toggles
-
-| Key Binding | Description              |
-|-------------+--------------------------|
-| ~SPC t i~   | Toggle show indent guide |
-| ~SPC t l~   | Toggle truncate lines    |
-| ~SPC t n~   | Toggle line numbers      |
-| ~SPC t w~   | Toggle Show Whitespaces  |
-
-** ui_toogles-themes
-
-| Key Binding | Description                  |
-|-------------+------------------------------|
-| ~SPC T t~   | Toggle distraction free mode |
 
 ** windows
 
@@ -261,5 +261,83 @@
 | ~g;~        | Go to last change                   |
 | ~zr~        | Open all folds                      |
 | ~zm~        | Collapse all regions                |
-| ~<c-i>~     | Jump to previously visited location |
-| ~<c-o>~     | Jump to lately visited location     |
+| ~C-i~       | Jump to previously visited location |
+| ~C-o~       | Jump to lately visited location     |
+
+* major
+
+** leader
+
+| Key Binding | Description   |
+|-------------+---------------|
+| ~SPC m =~   | Reformat code |
+
+** compile
+
+| Key Binding | Description                              |
+|-------------+------------------------------------------|
+| ~SPC m c C~ | Compile selected file, package or module |
+| ~SPC m c c~ | Make project                             |
+
+** debug
+
+| Key Binding | Description                        |
+|-------------+------------------------------------|
+| ~SPC m d B~ | View Breakpoints                   |
+| ~SPC m d b~ | Toggle breakpoint                  |
+| ~SPC m d C~ | Clear all breakpoints              |
+| ~SPC m d c~ | Continue (Go to next breakpoint)   |
+| ~SPC m d D~ | Debug class                        |
+| ~SPC m d d~ | Debug                              |
+| ~SPC m d n~ | Next (Step over)                   |
+| ~SPC m d o~ | Step out (same as "finish" in gdb) |
+| ~SPC m d r~ | Select configuration and debug     |
+| ~SPC m d s~ | Step (Step into)                   |
+
+** go
+
+| Key Binding | Description            |
+|-------------+------------------------|
+| ~SPC m g g~ | Go to declaration      |
+| ~SPC m g i~ | Go to implementation   |
+| ~SPC m g t~ | Go to type declaration |
+| ~SPC m g [~ | Go to code block start |
+| ~SPC m g ]~ | Go to code block end   |
+
+** help-hierarchy
+
+| Key Binding | Description           |
+|-------------+-----------------------|
+| ~SPC m h c~ | Call hierarchy        |
+| ~SPC m h H~ | Show implementation   |
+| ~SPC m h h~ | Show documetation     |
+| ~SPC m h i~ | Inheritance hierarchy |
+| ~SPC m h U~ | Show usages           |
+| ~SPC m h u~ | Find usages           |
+
+** projects
+
+| Key Binding | Description    |
+|-------------+----------------|
+| ~SPC m p b~ | Make project   |
+| ~SPC m p c~ | Create project |
+| ~SPC m p i~ | Import project |
+| ~SPC m p o~ | Open project   |
+| ~SPC m p r~ | Run project    |
+
+** refactoring
+
+| Key Binding   | Description                                        |
+|---------------+----------------------------------------------------|
+| ~SPC m r C~   | Code cleanup                                       |
+| ~SPC m r c~   | Create constructor                                 |
+| ~SPC m r e m~ | Extract method                                     |
+| ~SPC m r e s~ | Extract superclass                                 |
+| ~SPC m r G~   | Generate getter and setter                         |
+| ~SPC m r g~   | Select what to generate                            |
+| ~SPC m r I~   | Implement Methods                                  |
+| ~SPC m r i~   | Optimize imports                                   |
+| ~SPC m r N~   | Create a new Element                               |
+| ~SPC m r n~   | Create a new class. Also enum, interface and more. |
+| ~SPC m r R~   | Choose a refactoring action                        |
+| ~SPC m r r~   | Rename symbol                                      |
