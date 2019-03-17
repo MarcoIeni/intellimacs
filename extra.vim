@@ -47,4 +47,3 @@ nnoremap <leader>rv :action IntroduceVariable<cr>
 nnoremap <leader>rs :action ExtractSuperclass<cr>
 nnoremap <leader>ri :action Inline<cr>
 
-" action TogglePowerSave
