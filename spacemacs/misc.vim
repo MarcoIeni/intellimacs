@@ -1,12 +1,12 @@
 """ key bindings that do not have <leader> as first key
 
-" Go to last change
-nnoremap g;    :action JumpToLastChange<CR>
-vnoremap g;    :action JumpToLastChange<CR>
-
 " Go to next change
 nnoremap g,    :action JumpToNextChange<CR>
 vnoremap g,    :action JumpToNextChange<CR>
+
+" Go to last change
+nnoremap g;    :action JumpToLastChange<CR>
+vnoremap g;    :action JumpToLastChange<CR>
 
 " Open all folds
 nnoremap zr    :action ExpandAllRegions<CR>

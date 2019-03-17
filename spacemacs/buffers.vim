@@ -22,10 +22,6 @@ vnoremap <leader>bP    <Esc>ggVGp<CR>
 nnoremap <leader>bp    :action PreviousTab<CR>
 vnoremap <leader>bp    <Esc>:action PreviousTab<CR>
 
-" Copy whole buffer
-nnoremap <leader>bY    :%y<CR>
-vnoremap <leader>bY    <Esc>:%y<CR>
-
 " Open a new scratch buffer
 nnoremap <leader>bs    :action NewScratchBuffer<CR>
 vnoremap <leader>bs    <Esc>:action NewScratchBuffer<CR>
@@ -37,6 +33,10 @@ vnoremap <leader>bu    <Esc>:action ReopenClosedTab<CR>
 " Close a window together with its tabs
 nnoremap <leader>bx    :action CloseAllEditors<CR>
 vnoremap <leader>bx    <Esc>:action CloseAllEditors<CR>
+
+" Copy whole buffer
+nnoremap <leader>bY    :%y<CR>
+vnoremap <leader>bY    <Esc>:%y<CR>
 
 " Close other tabs in current window
 nnoremap <leader>b<C-d>    :action CloseAllEditorsButActive<cr>

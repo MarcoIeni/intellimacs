@@ -1,7 +1,3 @@
-" Open project
-nnoremap <leader>pp    :action WelcomeScreen.OpenProject<CR>
-vnoremap <leader>pp    <Esc>:action WelcomeScreen.OpenProject<CR>
-
 " Open terminal in project root
 nnoremap <leader>p!    :action ActivateTerminalToolWindow<CR>
 vnoremap <leader>p!    <Esc>:action ActivateTerminalToolWindow<CR>
@@ -38,6 +34,10 @@ vnoremap <leader>pf    <Esc>:action GotoFile<CR>
 " Invalidate cache
 nnoremap <leader>pI    :action InvalidateCaches<CR>
 vnoremap <leader>pI    <Esc>:action InvalidateCaches<CR>
+
+" Open project
+nnoremap <leader>pp    :action WelcomeScreen.OpenProject<CR>
+vnoremap <leader>pp    <Esc>:action WelcomeScreen.OpenProject<CR>
 
 " Replace in path
 nnoremap <leader>pR    :action ReplaceInPath<CR>

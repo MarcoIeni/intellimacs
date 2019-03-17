@@ -1,20 +1,16 @@
-" Make project
-nnoremap <leader>cc    :action CompileDirty<CR>
-vnoremap <leader>cc    <Esc>:action CompileDirty<CR>
-
 " Compile selected file, package or module
 nnoremap <leader>cC    :action Compile<CR>
 vnoremap <leader>cC    <Esc>:action Compile<CR>
+
+" Make project
+nnoremap <leader>cc    :action CompileDirty<CR>
+vnoremap <leader>cc    <Esc>:action CompileDirty<CR>
 
 " Comment lines
 " I don't know why the nnoremap command doesn't work well for me, use <leader>;
 " instead.
 nnoremap <leader>cl    :action CommentByLineComment<CR>
 vnoremap <leader>cl    :action CommentByLineComment<CR>:action VimVisualExitMode<CR>
-
-" Make module
-nnoremap <leader>cm    :action MakeModule<CR>
-vnoremap <leader>cm    <Esc>:action MakeModule<CR>
 
 " Make module
 nnoremap <leader>cm    :action MakeModule<CR>
