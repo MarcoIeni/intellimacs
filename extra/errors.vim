@@ -1,4 +1,4 @@
-" List errors
+" Inspect code
 nnoremap <leader>eL    :action InspectCode<CR>
 vnoremap <leader>eL    <Esc>:action InspectCode<CR>
 

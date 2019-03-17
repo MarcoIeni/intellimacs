@@ -341,3 +341,126 @@
 | ~SPC m r n~   | Create a new class. Also enum, interface and more. |
 | ~SPC m r R~   | Choose a refactoring action                        |
 | ~SPC m r r~   | Rename symbol                                      |
+
+* extra
+
+** leader
+
+| Key Binding | Description            |
+|-------------+------------------------|
+| ~SPC [~     | Go to code block start |
+| ~SPC ]~     | Go to code block end   |
+
+** applications
+
+| Key Binding | Description |
+|-------------+-------------|
+| ~SPC a t~   | Show TODOs  |
+
+** bookmarks
+
+| Key Binding | Description                   |
+|-------------+-------------------------------|
+| ~SPC B l~   | List bookmarks                |
+| ~SPC B N~   | Previous bookmark             |
+| ~SPC B n~   | Next bookmark                 |
+| ~SPC B p~   | Previous bookmark             |
+| ~SPC B T~   | Toggle bookmark with mnemonic |
+| ~SPC B t~   | Toggle bookmark               |
+
+** buffers
+
+| Key Binding | Description     |
+|-------------+-----------------|
+| ~SPC b 0~   | Go to first tab |
+| ~SPC b $~   | Go to last tab  |
+
+** compile/comments
+
+| Key Binding | Description   |
+|-------------+---------------|
+| ~SPC c b~   | Block comment |
+
+** errors
+
+| Key Binding | Description         |
+|-------------+---------------------|
+| ~SPC e L~   | Inspect code        |
+| ~SPC e r~   | Resolve error       |
+| ~SPC e s~   | Inspection settings |
+
+** frame
+
+| Key Binding | Description            |
+|-------------+------------------------|
+| ~SPC F O~   | Focus previous project |
+
+** files
+
+| Key Binding | Description                                        |
+|-------------+----------------------------------------------------|
+| ~SPC f N~   | Create a new Element                               |
+| ~SPC f n~   | Create a new class. Also enum, interface and more. |
+
+** git/versions control
+
+| Key Binding | Description                        |
+|-------------+------------------------------------|
+| ~SPC g b~   | Git branches (checkout)            |
+| ~SPC g G~   | Version control tool window        |
+| ~SPC g g~   | Select a version control operation |
+| ~SPC g p~   | Push                               |
+| ~SPC g S~   | Show shelf                         |
+
+** help/history
+
+| Key Binding | Description                     |
+|-------------+---------------------------------|
+| ~SPC h a~   | Show action list                |
+| ~SPC h h~   | Show changes in current file    |
+| ~SPC h v~   | Visit JetBrains youtube channel |
+
+** jump
+
+| Key Binding | Description     |
+|-------------+-----------------|
+| ~SPC j c~   | Jump to class   |
+| ~SPC j e~   | Jump to element |
+| ~SPC j s~   | Jump to symbol  |
+
+** run
+
+| Key Binding | Description                  |
+|-------------+------------------------------|
+| ~SPC R a~   | Run Anything                 |
+| ~SPC R c~   | Run class                    |
+| ~SPC R k~   | Stop application (Kill)      |
+| ~SPC R r~   | Run                          |
+| ~SPC R s~   | Select configuration and run |
+
+** search
+
+| Key Binding | Description            |
+|-------------+------------------------|
+| ~SPC s f~   | Search in current file |
+
+** UI toggles/themes
+
+| Key Binding | Description                                  |
+|-------------+----------------------------------------------|
+| ~SPC T m~   | Hide all windows except the ones with code   |
+| ~SPC T p~   | Toggle presentation mode                     |
+| ~SPC T T~   | Toggle presentation or distraction free mode |
+
+** toggles
+
+| Key Binding | Description         |
+|-------------+---------------------|
+| ~SPC t g~   | Toggle Gutter icons |
+| ~SPC t p~   | Toggle power save   |
+
+** windows
+
+| Key Binding | Description             |
+|-------------+-------------------------|
+| ~SPC w m~   | Close all other windows |

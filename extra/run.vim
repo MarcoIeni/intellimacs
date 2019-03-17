@@ -2,7 +2,7 @@
 nnoremap <leader>Ra    :action RunAnything<CR>
 vnoremap <leader>Ra    <Esc>:action RunAnything<CR>
 
-" Run Anything
+" Run class
 nnoremap <leader>Rc    :action RunClass<CR>
 vnoremap <leader>Rc    <Esc>:action RunClass<CR>
 
