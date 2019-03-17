@@ -1,0 +1,265 @@
+* spacemacs
+
+** leader
+
+| Key Binding | Description          |
+|-------------+----------------------|
+| ~SPC SPC~   | Execute an action    |
+| ~SPC TAB~   | Last buffer          |
+| ~SPC '~     | Open terminal window |
+| ~SPC !~     | Open terminal window |
+| ~SPC *~     | Show usages          |
+| ~SPC ?~     | Show key bindings    |
+| ~SPC ; ;~   | Comment lines        |
+
+** applications
+| Key Binding | Description         |
+|-------------+---------------------|
+| ~SPC a k~   | Plugins marketplace |
+| ~SPC a o t~ | List TODOs          |
+| ~SPC a P~   | Show CPU usage      |
+| ~SPC a p~   | List processes      |
+
+** buffers
+
+| Key Binding | Description                        |
+|-------------+------------------------------------|
+| ~SPC b b~   | Recent files                       |
+| ~SPC b d~   | Close tab                          |
+| ~SPC b m~   | Show event log                     |
+| ~SPC b n~   | Next tab                           |
+| ~SPC b P~   | Copy clipboard to whole buffer     |
+| ~SPC b p~   | Previous tab                       |
+| ~SPC b s~   | New scratch buffer                 |
+| ~SPC b u~   | Reopen closed tab                  |
+| ~SPC b x~   | Close a window (and its tabs)      |
+| ~SPC b Y~   | Copy whole buffer                  |
+| ~SPC b C-d~ | Close other tabs in current window |
+
+** colors
+
+| Key Binding | Description |
+|-------------+-------------|
+| ~SPC C l~   | Pick color  |
+
+** compile/comments
+
+| Key Binding | Description                                     |
+|-------------+-------------------------------------------------|
+| ~SPC c C~   | Compile selected file, package or module        |
+| ~SPC c c~   | Make project                                    |
+| ~SPC c l~   | Comment lines                                   |
+| ~SPC c m~   | Make module                                     |
+| ~SPC c p~   | Comment paragraph                               |
+| ~SPC c t~   | Comment from begin of buffer up to current line |
+| ~SPC c y~   | Copy and comment current line                   |
+
+** errors
+
+| Key Binding | Description       |
+|-------------+-------------------|
+| ~SPC e l~   | List errors       |
+| ~SPC e N~   | Previous error    |
+| ~SPC e n~   | Next error        |
+| ~SPC e p~   | Previous error    |
+| ~SPC e s~   | Select inspection |
+| ~SPC e x~   | Explain error     |
+
+** files
+
+| Key Binding | Description           |
+|-------------+-----------------------|
+| ~SPC f b~   | Show bookmarks        |
+| ~SPC f e d~ | Settings              |
+| ~SPC f e R~ | Reload ~~/.ideavimrc~ |
+| ~SPC f f~   | Find files            |
+| ~SPC f F~   | Find files            |
+| ~SPC f g~   | Search in project     |
+| ~SPC f R~   | Rename file           |
+| ~SPC f r~   | Recent fles           |
+| ~SPC f S~   | Save all files        |
+| ~SPC f s~   | Save                  |
+| ~SPC f t~   | Project window        |
+| ~SPC f y y~ | Copy file path        |
+
+** frame
+
+| Key Binding | Description        |
+|-------------+--------------------|
+| ~SPC F o~   | Focus next project |
+
+** git-vcs
+
+| Key Binding | Description           |
+|-------------+-----------------------|
+| ~SPC g c~   | Git clone             |
+| ~SPC g f l~ | Show current file log |
+| ~SPC g i~   | Git init              |
+| ~SPC g s~   | Show local changes    |
+| ~SPC g v +~ | Update project        |
+| ~SPC g v l~ | Show log              |
+
+** help
+
+| Key Binding | Description                          |
+|-------------+--------------------------------------|
+| ~SPC h k~   | Show key bindings                    |
+| ~SPC h d b~ | Show key bindings                    |
+| ~SPC h d k~ | Show key bindings                    |
+| ~SPC h p~   | Visit Intellij Plugins Repository    |
+| ~SPC h r~   | Visit Intellij documentation website |
+| ~SPC h SPC~ | Visit Intellij documentation website |
+
+** insertion
+
+| Key Binding | Description                  |
+|-------------+------------------------------|
+| ~SPC i j~   | Insert line below            |
+| ~SPC i k~   | Insert line above            |
+| ~SPC i l p~ | Insert lorem ipsum paragraph |
+| ~SPC i l s~ | Insert lorem ipsum sentence  |
+| ~SPC i s~   | Insert snippet               |
+
+** jump-join-split
+
+| Key Binding | Description                   |
+|-------------+-------------------------------|
+| ~SPC j =~   | Reformat code                 |
+| ~SPC j d~   | Project window                |
+| ~SPC j D~   | Project window                |
+| ~SPC j n~   | Insert new line and move down |
+| ~SPC j o~   | Insert new line               |
+
+** narrow-numbers
+
+| Key Binding | Description      |
+|-------------+------------------|
+| ~SPC n +~   | Increment number |
+| ~SPC n =~   | Increment number |
+| ~SPC n -~   | Decrement number |
+
+** projects
+
+| Key Binding | Description                            |
+|-------------+----------------------------------------|
+| ~SPC p !~   | Open terminal in project root          |
+| ~SPC p a~   | Toggle between implementation and test |
+| ~SPC p b~   | Recent files                           |
+| ~SPC p h~   | Recent files                           |
+| ~SPC p r~   | Recent files                           |
+| ~SPC p c~   | Make project                           |
+| ~SPC p D~   | Project window                         |
+| ~SPC p t~   | Project window                         |
+| ~SPC p f~   | Find files                             |
+| ~SPC p I~   | Invalidate cache                       |
+| ~SPC p p~   | Open project                           |
+| ~SPC p R~   | Replace in path                        |
+| ~SPC p T~   | Rerun tests                            |
+| ~SPC p v~   | Show local changes                     |
+
+** quit
+
+| Key Binding | Description                |
+|-------------+----------------------------|
+| ~SPC q f~   | Close project              |
+| ~SPC q q~   | Close project              |
+| ~SPC q Q~   | Exit (close all projects)  |
+| ~SPC q s~   | Save all and close project |
+
+** registers-rings-resume
+
+| Key Binding | Description       |
+|-------------+-------------------|
+| ~SPC r b~   | Recent files      |
+| ~SPC r B~   | Recent files      |
+| ~SPC r e~   | Show registers    |
+| ~SPC r s~   | Search in project |
+| ~SPC r y~   | Show kill ring    |
+
+** search-symbol
+
+| Key Binding | Description                     |
+|-------------+---------------------------------|
+| ~SPC s c~   | Clear search highlights         |
+| ~SPC s h~   | Toggle highlight current symbol |
+| ~SPC s P~   | Find usages                     |
+| ~SPC s p~   | Search in project               |
+| ~SPC s l~   | Search in project               |
+| ~SPC s s~   | Search everywhere               |
+
+** text
+
+| Key Binding   | Description                  |
+|---------------+------------------------------|
+| ~SPC x c~     | Count words and characters   |
+| ~SPC x w c~   | Count words and characters   |
+| ~SPC x d SPC~ | Delete all spaces except one |
+| ~SPC x J~     | Move line down               |
+| ~SPC x K~     | Move line up                 |
+| ~SPC x t c~   | Transpose characters         |
+| ~SPC x t l~   | Transpose lines              |
+| ~SPC x U~     | Upcase region                |
+| ~SPC x u~     | Downcase region              |
+
+** toggles
+
+| Key Binding | Description              |
+|-------------+--------------------------|
+| ~SPC t i~   | Toggle show indent guide |
+| ~SPC t l~   | Toggle truncate lines    |
+| ~SPC t n~   | Toggle line numbers      |
+| ~SPC t w~   | Toggle Show Whitespaces  |
+
+** ui_toogles-themes
+
+| Key Binding | Description                  |
+|-------------+------------------------------|
+| ~SPC T t~   | Toggle distraction free mode |
+
+** windows
+
+| Key Binding   | Description                  |
+|---------------+------------------------------|
+| ~SPC w /~     | Split window right           |
+| ~SPC w v~     | Split window right           |
+| ~SPC w -~     | Split window below           |
+| ~SPC w s~     | Split window below           |
+| ~SPC w d~     | Close window                 |
+| ~SPC w x~     | Close window                 |
+| ~SPC w H~     | Focus window far left        |
+| ~SPC w h~     | Focus window left            |
+| ~SPC w LEFT~  | Focus window left            |
+| ~SPC w J~     | Focus window very bottom     |
+| ~SPC w j~     | Focus window down            |
+| ~SPC w DOWN~  | Focus window down            |
+| ~SPC w K~     | Focus window very top        |
+| ~SPC w k~     | Focus window up              |
+| ~SPC w UP~    | Focus window up              |
+| ~SPC w L~     | Focus window far right       |
+| ~SPC w l~     | Focus window right           |
+| ~SPC w RIGHT~ | Focus window right           |
+| ~SPC w o~     | Focus next project           |
+| ~SPC w p m~   | Show Event Log window        |
+| ~SPC w S~     | Split window below and focus |
+| ~SPC w V~     | Split window right and focus |
+| ~SPC w w~     | Focus next window            |
+
+** zoom
+
+| Key Binding | Description        |
+|-------------+--------------------|
+| ~SPC z x +~ | Increase font size |
+| ~SPC z x =~ | Increase font size |
+| ~SPC z x -~ | Decrease font size |
+| ~SPC z x 0~ | Reset font size    |
+
+** miscellaneous
+
+| Key Binding | Description                         |
+|-------------+-------------------------------------|
+| ~g,~        | Go to next change                   |
+| ~g;~        | Go to last change                   |
+| ~zr~        | Open all folds                      |
+| ~zm~        | Collapse all regions                |
+| ~<c-i>~     | Jump to previously visited location |
+| ~<c-o>~     | Jump to lately visited location     |
