@@ -6,13 +6,29 @@ vnoremap <leader>mrc      <Esc>:action GenerateConstructor<CR>
 nnoremap <leader>mrC      :action CodeCleanup<CR>
 vnoremap <leader>mrC      <Esc>:action CodeCleanup<CR>
 
+" Extract superclass
+nnoremap <leader>mres    :action ExtractSuperclass<CR>
+vnoremap <leader>mres    <Esc>:action ExtractSuperclass<CR>
+
+" Extract method
+nnoremap <leader>mrem    :action ExtractMethod<CR>
+vnoremap <leader>mrem    <Esc>:action ExtractMethod<CR>
+
+" Select what to generate
+nnoremap <leader>mrg      :action Generate<CR>
+vnoremap <leader>mrg      <Esc>:action Generate<CR>
+
 " Generate getter and setter
-nnoremap <leader>mrg      :action GenerateGetterAndSetter<CR>
-vnoremap <leader>mrg      <Esc>:action GenerateGetterAndSetter<CR>
+nnoremap <leader>mrG      :action GenerateGetterAndSetter<CR>
+vnoremap <leader>mrG      <Esc>:action GenerateGetterAndSetter<CR>
 
 " Optimize imports
 nnoremap <leader>mri      :action OptimizeImports<CR>
 vnoremap <leader>mri      <Esc>:action OptimizeImports<CR>
+
+" Implement Methods
+nnoremap <leader>mrI      :action ImplementMethods<CR>
+vnoremap <leader>mrI      <Esc>:action ImplementMethods<CR>
 
 " Create a new class. You can also create enum, interface and more.
 nnoremap <leader>mrn      :action NewClass<CR>
