@@ -2,4 +2,4 @@
 nnoremap <leader>m=      :action ReformatCode<CR>
 
 " Reformat selected lines
-vnoremap <leader>m=      <Esc>:action ReformatCode<CR>
+vnoremap <leader>m=      :action ReformatCode<CR>
