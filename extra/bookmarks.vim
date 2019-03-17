@@ -7,6 +7,10 @@ nnoremap <leader>Bn    :action GotoNextBookmark<CR>
 vnoremap <leader>Bn    <Esc>:action GotoNextBookmark<CR>
 
 " Previous bookmark
+nnoremap <leader>BN    :action GotoPreviousBookmark<CR>
+vnoremap <leader>BN    <Esc>:action GotoPreviousBookmark<CR>
+
+" Previous bookmark
 nnoremap <leader>Bp    :action GotoPreviousBookmark<CR>
 vnoremap <leader>Bp    <Esc>:action GotoPreviousBookmark<CR>
 
