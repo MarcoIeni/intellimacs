@@ -24,6 +24,6 @@ source ./intelli-space/spacemacs/registers-rings-resume.vim
 source ./intelli-space/spacemacs/search-symbol.vim
 source ./intelli-space/spacemacs/text.vim
 source ./intelli-space/spacemacs/toggles.vim
-source ./intelli-space/spacemacs/ui-toogles-themes.vim
+source ./intelli-space/spacemacs/ui_toogles-themes.vim
 source ./intelli-space/spacemacs/windows.vim
 source ./intelli-space/spacemacs/zoom.vim

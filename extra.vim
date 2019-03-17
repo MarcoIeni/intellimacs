@@ -17,7 +17,7 @@ source ./intelli-space/extra/jump.vim
 source ./intelli-space/extra/leader.vim
 source ./intelli-space/extra/run.vim
 source ./intelli-space/extra/search.vim
-source ./intelli-space/extra/ui-toggles-themes.vim
+source ./intelli-space/extra/ui_toggles-themes.vim
 source ./intelli-space/extra/windows.vim
 
 " show methods, variables, etc. declared in the file
