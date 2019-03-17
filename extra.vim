@@ -17,6 +17,7 @@ source ./intelli-space/extra/jump.vim
 source ./intelli-space/extra/leader.vim
 source ./intelli-space/extra/run.vim
 source ./intelli-space/extra/search.vim
+source ./intelli-space/extra/toggles.vim
 source ./intelli-space/extra/ui_toggles-themes.vim
 source ./intelli-space/extra/windows.vim
 
@@ -47,5 +48,4 @@ nnoremap <leader>rv :action IntroduceVariable<cr>
 nnoremap <leader>rs :action ExtractSuperclass<cr>
 nnoremap <leader>ri :action Inline<cr>
 
-" action EditorToggleShowGutterIcons
 " action TogglePowerSave
