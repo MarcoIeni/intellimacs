@@ -2,18 +2,18 @@
 " Spacemacs Hybrid mode: Emacs key in Vim’s insert mode.
 " You have to unbind C-g before it works.
 " ============================================================================
-nmap <c-g> <Esc>
-vmap <c-g> <Esc>
-imap <c-g> <Esc>a
-nmap <c-a> ^
-nmap <c-e> $
-vmap <c-a> ^
-vmap <c-e> $
-imap <c-e> <Esc>A
-imap <c-a> <Esc>I
-imap <c-d> <del>
-inoremap <c-p> <up>
-inoremap <c-n> <down>
+nnoremap <C-g> <Esc>
+vnoremap <C-g> <Esc>
+inoremap <C-g> <Esc>a
+nnoremap <C-a> ^
+nnoremap <C-e> $
+vnoremap <C-a> ^
+vnoremap <C-e> $
+inoremap <C-e> <Esc>A
+inoremap <C-a> <Esc>I
+inoremap <C-d> <del>
+inoremap <C-p> <up>
+inoremap <C-n> <down>
 " command line
 cnoremap <C-a> <Home>
 cnoremap <C-e> <End>
