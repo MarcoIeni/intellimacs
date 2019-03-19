@@ -22,8 +22,21 @@ IdeaVim parses the [[https://github.com/JetBrains/ideavim/blob/master/src/com/ma
 To list all IDE actions use the command =:actionlist [pattern]=.
 
 IntelliSpace provides different files, which can be included individually in
-your own =.ideavimrc= file, in order to get only the functionalities you want
-(see [[Key bindings]]).
+your own =.ideavimrc= file, in order to get only the functionalities you want.
+
+** Key bindings
+IntelliSpace key bindings are organized into three modules:
+- spacemacs :: This module contains the spacemacs settings and the key bindings
+  that can be replicated with a similar behaviour in the IntelliJ platform.
+- extra :: This module contains the settings and the key bindings not present in
+  spacemacs, but that may be useful in the IntelliJ platform.
+- major :: This module contains key bindings that start with ~SPC m~, that may
+  or may not be present in some spacemacs major mode.
+
+Furthermore, IntelliSpace provides some of the features of spacemacs hybrid
+mode, which can be enabled by sourcing the file =./intelli-space/hybrid.vim=.
+
+Read [[./KEYBINDINGS.org]] to see all keybindings.
 
 ** Installation
 1. Install IdeaVim by using the IDE's plugin manager (File -> Settings ->
@@ -34,7 +47,7 @@ your own =.ideavimrc= file, in order to get only the functionalities you want
   git clone https://github.com/MarcoIeni/intelli-space
   #+end_src
 3. In your home directory, create the file =.ideavimrc= and edit it in
-  order to include the functionalities you want by sourcing the relative source
+  order to include the modules you want by sourcing the relative source
   files. In the following there is an example
   of =.ideavimrc= file that includes all the functionalities offered by
   IntelliSpace. In this file you can also include your own vim commands.
@@ -54,43 +67,23 @@ your own =.ideavimrc= file, in order to get only the functionalities you want
 ** Update
 In order to update run =git pull= inside the intelli-space directory.
 
-** Key bindings
-IntelliSpace key bindings are organized into three modules:
-- spacemacs :: This module contains the spacemacs settings and the key bindings
-  that can be replicated with a similar behaviour in the IntelliJ platform.
-- extra :: This module contains the settings and the key bindings not present in
-  spacemacs, but that are useful in the IntelliJ platform.
-- major :: This module contains key bindings that start with ~SPC m~, that may
-  or may not be present in some spacemacs major mode.
-
-In order to include these modules source the respective files as indicated in
-[[Installation]].
-
-Furthermore, IntelliSpace provides some of the features of spacemacs hybrid
-mode, which can be enabled by sourcing the file =./intelli-space/hybrid.vim=.
-
 ** Tips
 *** Go back to code
-The key bindings works only when you are inside the code.
-For example if you are inside the project window they don't work.
-Just press <Esc> to focus the last visited code window and you will be able to
-use your key bindings.
+The key bindings work only when you are inside the code.
+For example, if you are inside the project window they don't work.
+Press <Esc> to focus the last visited code window and you will be able to
+use IntelliSpace key bindings again.
 
 *** Scroll menus without arrow keys
-In IntelliJ's settings, set a custom shortcut for
-=Keymap -> Editor Actions -> Down= =Keymap -> Editor Actions -> Up=.
-For example you can bind them to =Ctrl + j= and =Ctrl + k=.
-If you have some conflicts search the editor action the key is assigned to,
+In order to scroll menus without using arrow keys, set a custom shortcut in
+IDE's settings for =Keymap -> Editor Actions -> Down= and
+=Keymap -> Editor Actions -> Up=.
+For example, you can bind them to =Ctrl + j= and =Ctrl + k=.
+If you have some conflicts, search the editor action the key is assigned to,
 right click and remove the binding.
 
-*** Open a file in Emacs with key board shortcut
+*** Open a file in Emacs with keyboard shortcut
 Follow [[https://www.jetbrains.com/help/idea/using-emacs-as-an-external-editor.html][this]] guide.
-
-** Contributing
-You can contribute in the following ways:
-- A key binding to which you are used to is missing? Add it with a pull request!
-- In your opinion a key binding would be more indicated to another IDE action? Edit it with a pull request!
-- There is a plugin which enables nice spacemacs features? Open an issue so we can discuss about it!
 
 ** Resources
 - [[https://github.com/JetBrains/ideavim][IdeaVim]]
