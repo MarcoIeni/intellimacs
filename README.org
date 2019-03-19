@@ -28,7 +28,7 @@ your own =.ideavimrc= file, in order to get only the functionalities you want.
 IntelliSpace is composed of three modules:
 - spacemacs :: This module contains spacemacs settings and key bindings
   that can be replicated with a similar behaviour in the IntelliJ platform.
-- extra :: This module contains settings and the key bindings not present in
+- extra :: This module contains settings and key bindings not present in
   spacemacs, but that may be useful in the IntelliJ platform.
 - major :: This module contains key bindings that start with ~SPC m~, that may
   or may not be present in some spacemacs major mode.
@@ -36,7 +36,7 @@ IntelliSpace is composed of three modules:
 Furthermore, IntelliSpace provides some of the features of spacemacs hybrid
 mode, which may be enabled by sourcing the file =./intelli-space/hybrid.vim=.
 
-Read [[./KEYBINDINGS.org]] to see all key bindings.
+Read [[./KEYBINDINGS.org]] to see all available key bindings.
 
 ** Installation
 1. Install IdeaVim by using the IDE's plugin manager (File -> Settings ->
@@ -46,11 +46,11 @@ Read [[./KEYBINDINGS.org]] to see all key bindings.
   cd ~
   git clone https://github.com/MarcoIeni/intelli-space
   #+end_src
-3. In your home directory, create the file =.ideavimrc= and edit it in
-  order to include the modules you want by sourcing the relative source
-  files. In the following there is an example
-  of =.ideavimrc= file that includes all the functionalities offered by
-  IntelliSpace. In this file you can also include your own vim commands.
+3. In your home directory, create the file =.ideavimrc= and edit it in order to
+  include the modules you want by sourcing the relative source files.
+  In the following there is an example of =.ideavimrc= file that includes all
+  the functionalities offered by IntelliSpace.
+  In this file you can also include your own vim commands.
   #+begin_src vimrc
   " selected IntelliSpace modules
   source ./intelli-space/spacemacs.vim
@@ -62,7 +62,7 @@ Read [[./KEYBINDINGS.org]] to see all key bindings.
   nnoremap Y y$
   #+end_src
 4. (optional) source your vimrc file by adding the line =source ~/.vimrc= in
-  your =.ideavimrc= file (you may break something).
+  =.ideavimrc= (you may break something).
 
 ** Update
 In order to update run =git pull= inside the intelli-space directory.
@@ -71,19 +71,19 @@ In order to update run =git pull= inside the intelli-space directory.
 *** Go back to code
 The key bindings work only when you are inside the code.
 For example, if you are inside the project window they don't work.
-Press <Esc> to focus the last visited code window and you will be able to
+Press ~<Esc>~ to focus the last visited code window and you will be able to
 use IntelliSpace key bindings again.
 
 *** Scroll menus without arrow keys
-In order to scroll menus without using arrow keys, set a custom shortcut in
-IDE's settings for =Keymap -> Editor Actions -> Down= and
-=Keymap -> Editor Actions -> Up=.
+In order to scroll menus without using arrow keys, press ~SPC f e d~ to go to
+IDE's settings and set a custom shortcut for the actions =Down= and =Up= in the
+menu =Keymap -> Editor Actions=.
 For example, you can bind them to =Ctrl + j= and =Ctrl + k=.
 If you have some conflicts, search the editor action the key is assigned to,
 right click and remove the binding.
 
 *** Open a file in Emacs with keyboard shortcut
-Follow [[https://www.jetbrains.com/help/idea/using-emacs-as-an-external-editor.html][this]] guide.
+Open a file in Emacs with keyboard shortcut follow [[https://www.jetbrains.com/help/idea/using-emacs-as-an-external-editor.html][this]] guide.
 
 ** Resources
 - [[https://github.com/JetBrains/ideavim][IdeaVim]]
