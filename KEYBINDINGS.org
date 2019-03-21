@@ -1,3 +1,12 @@
+#+TITLE: Key bindings
+
+This file contains all available key bindings.
+They are divided into the three modules: spacemacs, major and extra.
+
+The spacemacs module key bindings are alligned with the spacemacs develop branch, because the
+0.300 release is very near, but after that we plan to stay aligned with the
+master branch.
+
 * spacemacs
 
 ** leader
