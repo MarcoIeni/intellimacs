@@ -1,9 +1,9 @@
-* IntelliSpace
+#+TITLE: IntelliSpace
 
 [[http://spacemacs.org][file:https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg]]
 [[https://paypal.me/MarcoIeni][https://img.shields.io/badge/Paypal-Donate-blue.svg]]
 
-** Presentation
+* Presentation
 This project tries to mimic [[http://spacemacs.org][Spacemacs]] key bindings in IDEs based on the [[https://www.jetbrains.com][IntelliJ]]
 platform, i.e. IntelliJ IDEA, PyCharm, CLion, PhpStorm, WebStorm, RubyMine,
 AppCode, DataGrip, GoLand, Rider, Cursive, and Android Studio.
@@ -11,7 +11,7 @@ AppCode, DataGrip, GoLand, Rider, Cursive, and Android Studio.
 For instance, ~SPC f f~ in Spacemacs opens a file, so it makes sense to map it
 to the "GotoFile" IntelliJ action.
 
-** How it works
+* How it works
 This project can be seen as a set of configuration files for the [[https://plugins.jetbrains.com/plugin/164-ideavim][IdeaVim]] plugin,
 which enables vim emulation inside IntelliJ platform.
 =~/.ideavimrc= is the file where IdeaVim lets you add Vim initialization
@@ -24,7 +24,7 @@ To list all IDE actions use the command =:actionlist [pattern]=.
 IntelliSpace provides different files, which can be included individually in
 your own =.ideavimrc= file, in order to get only the functionalities you want.
 
-** Key bindings
+* Key bindings
 IntelliSpace is composed of three modules:
 - spacemacs :: This module contains spacemacs settings and key bindings
   that can be replicated with a similar behaviour in the IntelliJ platform.
@@ -38,7 +38,7 @@ mode, which may be enabled by sourcing the file =./intelli-space/hybrid.vim=.
 
 Read [[./KEYBINDINGS.org]] to see all available key bindings.
 
-** Installation
+* Installation
 1. Install IdeaVim by using the IDE's plugin manager (File -> Settings ->
   Plugins -> Search for IdeaVim -> Install IdeaVim).
 2. Clone this repository in your home directory:
@@ -64,17 +64,18 @@ Read [[./KEYBINDINGS.org]] to see all available key bindings.
 4. (optional) source your vimrc file by adding the line =source ~/.vimrc= in
   =.ideavimrc= (you may break something).
 
-** Update
+* Update
 In order to update run =git pull= inside the intelli-space directory.
 
-** Tips
-*** Go back to code
+* Tips
+
+** Go back to code
 The key bindings work only when you are inside the code.
 For example, if you are inside the project window they don't work.
 Press ~<Esc>~ to focus the last visited code window and you will be able to
 use IntelliSpace key bindings again.
 
-*** Scroll menus without arrow keys
+** Scroll menus without arrow keys
 In order to scroll menus without using arrow keys, press ~SPC f e d~ to go to
 IDE's settings and set a custom shortcut for the actions =Down= and =Up= in the
 menu =Keymap -> Editor Actions=.
@@ -82,14 +83,14 @@ For example, you can bind them to =Ctrl + j= and =Ctrl + k=.
 If you have some conflicts, search the editor action the key is assigned to,
 right click and remove the binding.
 
-*** Open a file in Emacs with keyboard shortcut
+** Open a file in Emacs with keyboard shortcut
 Open a file in Emacs with keyboard shortcut follow [[https://www.jetbrains.com/help/idea/using-emacs-as-an-external-editor.html][this]] guide.
 
-** Resources
+* Resources
 - [[https://github.com/JetBrains/ideavim][IdeaVim]]
 - [[https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf][Intellij default keymap]]
 - [[https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository][Share IDE settings]]
 
-** Related projects
+* Related projects
 - [[https://github.com/VSpaceCode/VSpaceCode][VSpaceCode]] - Spacemacs' like key bindings for Visual Studio Code (thanks for
   the inspiration)
