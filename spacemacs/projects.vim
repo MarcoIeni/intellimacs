@@ -35,9 +35,9 @@ vnoremap <leader>pf    <Esc>:action GotoFile<CR>
 nnoremap <leader>pI    :action InvalidateCaches<CR>
 vnoremap <leader>pI    <Esc>:action InvalidateCaches<CR>
 
-" Open project
-nnoremap <leader>pp    :action WelcomeScreen.OpenProject<CR>
-vnoremap <leader>pp    <Esc>:action WelcomeScreen.OpenProject<CR>
+" Recent projects
+nnoremap <leader>pp    :action ManageRecentProjects<CR>
+vnoremap <leader>pp    <Esc>:action ManageRecentProjects<CR>
 
 " Replace in path
 nnoremap <leader>pR    :action ReplaceInPath<CR>

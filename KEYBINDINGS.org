@@ -161,7 +161,7 @@ master branch.
 | ~SPC p t~   | Project window                         |
 | ~SPC p f~   | Find files                             |
 | ~SPC p I~   | Invalidate cache                       |
-| ~SPC p p~   | Open project                           |
+| ~SPC p p~   | Recent projects                        |
 | ~SPC p R~   | Replace in path                        |
 | ~SPC p T~   | Rerun tests                            |
 | ~SPC p v~   | Show local changes                     |
