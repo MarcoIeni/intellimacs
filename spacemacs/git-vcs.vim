@@ -18,6 +18,10 @@ vnoremap <leader>gs    <Esc>:action Vcs.Show.Local.Changes<CR>
 nnoremap <leader>gv+    :action Vcs.UpdateProject<CR>
 vnoremap <leader>gv+    <Esc>:action Vcs.UpdateProject<CR>
 
+" Annotate. Show when each line was last edited and by whom.
+nnoremap <leader>gvg    :action Annotate<CR>
+vnoremap <leader>gvg    <Esc>:action Annotate<CR>
+
 " Show log (git log)
 nnoremap <leader>gvl    :action Vcs.Show.Log<CR>
 vnoremap <leader>gvl    <Esc>:action Vcs.Show.Log<CR>

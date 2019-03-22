@@ -106,6 +106,7 @@ master branch.
 | ~SPC g i~   | Git init              |
 | ~SPC g s~   | Show local changes    |
 | ~SPC g v +~ | Update project        |
+| ~SPC g v g~ | Annotate              |
 | ~SPC g v l~ | Show log              |
 
 ** help
