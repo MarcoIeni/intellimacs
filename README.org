@@ -34,7 +34,7 @@ IntelliSpace is composed of three modules:
   or may not be present in some Spacemacs major mode.
 
 Furthermore, IntelliSpace provides some of the features of Spacemacs hybrid
-mode, which may be enabled by sourcing the file =./intelli-space/hybrid.vim=.
+mode, which may be enabled by sourcing the file =~/intelli-space/hybrid.vim=.
 
 Read [[./KEYBINDINGS.org]] to see all 200+ available key bindings.
 
