@@ -6,14 +6,10 @@ vnoremap <C-g> <Esc>
 inoremap <C-g> <Esc>a
 
 " C-a goes to first character
-nnoremap <C-a> ^
-vnoremap <C-a> ^
 inoremap <C-a> <Esc>I
 cnoremap <C-a> <Home>
 
 " C-e goes to end of line
-nnoremap <C-e> $
-vnoremap <C-e> $
 inoremap <C-e> <Esc>A
 cnoremap <C-e> <End>
 
