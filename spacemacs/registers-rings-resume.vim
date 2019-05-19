@@ -14,4 +14,4 @@ vnoremap <leader>rs    <Esc>:action FindInPath<CR>
 
 " Show kill ring
 nnoremap <leader>ry    :action PasteMultiple<CR>
-vnoremap <leader>ry    <Esc>:action PasteMultiple<CR>
+vnoremap <leader>ry    :action PasteMultiple<CR>
