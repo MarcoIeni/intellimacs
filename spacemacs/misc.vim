@@ -12,7 +12,7 @@ vnoremap g;    :action JumpToLastChange<CR>
 nnoremap zr    :action ExpandAllRegions<CR>
 vnoremap zr    :action ExpandAllRegions<CR>
 
-" Collapse all regions
+" Collapse all folds
 nnoremap zm    :action CollapseAllRegions<CR>
 vnoremap zm    :action CollapseAllRegions<CR>
 
