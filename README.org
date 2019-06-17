@@ -22,15 +22,15 @@ IdeaVim parses the [[https://github.com/JetBrains/ideavim/blob/master/src/com/ma
 To list all IDE actions use the command =:actionlist [pattern]=.
 
 IntelliSpace provides different files, which can be included individually in
-your own =.ideavimrc= file, in order to get only the functionalities you want.
+your own =.ideavimrc=, in order to get only the functionalities you want.
 
 * Key bindings
 IntelliSpace is composed of three modules:
-- spacemacs :: This module contains Spacemacs settings and key bindings
+- spacemacs :: Contains Spacemacs settings and key bindings
   that can be replicated with a similar behaviour in the IntelliJ platform.
-- extra :: This module contains settings and key bindings not present in
+- extra :: Contains settings and key bindings not present in
   Spacemacs, but that may be useful in the IntelliJ platform.
-- major :: This module contains key bindings that start with ~SPC m~, that may
+- major :: Contains key bindings that start with ~SPC m~, that may
   or may not be present in some Spacemacs major mode.
 
 Furthermore, IntelliSpace provides some of the features of Spacemacs hybrid
