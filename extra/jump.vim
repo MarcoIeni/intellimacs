@@ -2,7 +2,7 @@
 nnoremap <leader>jc   :action GotoClass<CR>
 vnoremap <leader>jc   <Esc>:action GotoClass<CR>
 
-" Jump to element
+" Jump to element in current file
 nnoremap <leader>je   :action FileStructurePopup<CR>
 vnoremap <leader>je   <Esc>:action FileStructurePopup<CR>
 

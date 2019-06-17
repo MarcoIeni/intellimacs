@@ -432,11 +432,11 @@ master branch.
 
 ** jump
 
-| Key Binding | Description     |
-|-------------+-----------------|
-| ~SPC j c~   | Jump to class   |
-| ~SPC j e~   | Jump to element |
-| ~SPC j s~   | Jump to symbol  |
+| Key Binding | Description                     |
+|-------------+---------------------------------|
+| ~SPC j c~   | Jump to class                   |
+| ~SPC j e~   | Jump to element in current file |
+| ~SPC j s~   | Jump to symbol                  |
 
 ** run
 
