@@ -13,3 +13,7 @@ vnoremap <leader>aP    <Esc>:action Performance.ActivityMonitor<CR>
 " List processes
 nnoremap <leader>ap    :action ShowProcessWindow<CR>
 vnoremap <leader>ap    <Esc>:action ShowProcessWindow<CR>
+
+" Open the terminal window
+nnoremap <leader>as    :action Terminal.OpenInTerminal<CR>
+vnoremap <leader>as    <Esc>:action Terminal.OpenInTerminal<CR>

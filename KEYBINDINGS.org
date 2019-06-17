@@ -22,12 +22,13 @@ master branch.
 | ~SPC ; ;~   | Comment lines        |
 
 ** applications
-| Key Binding | Description         |
-|-------------+---------------------|
-| ~SPC a k~   | Plugins marketplace |
-| ~SPC a o t~ | List TODOs          |
-| ~SPC a P~   | Show CPU usage      |
-| ~SPC a p~   | List processes      |
+| Key Binding | Description          |
+|-------------+----------------------|
+| ~SPC a k~   | Plugins marketplace  |
+| ~SPC a o t~ | Show TODOs           |
+| ~SPC a P~   | Show CPU usage       |
+| ~SPC a p~   | List processes       |
+| ~SPC a s~   | Open terminal window |
 
 ** buffers
 
