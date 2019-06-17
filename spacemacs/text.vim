@@ -8,13 +8,13 @@ vnoremap <leader>xwc    g<C-g>
 nnoremap <leader>xd<Space>    wh:action EditorHungryBackSpace<CR>
 vnoremap <leader>xd<Space>    <Esc>wh:action EditorHungryBackSpace<CR>
 
-" Move line down
+" Move lines down
 nnoremap <leader>xJ    $:action MoveLineDown<CR>
-vnoremap <leader>xJ    <Esc>$:action MoveLineDown<CR>
+vnoremap <leader>xJ    $:action MoveLineDown<CR>
 
-" Move line up
+" Move lines up
 nnoremap <leader>xK    $:action MoveLineUp<CR>
-vnoremap <leader>xK    <Esc>$:action MoveLineUp<CR>
+vnoremap <leader>xK    $:action MoveLineUp<CR>
 
 " Transpose characters
 nnoremap <leader>xtc    xhP

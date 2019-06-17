@@ -219,8 +219,8 @@ master branch.
 | ~SPC x c~     | Count words and characters   |
 | ~SPC x w c~   | Count words and characters   |
 | ~SPC x d SPC~ | Delete all spaces except one |
-| ~SPC x J~     | Move line down               |
-| ~SPC x K~     | Move line up                 |
+| ~SPC x J~     | Move lines down              |
+| ~SPC x K~     | Move lines up                |
 | ~SPC x t c~   | Transpose characters         |
 | ~SPC x t l~   | Transpose lines              |
 | ~SPC x U~     | Upcase region                |
