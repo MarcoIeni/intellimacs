@@ -87,14 +87,14 @@ master branch.
 |-------------+-----------------------|
 | ~SPC f b~   | Show bookmarks        |
 | ~SPC f e d~ | Settings              |
-| ~SPC f e R~ | Reload ~~/.ideavimrc~ |
-| ~SPC f f~   | Find files            |
+| ~SPC f e R~ | Reload =~/.ideavimrc= |
 | ~SPC f F~   | Find files            |
+| ~SPC f f~   | Find files            |
 | ~SPC f g~   | Search in project     |
 | ~SPC f R~   | Rename file           |
 | ~SPC f r~   | Recent fles           |
 | ~SPC f S~   | Save all files        |
-| ~SPC f s~   | Save                  |
+| ~SPC f s~   | Save file             |
 | ~SPC f t~   | Project window        |
 | ~SPC f y y~ | Copy file path        |
 

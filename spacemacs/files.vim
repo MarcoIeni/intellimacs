@@ -13,10 +13,10 @@ nnoremap <leader>feR    :source ~/.ideavimrc<CR>
 vnoremap <leader>feR    <Esc>:source ~/.ideavimrc<CR>
 
 " Find files
-nnoremap <leader>ff    :action GotoFile<CR>
-vnoremap <leader>ff    <Esc>:action GotoFile<CR>
 nnoremap <leader>fF    :action GotoFile<CR>
 vnoremap <leader>fF    <Esc>:action GotoFile<CR>
+nnoremap <leader>ff    :action GotoFile<CR>
+vnoremap <leader>ff    <Esc>:action GotoFile<CR>
 
 " Search in project
 nnoremap <leader>fg    :action FindInPath<CR>
