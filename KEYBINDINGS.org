@@ -270,8 +270,9 @@ master branch.
 |-------------+-------------------------------------|
 | ~g,~        | Go to next change                   |
 | ~g;~        | Go to last change                   |
-| ~zr~        | Open all folds                      |
+| ~gd~        | Go to declaration                   |
 | ~zm~        | Collapse all folds                  |
+| ~zr~        | Open all folds                      |
 | ~C-i~       | Jump to previously visited location |
 | ~C-o~       | Jump to lately visited location     |
 
