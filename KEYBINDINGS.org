@@ -11,7 +11,7 @@ master branch.
 
 ** leader
 
-| Key Binding | Description          |
+| Key binding | Description          |
 |-------------+----------------------|
 | ~SPC SPC~   | Execute an action    |
 | ~SPC TAB~   | Last buffer          |
@@ -22,7 +22,7 @@ master branch.
 | ~SPC ?~     | Show key bindings    |
 
 ** applications
-| Key Binding | Description          |
+| Key binding | Description          |
 |-------------+----------------------|
 | ~SPC a k~   | Plugins marketplace  |
 | ~SPC a o t~ | Show TODOs           |
@@ -32,7 +32,7 @@ master branch.
 
 ** buffers
 
-| Key Binding | Description                        |
+| Key binding | Description                        |
 |-------------+------------------------------------|
 | ~SPC b b~   | Recent files                       |
 | ~SPC b d~   | Close tab                          |
@@ -48,13 +48,13 @@ master branch.
 
 ** colors
 
-| Key Binding | Description |
+| Key binding | Description |
 |-------------+-------------|
 | ~SPC C l~   | Pick color  |
 
 ** compile/comments
 
-| Key Binding | Description                                     |
+| Key binding | Description                                     |
 |-------------+-------------------------------------------------|
 | ~SPC c C~   | Compile selected file, package or module        |
 | ~SPC c c~   | Make project                                    |
@@ -66,7 +66,7 @@ master branch.
 
 ** errors
 
-| Key Binding | Description       |
+| Key binding | Description       |
 |-------------+-------------------|
 | ~SPC e l~   | List errors       |
 | ~SPC e N~   | Previous error    |
@@ -77,13 +77,13 @@ master branch.
 
 ** frame
 
-| Key Binding | Description        |
+| Key binding | Description        |
 |-------------+--------------------|
 | ~SPC F o~   | Focus next project |
 
 ** files
 
-| Key Binding | Description           |
+| Key binding | Description           |
 |-------------+-----------------------|
 | ~SPC f b~   | Show bookmarks        |
 | ~SPC f e d~ | Settings              |
@@ -100,7 +100,7 @@ master branch.
 
 ** git/versions control
 
-| Key Binding | Description           |
+| Key binding | Description           |
 |-------------+-----------------------|
 | ~SPC g c~   | Git clone             |
 | ~SPC g f l~ | Show current file log |
@@ -112,7 +112,7 @@ master branch.
 
 ** help
 
-| Key Binding | Description                          |
+| Key binding | Description                          |
 |-------------+--------------------------------------|
 | ~SPC h k~   | Show key bindings                    |
 | ~SPC h d b~ | Show key bindings                    |
@@ -123,7 +123,7 @@ master branch.
 
 ** insertion
 
-| Key Binding | Description                  |
+| Key binding | Description                  |
 |-------------+------------------------------|
 | ~SPC i j~   | Insert line below            |
 | ~SPC i k~   | Insert line above            |
@@ -133,7 +133,7 @@ master branch.
 
 ** jump/join/split
 
-| Key Binding | Description                   |
+| Key binding | Description                   |
 |-------------+-------------------------------|
 | ~SPC j =~   | Reformat code                 |
 | ~SPC j D~   | Project window                |
@@ -143,7 +143,7 @@ master branch.
 
 ** narrow/numbers
 
-| Key Binding | Description      |
+| Key binding | Description      |
 |-------------+------------------|
 | ~SPC n +~   | Increment number |
 | ~SPC n =~   | Increment number |
@@ -151,7 +151,7 @@ master branch.
 
 ** projects
 
-| Key Binding | Description                            |
+| Key binding | Description                            |
 |-------------+----------------------------------------|
 | ~SPC p !~   | Open terminal in project root          |
 | ~SPC p a~   | Toggle between implementation and test |
@@ -170,16 +170,16 @@ master branch.
 
 ** quit
 
-| Key Binding | Description                |
+| Key binding | Description                |
 |-------------+----------------------------|
 | ~SPC q f~   | Close project              |
 | ~SPC q q~   | Close project              |
 | ~SPC q Q~   | Exit (close all projects)  |
 | ~SPC q s~   | Save all and close project |
 
-** registers/rings-resume
+** registers/rings/resume
 
-| Key Binding | Description       |
+| Key binding | Description       |
 |-------------+-------------------|
 | ~SPC r b~   | Recent files      |
 | ~SPC r B~   | Recent files      |
@@ -189,7 +189,7 @@ master branch.
 
 ** search/symbol
 
-| Key Binding | Description                     |
+| Key binding | Description                     |
 |-------------+---------------------------------|
 | ~SPC s c~   | Clear search highlights         |
 | ~SPC s h~   | Toggle highlight current symbol |
@@ -200,22 +200,22 @@ master branch.
 
 ** UI toogles/themes
 
-| Key Binding | Description                  |
+| Key binding | Description                  |
 |-------------+------------------------------|
 | ~SPC T t~   | Toggle distraction free mode |
 
 ** toggles
 
-| Key Binding | Description              |
+| Key binding | Description              |
 |-------------+--------------------------|
 | ~SPC t i~   | Toggle show indent guide |
 | ~SPC t l~   | Toggle truncate lines    |
 | ~SPC t n~   | Toggle line numbers      |
-| ~SPC t w~   | Toggle Show Whitespaces  |
+| ~SPC t w~   | Toggle show whitespaces  |
 
 ** text
 
-| Key Binding   | Description                  |
+| Key binding   | Description                  |
 |---------------+------------------------------|
 | ~SPC x c~     | Count words and characters   |
 | ~SPC x w c~   | Count words and characters   |
@@ -229,7 +229,7 @@ master branch.
 
 ** windows
 
-| Key Binding   | Description                  |
+| Key binding   | Description                  |
 |---------------+------------------------------|
 | ~SPC w /~     | Split window right           |
 | ~SPC w v~     | Split window right           |
@@ -257,7 +257,7 @@ master branch.
 
 ** zoom
 
-| Key Binding | Description        |
+| Key binding | Description        |
 |-------------+--------------------|
 | ~SPC z x +~ | Increase font size |
 | ~SPC z x =~ | Increase font size |
@@ -266,7 +266,7 @@ master branch.
 
 ** miscellaneous
 
-| Key Binding | Description                         |
+| Key binding | Description                         |
 |-------------+-------------------------------------|
 | ~g,~        | Go to next change                   |
 | ~g;~        | Go to last change                   |
@@ -280,22 +280,22 @@ master branch.
 
 ** leader
 
-| Key Binding | Description   |
+| Key binding | Description   |
 |-------------+---------------|
 | ~SPC m =~   | Reformat code |
 
 ** compile
 
-| Key Binding | Description                              |
+| Key binding | Description                              |
 |-------------+------------------------------------------|
 | ~SPC m c C~ | Compile selected file, package or module |
 | ~SPC m c c~ | Make project                             |
 
 ** debug
 
-| Key Binding | Description                        |
+| Key binding | Description                        |
 |-------------+------------------------------------|
-| ~SPC m d B~ | View Breakpoints                   |
+| ~SPC m d B~ | View breakpoints                   |
 | ~SPC m d b~ | Toggle breakpoint                  |
 | ~SPC m d C~ | Clear all breakpoints              |
 | ~SPC m d c~ | Continue (Go to next breakpoint)   |
@@ -308,7 +308,7 @@ master branch.
 
 ** go
 
-| Key Binding | Description            |
+| Key binding | Description            |
 |-------------+------------------------|
 | ~SPC m g g~ | Go to declaration      |
 | ~SPC m g i~ | Go to implementation   |
@@ -318,7 +318,7 @@ master branch.
 
 ** help-hierarchy
 
-| Key Binding | Description           |
+| Key binding | Description           |
 |-------------+-----------------------|
 | ~SPC m h c~ | Call hierarchy        |
 | ~SPC m h H~ | Show implementation   |
@@ -329,7 +329,7 @@ master branch.
 
 ** projects
 
-| Key Binding | Description    |
+| Key binding | Description    |
 |-------------+----------------|
 | ~SPC m p b~ | Make project   |
 | ~SPC m p c~ | Create project |
@@ -339,7 +339,7 @@ master branch.
 
 ** refactoring
 
-| Key Binding   | Description                                        |
+| Key binding   | Description                                        |
 |---------------+----------------------------------------------------|
 | ~SPC m r C~   | Code cleanup                                       |
 | ~SPC m r c~   | Create constructor                                 |
@@ -358,20 +358,20 @@ master branch.
 
 ** leader
 
-| Key Binding | Description            |
+| Key binding | Description            |
 |-------------+------------------------|
 | ~SPC [~     | Go to code block start |
 | ~SPC ]~     | Go to code block end   |
 
 ** applications
 
-| Key Binding | Description |
+| Key binding | Description |
 |-------------+-------------|
 | ~SPC a t~   | Show TODOs  |
 
 ** bookmarks
 
-| Key Binding | Description                   |
+| Key binding | Description                   |
 |-------------+-------------------------------|
 | ~SPC B l~   | List bookmarks                |
 | ~SPC B N~   | Previous bookmark             |
@@ -382,20 +382,20 @@ master branch.
 
 ** buffers
 
-| Key Binding | Description     |
+| Key binding | Description     |
 |-------------+-----------------|
 | ~SPC b 0~   | Go to first tab |
 | ~SPC b $~   | Go to last tab  |
 
 ** compile/comments
 
-| Key Binding | Description   |
+| Key binding | Description   |
 |-------------+---------------|
 | ~SPC c b~   | Block comment |
 
 ** errors
 
-| Key Binding | Description         |
+| Key binding | Description         |
 |-------------+---------------------|
 | ~SPC e L~   | Inspect code        |
 | ~SPC e r~   | Resolve error       |
@@ -403,20 +403,20 @@ master branch.
 
 ** frame
 
-| Key Binding | Description            |
+| Key binding | Description            |
 |-------------+------------------------|
 | ~SPC F O~   | Focus previous project |
 
 ** files
 
-| Key Binding | Description                                        |
+| Key binding | Description                                        |
 |-------------+----------------------------------------------------|
 | ~SPC f N~   | Create a new Element                               |
 | ~SPC f n~   | Create a new class. Also enum, interface and more. |
 
 ** git/versions control
 
-| Key Binding | Description                        |
+| Key binding | Description                        |
 |-------------+------------------------------------|
 | ~SPC g b~   | Git branches (checkout)            |
 | ~SPC g G~   | Version control tool window        |
@@ -426,7 +426,7 @@ master branch.
 
 ** help/history
 
-| Key Binding | Description                     |
+| Key binding | Description                     |
 |-------------+---------------------------------|
 | ~SPC h a~   | Show action list                |
 | ~SPC h h~   | Show changes in current file    |
@@ -434,7 +434,7 @@ master branch.
 
 ** jump
 
-| Key Binding | Description                     |
+| Key binding | Description                     |
 |-------------+---------------------------------|
 | ~SPC j c~   | Jump to class                   |
 | ~SPC j e~   | Jump to element in current file |
@@ -442,7 +442,7 @@ master branch.
 
 ** run
 
-| Key Binding | Description                  |
+| Key binding | Description                  |
 |-------------+------------------------------|
 | ~SPC R a~   | Run Anything                 |
 | ~SPC R c~   | Run class                    |
@@ -452,13 +452,13 @@ master branch.
 
 ** search
 
-| Key Binding | Description            |
+| Key binding | Description            |
 |-------------+------------------------|
 | ~SPC s f~   | Search in current file |
 
 ** UI toggles/themes
 
-| Key Binding | Description                                  |
+| Key binding | Description                                  |
 |-------------+----------------------------------------------|
 | ~SPC T m~   | Hide all windows except the ones with code   |
 | ~SPC T p~   | Toggle presentation mode                     |
@@ -466,13 +466,13 @@ master branch.
 
 ** toggles
 
-| Key Binding | Description         |
+| Key binding | Description         |
 |-------------+---------------------|
 | ~SPC t g~   | Toggle Gutter icons |
 | ~SPC t p~   | Toggle power save   |
 
 ** windows
 
-| Key Binding | Description             |
+| Key binding | Description             |
 |-------------+-------------------------|
 | ~SPC w m~   | Close all other windows |
