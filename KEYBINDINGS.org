@@ -136,8 +136,8 @@ master branch.
 | Key Binding | Description                   |
 |-------------+-------------------------------|
 | ~SPC j =~   | Reformat code                 |
-| ~SPC j d~   | Project window                |
 | ~SPC j D~   | Project window                |
+| ~SPC j d~   | Project window                |
 | ~SPC j n~   | Insert new line and move down |
 | ~SPC j o~   | Insert new line               |
 

@@ -8,10 +8,10 @@ vnoremap <leader>j=    :action ReformatCode<CR>
 " Sadly when you are inside the project window this key binding does not work
 " anymore. You can use <A-1> if you want to close the window or <Esc> if you
 " want to leave the window opened and focus on the code.
-nnoremap <leader>jd    :action ActivateProjectToolWindow<CR>
-vnoremap <leader>jd    <Esc>:action ActivateProjectToolWindow<CR>
 nnoremap <leader>jD    :action ActivateProjectToolWindow<CR>
 vnoremap <leader>jD    <Esc>:action ActivateProjectToolWindow<CR>
+nnoremap <leader>jd    :action ActivateProjectToolWindow<CR>
+vnoremap <leader>jd    <Esc>:action ActivateProjectToolWindow<CR>
 
 " Insert new line and move down
 nnoremap <leader>jn    i<CR><Esc>
