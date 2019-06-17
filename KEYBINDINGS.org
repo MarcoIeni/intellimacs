@@ -15,11 +15,11 @@ master branch.
 |-------------+----------------------|
 | ~SPC SPC~   | Execute an action    |
 | ~SPC TAB~   | Last buffer          |
-| ~SPC '~     | Open terminal window |
 | ~SPC !~     | Open terminal window |
+| ~SPC '~     | Open terminal window |
 | ~SPC *~     | Show usages          |
-| ~SPC ?~     | Show key bindings    |
 | ~SPC ; ;~   | Comment lines        |
+| ~SPC ?~     | Show key bindings    |
 
 ** applications
 | Key Binding | Description          |
