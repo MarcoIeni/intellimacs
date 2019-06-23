@@ -386,6 +386,8 @@ master branch.
 |-------------+-----------------|
 | ~SPC b 0~   | Go to first tab |
 | ~SPC b $~   | Go to last tab  |
+| ~SPC b j~   | Previous tab    |
+| ~SPC b k~   | Next tab        |
 
 ** compile/comments
 
