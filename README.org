@@ -67,6 +67,9 @@ Read [[./KEYBINDINGS.org]] to see all 200+ available key bindings.
 * Update
 In order to update run =git pull= inside the intelli-space directory.
 
+* Suggested plugins
+[[./PLUGINS.org]] contains a list of useful plugins that help to replicate the Spacemacs experience.
+
 * Tips
 
 ** Go back to code

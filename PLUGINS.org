@@ -1,0 +1,5 @@
+* Parenthesis matches
+[[https://plugins.jetbrains.com/plugin/10080-rainbow-brackets][Rainbow Brackets]] shows each pair of brackets/parentheses with a different color.
+
+* Jump to character
+[[https://plugins.jetbrains.com/plugin/7086-acejump/][Ace Jump]] allows you to quickly navigate the caret to any position visible in the editor with ~SPC j j~.
