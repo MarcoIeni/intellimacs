@@ -133,13 +133,14 @@ master branch.
 
 ** jump/join/split
 
-| Key binding | Description                   |
-|-------------+-------------------------------|
-| ~SPC j =~   | Reformat code                 |
-| ~SPC j D~   | Project window                |
-| ~SPC j d~   | Project window                |
-| ~SPC j n~   | Insert new line and move down |
-| ~SPC j o~   | Insert new line               |
+| Key binding | Description                          |
+|-------------+--------------------------------------|
+| ~SPC j =~   | Reformat code                        |
+| ~SPC j D~   | Project window                       |
+| ~SPC j d~   | Project window                       |
+| ~SPC j j~   | Jump to character (AceJump required) |
+| ~SPC j n~   | Insert new line and move down        |
+| ~SPC j o~   | Insert new line                      |
 
 ** narrow/numbers
 
