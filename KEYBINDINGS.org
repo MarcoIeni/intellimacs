@@ -206,12 +206,13 @@ master branch.
 
 ** toggles
 
-| Key binding | Description              |
-|-------------+--------------------------|
-| ~SPC t i~   | Toggle show indent guide |
-| ~SPC t l~   | Toggle truncate lines    |
-| ~SPC t n~   | Toggle line numbers      |
-| ~SPC t w~   | Toggle show whitespaces  |
+| Key binding | Description                  |
+|-------------+------------------------------|
+| ~SPC t i~   | Toggle show indent guide     |
+| ~SPC t l~   | Toggle truncate lines        |
+| ~SPC t n~   | Toggle line numbers          |
+| ~SPC t r~   | Toggle relative line numbers |
+| ~SPC t w~   | Toggle show whitespaces      |
 
 ** text
 
