@@ -3,3 +3,6 @@
 
 * Jump to character
 [[https://plugins.jetbrains.com/plugin/7086-acejump/][Ace Jump]] allows you to quickly navigate the caret to any position visible in the editor with ~SPC j j~.
+
+* String inflection
+[[https://plugins.jetbrains.com/plugin/7160-camelcase/][CamelCase]] allows you to switch easily between CamelCase, camelCase, snake_case and SNAKE_CASE.

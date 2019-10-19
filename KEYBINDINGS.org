@@ -217,17 +217,18 @@ master branch.
 
 ** text
 
-| Key binding   | Description                  |
-|---------------+------------------------------|
-| ~SPC x c~     | Count words and characters   |
-| ~SPC x w c~   | Count words and characters   |
-| ~SPC x d SPC~ | Delete all spaces except one |
-| ~SPC x J~     | Move lines down              |
-| ~SPC x K~     | Move lines up                |
-| ~SPC x t c~   | Transpose characters         |
-| ~SPC x t l~   | Transpose lines              |
-| ~SPC x U~     | Upcase region                |
-| ~SPC x u~     | Downcase region              |
+| Key binding   | Description                                   |
+|---------------+-----------------------------------------------|
+| ~SPC x c~     | Count words and characters                    |
+| ~SPC x w c~   | Count words and characters                    |
+| ~SPC x d SPC~ | Delete all spaces except one                  |
+| ~SPC x i~     | String inflection (CamelCase plugin required) |
+| ~SPC x J~     | Move lines down                               |
+| ~SPC x K~     | Move lines up                                 |
+| ~SPC x t c~   | Transpose characters                          |
+| ~SPC x t l~   | Transpose lines                               |
+| ~SPC x U~     | Upcase region                                 |
+| ~SPC x u~     | Downcase region                               |
 
 ** windows
 
