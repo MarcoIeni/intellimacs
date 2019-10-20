@@ -9,8 +9,8 @@ nnoremap <leader>xd<Space>    wh:action EditorHungryBackSpace<CR>
 vnoremap <leader>xd<Space>    <Esc>wh:action EditorHungryBackSpace<CR>
 
 " Alternate string inflection (CamelCase plugin required)
-nnoremap <leader>xi :action de.netnexus.CamelCasePlugin.ToggleCamelCase<CR>
-vnoremap <leader>xi :action de.netnexus.CamelCasePlugin.ToggleCamelCase<CR>
+nnoremap <leader>xi    :action de.netnexus.CamelCasePlugin.ToggleCamelCase<CR>
+vnoremap <leader>xi    :action de.netnexus.CamelCasePlugin.ToggleCamelCase<CR>
 
 " Move lines down
 nnoremap <leader>xJ    $:action MoveLineDown<CR>
