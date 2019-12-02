@@ -481,3 +481,12 @@ master branch.
 | Key binding | Description             |
 |-------------+-------------------------|
 | ~SPC w m~   | Close all other windows |
+
+** zoom
+
+| Key binding | Description        |
+|-------------+--------------------|
+| ~SPC z +~   | Increase font size |
+| ~SPC z =~   | Increase font size |
+| ~SPC z -~   | Decrease font size |
+| ~SPC z 0~   | Reset font size    |

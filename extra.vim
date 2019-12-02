@@ -21,3 +21,4 @@ source ~/intelli-space/extra/search.vim
 source ~/intelli-space/extra/toggles.vim
 source ~/intelli-space/extra/ui_toggles-themes.vim
 source ~/intelli-space/extra/windows.vim
+source ~/intelli-space/extra/zoom.vim
