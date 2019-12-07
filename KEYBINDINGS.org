@@ -461,6 +461,7 @@ master branch.
 
 | Key binding | Description            |
 |-------------+------------------------|
+| ~SPC s E~   | Search everywhere      |
 | ~SPC s f~   | Search in current file |
 
 ** UI toggles/themes
