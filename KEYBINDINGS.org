@@ -198,7 +198,7 @@ master branch.
 | ~SPC s P~   | Find usages                     |
 | ~SPC s p~   | Search in project               |
 | ~SPC s l~   | Search in project               |
-| ~SPC s s~   | Search everywhere               |
+| ~SPC s s~   | Search in project               |
 
 ** UI toogles/themes
 
