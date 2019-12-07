@@ -278,6 +278,7 @@ master branch.
 | ~zr~        | Open all folds                      |
 | ~C-i~       | Jump to previously visited location |
 | ~C-o~       | Jump to lately visited location     |
+| ~M-x~       | Execute an action                   |
 
 * major
 
