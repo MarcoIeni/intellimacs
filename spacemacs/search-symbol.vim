@@ -2,6 +2,10 @@
 nnoremap <leader>sc    :nohlsearch<CR>
 vnoremap <leader>sc    <Esc>:nohlsearch<CR>
 
+" Rename symbol
+nnoremap <leader>se    :action RenameElement<CR>
+vnoremap <leader>se    <Esc>:action RenameElement<CR>
+
 " Highlight current symbol. Do it again to toggle highlight.
 nnoremap <leader>sh    :action HighlightUsagesInFile<CR>
 vnoremap <leader>sh    <Esc>:action HighlightUsagesInFile<CR>
