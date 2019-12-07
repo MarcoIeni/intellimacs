@@ -5,19 +5,19 @@ nnoremap <C-g>    <Esc>
 vnoremap <C-g>    <Esc>
 inoremap <C-g>    <Esc>a
 
-" C-a goes to first character
+" Go to first character
 inoremap <C-a>    <Esc>I
 cnoremap <C-a>    <Home>
 
-" C-e goes to end of line
+" Go to end of line
 inoremap <C-e>    <Esc>A
 cnoremap <C-e>    <End>
 
-" C-d deletes a character
+" Delete character
 inoremap <C-d>    <del>
 
-" C-p goes up
+" Go up
 inoremap <C-p>    <up>
 
-" C-n goes down
+" Go down
 inoremap <C-n>    <down>
