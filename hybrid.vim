@@ -21,3 +21,18 @@ inoremap <C-p>    <up>
 
 " Go down
 inoremap <C-n>    <down>
+
+" Go right
+inoremap <C-f>    <right>
+
+" Go left
+inoremap <C-b>    <left>
+
+" Delete to line end
+inoremap <C-k>    <Esc>:action EditorDeleteToLineEnd<CR>a
+
+" Go to next word
+inoremap <A-f>    <Esc>:action EditorNextWord<CR>a
+
+" Go to previous word
+inoremap <A-b>    <Esc>:action EditorPreviousWord<CR>i
