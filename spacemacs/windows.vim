@@ -17,8 +17,8 @@ nnoremap <leader>wx    :action CloseAllEditors<CR>
 vnoremap <leader>wx    <Esc>:action CloseAllEditors<CR>
 
 " Focus window far left
-nnoremap <leader>wH    :action VimWindowLeft<CR>10@:
-vnoremap <leader>wH    <Esc>:action VimWindowLeft<CR>10@:
+nnoremap <leader>wH    10<C-w>h
+vnoremap <leader>wH    <Esc>10<C-w>h
 
 " Focus window left
 nnoremap <leader>wh         <C-w>h
@@ -27,8 +27,8 @@ nnoremap <leader>w<Left>    <C-w>h
 vnoremap <leader>w<Left>    <Esc><C-w>h
 
 " Focus window very bottom
-nnoremap <leader>wJ    :action VimWindowDown<CR>10@:
-vnoremap <leader>wJ    <Esc>:action VimWindowDown<CR>10@:
+nnoremap <leader>wJ    10<C-w>j
+vnoremap <leader>wJ    <Esc>10<C-w>j
 
 " Focus window down
 nnoremap <leader>wj         <C-w>j
@@ -37,8 +37,8 @@ nnoremap <leader>w<Down>    <C-w>j
 vnoremap <leader>w<Down>    <Esc><C-w>j
 
 " Focus window very top
-nnoremap <leader>wK    :action VimWindowUp<CR>10@:
-vnoremap <leader>wK    <Esc>:action VimWindowUp<CR>10@:
+nnoremap <leader>wK    10<C-w>k
+vnoremap <leader>wK    <Esc>10<C-w>k
 
 " Focus window up
 nnoremap <leader>wk       <C-w>k
@@ -47,8 +47,8 @@ nnoremap <leader>w<Up>    <C-w>k
 vnoremap <leader>w<Up>    <Esc><C-w>k
 
 " Focus window far right
-nnoremap <leader>wL    :action VimWindowRight<CR>10@:
-vnoremap <leader>wL    <Esc>:action VimWindowRight<CR>10@:
+nnoremap <leader>wL    10<C-w>l
+vnoremap <leader>wL    <Esc>10<C-w>l
 
 " Focus window right
 nnoremap <leader>wl          <C-w>l
