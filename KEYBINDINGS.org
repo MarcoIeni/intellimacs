@@ -482,9 +482,9 @@ master branch.
 
 ** windows
 
-| Key binding | Description             |
-|-------------+-------------------------|
-| ~SPC w m~   | Close all other windows |
+| Key binding | Description            |
+|-------------+------------------------|
+| ~SPC w m~   | Show only code windows |
 
 ** zoom
 
