@@ -3,12 +3,12 @@ nnoremap <leader>ti    :action EditorToggleShowIndentLines<CR>
 vnoremap <leader>ti    <Esc>:action EditorToggleShowIndentLines<CR>
 
 " Toggle truncate lines
-nnoremap <leader>tl    :action EditorGutterToggleGlobalSoftWraps<CR>
-vnoremap <leader>tl    <Esc>:action EditorGutterToggleGlobalSoftWraps<CR>
+nnoremap <leader>tl    :action EditorToggleUseSoftWraps<CR>
+vnoremap <leader>tl    <Esc>:action EditorToggleUseSoftWraps<CR>
 
 " Toggle line numbers
-nnoremap <leader>tn    :action EditorGutterToggleGlobalLineNumbers<CR>
-vnoremap <leader>tn    <Esc>:action EditorGutterToggleGlobalLineNumbers<CR>
+nnoremap <leader>tn    :action EditorToggleShowLineNumbers<CR>
+vnoremap <leader>tn    <Esc>:action EditorToggleShowLineNumbers<CR>
 
 " Toggle relative line numbers
 nnoremap <leader>tr    :set relativenumber!<CR>
