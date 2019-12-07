@@ -11,10 +11,10 @@ nnoremap <leader>ws    :action SplitHorizontally<CR>
 vnoremap <leader>ws    <Esc>:action SplitHorizontally<CR>
 
 " Close window
-nnoremap <leader>wd    :action VimWindowClose<CR>
-vnoremap <leader>wd    <esc>:action VimWindowClose<CR>
-nnoremap <leader>wx    :action VimWindowClose<CR>
-vnoremap <leader>wx    <esc>:action VimWindowClose<CR>
+nnoremap <leader>wd    :action CloseAllEditors<CR>
+vnoremap <leader>wd    <Esc>:action CloseAllEditors<CR>
+nnoremap <leader>wx    :action CloseAllEditors<CR>
+vnoremap <leader>wx    <Esc>:action CloseAllEditors<CR>
 
 " Focus window far left
 nnoremap <leader>wH    :action VimWindowLeft<CR>10@:
