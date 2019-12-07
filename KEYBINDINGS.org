@@ -459,10 +459,11 @@ master branch.
 
 ** search
 
-| Key binding | Description            |
-|-------------+------------------------|
-| ~SPC s E~   | Search everywhere      |
-| ~SPC s f~   | Search in current file |
+| Key binding | Description             |
+|-------------+-------------------------|
+| ~SPC s E~   | Search everywhere       |
+| ~SPC s f~   | Search in current file  |
+| ~SPC s r~   | Replace in current file |
 
 ** UI toggles/themes
 
