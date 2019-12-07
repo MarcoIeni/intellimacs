@@ -73,5 +73,5 @@ nnoremap <leader>wV    :action SplitVertically<CR>:action VimWindowRight<CR>
 vnoremap <leader>wV    <Esc>:action SplitVertically<CR>:action VimWindowRight<CR>
 
 " Focus next window
-nnoremap <leader>ww    :action VimWindowNext<CR>
-vnoremap <leader>ww    <Esc>:action VimWindowNext<CR>
+nnoremap <leader>ww    :action NextSplitter<CR>
+vnoremap <leader>ww    <Esc>:action NextSplitter<CR>
