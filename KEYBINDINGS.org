@@ -241,16 +241,12 @@ master branch.
 | ~SPC w s~     | Split window below           |
 | ~SPC w d~     | Close window                 |
 | ~SPC w x~     | Close window                 |
-| ~SPC w H~     | Focus window far left        |
 | ~SPC w h~     | Focus window left            |
 | ~SPC w LEFT~  | Focus window left            |
-| ~SPC w J~     | Focus window very bottom     |
 | ~SPC w j~     | Focus window down            |
 | ~SPC w DOWN~  | Focus window down            |
-| ~SPC w K~     | Focus window very top        |
 | ~SPC w k~     | Focus window up              |
 | ~SPC w UP~    | Focus window up              |
-| ~SPC w L~     | Focus window far right       |
 | ~SPC w l~     | Focus window right           |
 | ~SPC w RIGHT~ | Focus window right           |
 | ~SPC w o~     | Focus next project           |
@@ -482,9 +478,13 @@ master branch.
 
 ** windows
 
-| Key binding | Description            |
-|-------------+------------------------|
-| ~SPC w m~   | Show only code windows |
+| Key binding | Description              |
+|-------------+--------------------------|
+| ~SPC w m~   | Show only code windows   |
+| ~SPC w H~   | Focus window far left    |
+| ~SPC w J~   | Focus window very bottom |
+| ~SPC w K~   | Focus window very top    |
+| ~SPC w L~   | Focus window far right   |
 
 ** zoom
 

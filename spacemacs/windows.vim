@@ -16,19 +16,11 @@ vnoremap <leader>wd    <Esc>:action CloseAllEditors<CR>
 nnoremap <leader>wx    :action CloseAllEditors<CR>
 vnoremap <leader>wx    <Esc>:action CloseAllEditors<CR>
 
-" Focus window far left
-nnoremap <leader>wH    10<C-w>h
-vnoremap <leader>wH    <Esc>10<C-w>h
-
 " Focus window left
 nnoremap <leader>wh         <C-w>h
 vnoremap <leader>wh         <Esc><C-w>h
 nnoremap <leader>w<Left>    <C-w>h
 vnoremap <leader>w<Left>    <Esc><C-w>h
-
-" Focus window very bottom
-nnoremap <leader>wJ    10<C-w>j
-vnoremap <leader>wJ    <Esc>10<C-w>j
 
 " Focus window down
 nnoremap <leader>wj         <C-w>j
@@ -36,19 +28,11 @@ vnoremap <leader>wj         <Esc><C-w>j
 nnoremap <leader>w<Down>    <C-w>j
 vnoremap <leader>w<Down>    <Esc><C-w>j
 
-" Focus window very top
-nnoremap <leader>wK    10<C-w>k
-vnoremap <leader>wK    <Esc>10<C-w>k
-
 " Focus window up
 nnoremap <leader>wk       <C-w>k
 vnoremap <leader>wk       <Esc><C-w>k
 nnoremap <leader>w<Up>    <C-w>k
 vnoremap <leader>w<Up>    <Esc><C-w>k
-
-" Focus window far right
-nnoremap <leader>wL    10<C-w>l
-vnoremap <leader>wL    <Esc>10<C-w>l
 
 " Focus window right
 nnoremap <leader>wl          <C-w>l
