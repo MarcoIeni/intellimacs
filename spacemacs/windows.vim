@@ -21,40 +21,40 @@ nnoremap <leader>wH    :action VimWindowLeft<CR>10@:
 vnoremap <leader>wH    <Esc>:action VimWindowLeft<CR>10@:
 
 " Focus window left
-nnoremap <leader>wh         :action VimWindowLeft<CR>
-vnoremap <leader>wh         <Esc>:action VimWindowLeft<CR>
-nnoremap <leader>w<Left>    :action VimWindowLeft<CR>
-vnoremap <leader>w<Left>    <Esc>:action VimWindowLeft<CR>
+nnoremap <leader>wh         <C-w>h
+vnoremap <leader>wh         <Esc><C-w>h
+nnoremap <leader>w<Left>    <C-w>h
+vnoremap <leader>w<Left>    <Esc><C-w>h
 
 " Focus window very bottom
 nnoremap <leader>wJ    :action VimWindowDown<CR>10@:
 vnoremap <leader>wJ    <Esc>:action VimWindowDown<CR>10@:
 
 " Focus window down
-nnoremap <leader>wj         :action VimWindowDown<CR>
-vnoremap <leader>wj         <Esc>:action VimWindowDown<CR>
-nnoremap <leader>w<Down>    :action VimWindowDown<CR>
-vnoremap <leader>w<Down>    <Esc>:action VimWindowDown<CR>
+nnoremap <leader>wj         <C-w>j
+vnoremap <leader>wj         <Esc><C-w>j
+nnoremap <leader>w<Down>    <C-w>j
+vnoremap <leader>w<Down>    <Esc><C-w>j
 
 " Focus window very top
 nnoremap <leader>wK    :action VimWindowUp<CR>10@:
 vnoremap <leader>wK    <Esc>:action VimWindowUp<CR>10@:
 
 " Focus window up
-nnoremap <leader>wk       :action VimWindowUp<CR>
-vnoremap <leader>wk       <Esc>:action VimWindowUp<CR>
-nnoremap <leader>w<Up>    :action VimWindowUp<CR>
-vnoremap <leader>w<Up>    <Esc>:action VimWindowUp<CR>
+nnoremap <leader>wk       <C-w>k
+vnoremap <leader>wk       <Esc><C-w>k
+nnoremap <leader>w<Up>    <C-w>k
+vnoremap <leader>w<Up>    <Esc><C-w>k
 
 " Focus window far right
 nnoremap <leader>wL    :action VimWindowRight<CR>10@:
 vnoremap <leader>wL    <Esc>:action VimWindowRight<CR>10@:
 
 " Focus window right
-nnoremap <leader>wl          :action VimWindowRight<CR>
-vnoremap <leader>wl          <Esc>:action VimWindowRight<CR>
-nnoremap <leader>w<Right>    :action VimWindowRight<CR>
-vnoremap <leader>w<Right>    <Esc>:action VimWindowRight<CR>
+nnoremap <leader>wl          <C-w>l
+vnoremap <leader>wl          <Esc><C-w>l
+nnoremap <leader>w<Right>    <C-w>l
+vnoremap <leader>w<Right>    <Esc><C-w>l
 
 " Focus next project
 nnoremap <leader>wo    :action NextProjectWindow<CR>
