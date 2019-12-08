@@ -195,9 +195,9 @@ master branch.
 | ~SPC s c~   | Clear search highlights         |
 | ~SPC s e~   | Rename symbol                   |
 | ~SPC s h~   | Toggle highlight current symbol |
+| ~SPC s l~   | Search in project               |
 | ~SPC s P~   | Find usages                     |
 | ~SPC s p~   | Search in project               |
-| ~SPC s l~   | Search in project               |
 | ~SPC s s~   | Search in project               |
 
 ** UI toogles/themes
