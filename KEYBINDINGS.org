@@ -42,7 +42,7 @@ master branch.
 | ~SPC b p~   | Previous tab                       |
 | ~SPC b s~   | New scratch buffer                 |
 | ~SPC b u~   | Reopen closed tab                  |
-| ~SPC b x~   | Close a window (and its tabs)      |
+| ~SPC b x~   | Close window (with its tabs)       |
 | ~SPC b Y~   | Copy whole buffer                  |
 | ~SPC b C-d~ | Close other tabs in current window |
 
@@ -239,8 +239,8 @@ master branch.
 | ~SPC w v~     | Split window right           |
 | ~SPC w -~     | Split window below           |
 | ~SPC w s~     | Split window below           |
-| ~SPC w d~     | Close window                 |
-| ~SPC w x~     | Close window                 |
+| ~SPC w d~     | Close window (with its tabs) |
+| ~SPC w x~     | Close window (with its tabs) |
 | ~SPC w h~     | Focus window left            |
 | ~SPC w LEFT~  | Focus window left            |
 | ~SPC w j~     | Focus window down            |
