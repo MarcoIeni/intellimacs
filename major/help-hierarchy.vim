@@ -16,8 +16,8 @@ vnoremap <leader>mhi      <Esc>:action TypeHierarchy<CR>
 
 " Show usages for symbol
 nnoremap <leader>mhU      :action ShowUsages<CR>
-vnoremap <leader>mhU      <Esc>:action ShowUsages<CR>
+vnoremap <leader>mhU      :action ShowUsages<CR>
 
 " Find usages for symbol
 nnoremap <leader>mhu      :action FindUsages<CR>
-vnoremap <leader>mhu      <Esc>:action FindUsages<CR>
+vnoremap <leader>mhu      :action FindUsages<CR>

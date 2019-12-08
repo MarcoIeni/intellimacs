@@ -1,6 +1,6 @@
 " Switch among recently opened files
 nnoremap <leader>bb    :action RecentFiles<CR>
-vnoremap <leader>bb    <Esc>:action RecentFiles<CR>
+vnoremap <leader>bb    :action RecentFiles<CR>
 
 " Close current tab
 nnoremap <leader>bd    :action CloseContent<CR>
@@ -8,7 +8,7 @@ vnoremap <leader>bd    <Esc>:action CloseContent<CR>
 
 " Show event log
 nnoremap <leader>bm    :action ActivateEventLogToolWindow<CR>
-vnoremap <leader>bm    <Esc>:action ActivateEventLogToolWindow<CR>
+vnoremap <leader>bm    :action ActivateEventLogToolWindow<CR>
 
 " Next Tab
 nnoremap <leader>bn    :action NextTab<CR>
@@ -40,4 +40,4 @@ vnoremap <leader>bY    <Esc>:%y<CR>
 
 " Close other tabs in current window
 nnoremap <leader>b<C-d>    :action CloseAllEditorsButActive<CR>
-vnoremap <leader>b<C-d>    <Esc>:action CloseAllEditorsButActive<CR>
+vnoremap <leader>b<C-d>    :action CloseAllEditorsButActive<CR>

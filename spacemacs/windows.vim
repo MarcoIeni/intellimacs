@@ -42,11 +42,11 @@ vnoremap <leader>w<Right>    <Esc><C-w>l
 
 " Focus next project
 nnoremap <leader>wo    :action NextProjectWindow<CR>
-vnoremap <leader>wo    <Esc>:action NextProjectWindow<CR>
+vnoremap <leader>wo    :action NextProjectWindow<CR>
 
 " Show Event Log window
 nnoremap <leader>wpm    :action ActivateEventLogToolWindow<CR>
-vnoremap <leader>wpm    <Esc>:action ActivateEventLogToolWindow<CR>
+vnoremap <leader>wpm    :action ActivateEventLogToolWindow<CR>
 
 " Split window below and focus
 nnoremap <leader>wS    :action SplitHorizontally<CR>:action VimWindowDown<CR>

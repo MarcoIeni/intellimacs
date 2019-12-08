@@ -15,15 +15,15 @@ vnoremap <leader><tab>    <Esc><C-S-6><CR>
 
 " Open the terminal window (use :! for a single shell cmd)
 nnoremap <leader>!    :action Terminal.OpenInTerminal<CR>
-vnoremap <leader>!    <Esc>:action Terminal.OpenInTerminal<CR>
+vnoremap <leader>!    :action Terminal.OpenInTerminal<CR>
 nnoremap <leader>'    :action Terminal.OpenInTerminal<CR>
-vnoremap <leader>'    <Esc>:action Terminal.OpenInTerminal<CR>
+vnoremap <leader>'    :action Terminal.OpenInTerminal<CR>
 
 " Show usages for symbol.
 " Ideally this should be FindInPath the current word, but I think that it is
 " not possible.
 nnoremap <leader>*    :action ShowUsages<CR>
-vnoremap <leader>*    <Esc>:action ShowUsages<CR>
+vnoremap <leader>*    :action ShowUsages<CR>
 
 " Comment lines
 nnoremap <leader>;;    :action CommentByLineComment<CR>

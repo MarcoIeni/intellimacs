@@ -9,9 +9,9 @@ vnoremap <leader>j=    :action ReformatCode<CR>
 " anymore. You can use <A-1> if you want to close the window or <Esc> if you
 " want to leave the window opened and focus on the code.
 nnoremap <leader>jD    :action ActivateProjectToolWindow<CR>
-vnoremap <leader>jD    <Esc>:action ActivateProjectToolWindow<CR>
+vnoremap <leader>jD    :action ActivateProjectToolWindow<CR>
 nnoremap <leader>jd    :action ActivateProjectToolWindow<CR>
-vnoremap <leader>jd    <Esc>:action ActivateProjectToolWindow<CR>
+vnoremap <leader>jd    :action ActivateProjectToolWindow<CR>
 
 " Jump to character (AceJump plugin required)
 nnoremap <leader>jj    :action AceAction<CR>

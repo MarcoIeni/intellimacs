@@ -2,7 +2,7 @@
 " Create bookmark 0 with <C-S-0>, Create bookmark 1 with <C-S-1> and so on.
 " Go to bookmark 0 with <C-0>, go to bookmark 1 with <C-1> and so on.
 nnoremap <leader>Bl    :action ShowBookmarks<CR>
-vnoremap <leader>Bl    <Esc>:action ShowBookmarks<CR>
+vnoremap <leader>Bl    :action ShowBookmarks<CR>
 
 " Previous bookmark
 nnoremap <leader>BN    :action GotoPreviousBookmark<CR>
@@ -22,4 +22,4 @@ vnoremap <leader>BT    <Esc>:action ToggleBookmarkWithMnemonic<CR>
 
 " Toggle bookmark
 nnoremap <leader>Bt    :action ToggleBookmark<CR>
-vnoremap <leader>Bt    <Esc>:action ToggleBookmark<CR>
+vnoremap <leader>Bt    :action ToggleBookmark<CR>
