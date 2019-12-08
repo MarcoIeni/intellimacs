@@ -7,7 +7,7 @@ nnoremap <leader>cc    :action CompileDirty<CR>
 vnoremap <leader>cc    :action CompileDirty<CR>
 
 " Comment lines
-nnoremap <leader>cl    :action CommentByLineComment<CR>
+nnoremap <leader>cl    :action CommentByLineComment<CR>:action VimVisualExitMode<CR>
 vnoremap <leader>cl    :action CommentByLineComment<CR>:action VimVisualExitMode<CR>
 
 " Make module
@@ -15,8 +15,8 @@ nnoremap <leader>cm    :action MakeModule<CR>
 vnoremap <leader>cm    :action MakeModule<CR>
 
 " Comment paragraph
-nnoremap <leader>cp    vip<CR>:action CommentByLineComment<CR>:action VimVisualExitMode<CR>
-vnoremap <leader>cp    <Esc>vip<CR>:action CommentByLineComment<CR>:action VimVisualExitMode<CR>
+nnoremap <leader>cp    vip:action CommentByLineComment<CR>:action VimVisualExitMode<CR>
+vnoremap <leader>cp    <Esc>vip:action CommentByLineComment<CR>:action VimVisualExitMode<CR>
 
 " Comment from begin of buffer up to current line
 nnoremap <leader>ct    Vgg:action CommentByLineComment<CR>:action VimVisualExitMode<CR>
