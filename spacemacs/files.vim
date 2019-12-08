@@ -46,5 +46,5 @@ nnoremap <leader>ft    :action ActivateProjectToolWindow<CR>
 vnoremap <leader>ft    <Esc>:action ActivateProjectToolWindow<CR>
 
 " Copy file path
-nnoremap <leader>fyy    :action CopyPaths<CR>
-vnoremap <leader>fyy    <Esc>:action CopyPaths<CR>
+nnoremap <leader>fyy    :action CopyAbsolutePath<CR>
+vnoremap <leader>fyy    :action CopyAbsolutePath<CR>
