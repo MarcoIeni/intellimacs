@@ -17,3 +17,8 @@ vnoremap <leader>wL    <Esc>10<C-w>l
 " Close all other windows
 nnoremap <leader>wm    :action HideAllWindows<CR>
 vnoremap <leader>wm    :action HideAllWindows<CR>
+
+" Move window to the opposite tab group.
+nnoremap <leader>wO    :action MoveEditorToOppositeTabGroup<CR>
+vnoremap <leader>wO    <Esc>:action MoveEditorToOppositeTabGroup<CR>
+
