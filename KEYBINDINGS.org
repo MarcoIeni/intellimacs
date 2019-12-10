@@ -478,13 +478,14 @@ master branch.
 
 ** windows
 
-| Key binding | Description              |
-|-------------+--------------------------|
-| ~SPC w H~   | Focus window far left    |
-| ~SPC w J~   | Focus window very bottom |
-| ~SPC w K~   | Focus window very top    |
-| ~SPC w L~   | Focus window far right   |
-| ~SPC w m~   | Show only code windows   |
+| Key binding | Description                     |
+|-------------+---------------------------------|
+| ~SPC w H~   | Focus window far left           |
+| ~SPC w J~   | Focus window very bottom        |
+| ~SPC w K~   | Focus window very top           |
+| ~SPC w L~   | Focus window far right          |
+| ~SPC w m~   | Show only code windows          |
+| ~SPC w O~   | Move tab to the opposite window |
 
 ** zoom
 
