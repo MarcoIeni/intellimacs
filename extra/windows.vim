@@ -21,4 +21,3 @@ vnoremap <leader>wm    :action HideAllWindows<CR>
 " Move tab to the opposite window
 nnoremap <leader>wO    :action MoveEditorToOppositeTabGroup<CR>
 vnoremap <leader>wO    <Esc>:action MoveEditorToOppositeTabGroup<CR>
-
