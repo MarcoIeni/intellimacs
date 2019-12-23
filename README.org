@@ -59,6 +59,10 @@ Read [[./KEYBINDINGS.org]] to see all 200+ available key bindings.
 
   " My own vim commands
   nnoremap Y y$
+
+  " Add/edit actions
+  nnoremap <leader>gl    :action Vcs.Show.Log<CR>
+  vnoremap <leader>gl    :action Vcs.Show.Log<CR>
   #+end_src
 4. (optional) source your vimrc file by adding the line =source ~/.vimrc= in
   =.ideavimrc= (you may break something).
