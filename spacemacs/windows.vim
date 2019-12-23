@@ -49,12 +49,12 @@ nnoremap <leader>wpm    :action ActivateEventLogToolWindow<CR>
 vnoremap <leader>wpm    :action ActivateEventLogToolWindow<CR>
 
 " Split window below and focus
-nnoremap <leader>wS    :action SplitHorizontally<CR>:action VimWindowDown<CR>
-vnoremap <leader>wS    <Esc>:action SplitHorizontally<CR>:action VimWindowDown<CR>
+nnoremap <leader>wS    <C-w>s<C-w>j
+vnoremap <leader>wS    <Esc><C-w>s<C-w>j
 
 " Split window right and focus
-nnoremap <leader>wV    :action SplitVertically<CR>:action VimWindowRight<CR>
-vnoremap <leader>wV    <Esc>:action SplitVertically<CR>:action VimWindowRight<CR>
+nnoremap <leader>wV    <C-w>v<C-w>l
+vnoremap <leader>wV    <Esc><C-w>v<C-w>l
 
 " Focus next window
 nnoremap <leader>ww    :action NextSplitter<CR>
