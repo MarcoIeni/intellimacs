@@ -27,7 +27,7 @@ vnoremap <leader>*    :action ShowUsages<CR>
 
 " Comment lines
 nnoremap <leader>;;    :action CommentByLineComment<CR>
-vnoremap <leader>;     :action CommentByLineComment<CR><Esc>
+vnoremap <leader>;     :action CommentByLineComment<CR>
 
 " Show key bindings
 nnoremap <leader>?    :map<CR>
