@@ -15,5 +15,5 @@
     - Renamed project to intellimacs because intellispace is a registered trademark.
     - Project saved to an hidden directory.
 
-** [[https://github.com/MarcoIeni/intelli-space/releases/tag/v0.0.1][0.0.1]] - 2019-12-27
+** [[https://github.com/MarcoIeni/intellimacs/releases/tag/v0.0.1][0.0.1]] - 2019-12-27
    Initial release.
