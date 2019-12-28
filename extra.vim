@@ -2,23 +2,23 @@
 """ spacemacs defaults
 
 " Settings
-source ~/intelli-space/extra/settings.vim
+source ~/.intellimacs/extra/settings.vim
 
 " Key bindings
-source ~/intelli-space/extra/applications.vim
-source ~/intelli-space/extra/bookmarks.vim
-source ~/intelli-space/extra/buffers.vim
-source ~/intelli-space/extra/compile-comments.vim
-source ~/intelli-space/extra/errors.vim
-source ~/intelli-space/extra/files.vim
-source ~/intelli-space/extra/frame.vim
-source ~/intelli-space/extra/git-vcs.vim
-source ~/intelli-space/extra/help-history.vim
-source ~/intelli-space/extra/jump.vim
-source ~/intelli-space/extra/leader.vim
-source ~/intelli-space/extra/run.vim
-source ~/intelli-space/extra/search.vim
-source ~/intelli-space/extra/toggles.vim
-source ~/intelli-space/extra/ui_toggles-themes.vim
-source ~/intelli-space/extra/windows.vim
-source ~/intelli-space/extra/zoom.vim
+source ~/.intellimacs/extra/applications.vim
+source ~/.intellimacs/extra/bookmarks.vim
+source ~/.intellimacs/extra/buffers.vim
+source ~/.intellimacs/extra/compile-comments.vim
+source ~/.intellimacs/extra/errors.vim
+source ~/.intellimacs/extra/files.vim
+source ~/.intellimacs/extra/frame.vim
+source ~/.intellimacs/extra/git-vcs.vim
+source ~/.intellimacs/extra/help-history.vim
+source ~/.intellimacs/extra/jump.vim
+source ~/.intellimacs/extra/leader.vim
+source ~/.intellimacs/extra/run.vim
+source ~/.intellimacs/extra/search.vim
+source ~/.intellimacs/extra/toggles.vim
+source ~/.intellimacs/extra/ui_toggles-themes.vim
+source ~/.intellimacs/extra/windows.vim
+source ~/.intellimacs/extra/zoom.vim

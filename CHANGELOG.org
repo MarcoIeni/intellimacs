@@ -6,5 +6,14 @@
 
 ** [[https://github.com/marcoieni/intellimacs/compare/v0.0.1...HEAD][Unreleased]]
 
-** [[https://github.com/marcoieni/intellimacs/tags/v0.0.1][0.0.1]] - 2019-12-27
-   Initial version.
+** [[https://github.com/marcoieni/intellimacs/tags/v0.0.1...v1.0.0][1.0.0]] - 2019-12-27
+   Manual intervention is required:
+   - execute =mv ~/intellispace ~/.intellimacs=
+   - change the occurrences of =intellispace= to =.intellimacs= inside your =.ideavimrc= file.
+
+*** Changed
+    - Renamed project to intellimacs because intellispace is a registered trademark.
+    - Project saved to an hidden directory.
+
+** [[https://github.com/MarcoIeni/intelli-space/releases/tag/v0.0.1][0.0.1]] - 2019-12-27
+   Initial release.

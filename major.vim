@@ -1,8 +1,8 @@
 " This file contains the most common spacemacs major mode key bindings
-source ~/intelli-space/major/compile.vim
-source ~/intelli-space/major/debug.vim
-source ~/intelli-space/major/go.vim
-source ~/intelli-space/major/help-hierarchy.vim
-source ~/intelli-space/major/leader.vim
-source ~/intelli-space/major/projects.vim
-source ~/intelli-space/major/refactoring.vim
+source ~/.intellimacs/major/compile.vim
+source ~/.intellimacs/major/debug.vim
+source ~/.intellimacs/major/go.vim
+source ~/.intellimacs/major/help-hierarchy.vim
+source ~/.intellimacs/major/leader.vim
+source ~/.intellimacs/major/projects.vim
+source ~/.intellimacs/major/refactoring.vim

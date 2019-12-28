@@ -1,4 +1,4 @@
-#+TITLE: IntelliSpace
+#+TITLE: Intellimacs
 
 [[http://spacemacs.org][file:https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg]]
 
@@ -20,11 +20,11 @@ IdeaVim parses the [[https://github.com/JetBrains/ideavim/blob/master/src/com/ma
 =:action {name}= command, used to execute arbitrary IDE actions.
 To list all IDE actions use the command =:actionlist [pattern]=.
 
-IntelliSpace provides different files, which can be included individually in
+Intellimacs provides different files, which can be included individually in
 your own =.ideavimrc=, in order to get only the functionalities you want.
 
 * Key bindings
-IntelliSpace is composed of three modules:
+Intellimacs is composed of three modules:
 - spacemacs :: Contains Spacemacs settings and key bindings
   that can be replicated with a similar behaviour in the IntelliJ platform.
 - extra :: Contains settings and key bindings not present in
@@ -32,8 +32,8 @@ IntelliSpace is composed of three modules:
 - major :: Contains key bindings that start with ~SPC m~, that may
   or may not be present in some Spacemacs major mode.
 
-Furthermore, IntelliSpace provides some of the features of Spacemacs hybrid
-mode, which may be enabled by sourcing the file =~/intelli-space/hybrid.vim=.
+Furthermore, Intellimacs provides some of the features of Spacemacs hybrid
+mode, which may be enabled by sourcing the file =~/.intellimacs/hybrid.vim=.
 
 Read [[./KEYBINDINGS.org]] to see all 200+ available key bindings.
 
@@ -42,20 +42,19 @@ Read [[./KEYBINDINGS.org]] to see all 200+ available key bindings.
   Plugins -> Search for IdeaVim -> Install IdeaVim).
 2. Clone this repository in your home directory:
   #+begin_src sh
-  cd ~
-  git clone https://github.com/MarcoIeni/intelli-space
+  git clone https://github.com/MarcoIeni/intellimacs ~/.intellimacs
   #+end_src
 3. In your home directory, create the file =.ideavimrc= and edit it in order to
   include the modules you want by sourcing the relative source files.
   In the following there is an example of =.ideavimrc= file that includes all
-  the functionalities offered by IntelliSpace.
+  the functionalities offered by Intellimacs.
   In this file you can also include your own vim commands.
   #+begin_src vimrc
-  " Selected IntelliSpace modules
-  source ~/intelli-space/spacemacs.vim
-  source ~/intelli-space/extra.vim
-  source ~/intelli-space/major.vim
-  source ~/intelli-space/hybrid.vim
+  " Selected Intellimacs modules
+  source ~/.intellimacs/spacemacs.vim
+  source ~/.intellimacs/extra.vim
+  source ~/.intellimacs/major.vim
+  source ~/.intellimacs/hybrid.vim
 
   " My own vim commands
   nnoremap Y y$
@@ -68,7 +67,9 @@ Read [[./KEYBINDINGS.org]] to see all 200+ available key bindings.
   =.ideavimrc= (you may break something).
 
 * Update
-In order to update run =git pull= inside the intelli-space directory.
+In order to update run =git pull= inside the intellimacs directory.
+
+Read [[./CHANGELOG.org]] to see what changed.
 
 * Suggested plugins
 [[./PLUGINS.org]] contains a list of useful plugins that help to replicate the Spacemacs experience.
@@ -79,7 +80,7 @@ In order to update run =git pull= inside the intelli-space directory.
 The key bindings work only when you are inside the code.
 For example, if you are inside the project window they don't work.
 Press ~<Esc>~ to focus the last visited code window and you will be able to
-use IntelliSpace key bindings again.
+use spacemacs key bindings again.
 
 ** Scroll menus without arrow keys
 In order to scroll menus without using arrow keys, press ~SPC f e d~ to go to
