@@ -1,3 +1,7 @@
+#+TITLE: Suggested plugins
+
+A list of useful plugins that help to replicate the Spacemacs experience.
+
 * Parenthesis matches
 [[https://plugins.jetbrains.com/plugin/10080-rainbow-brackets][Rainbow Brackets]] shows each pair of brackets/parentheses with a different color.
 
