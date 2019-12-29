@@ -35,7 +35,7 @@ Intellimacs is composed of three modules:
 Furthermore, Intellimacs provides some of the features of Spacemacs hybrid
 mode, which may be enabled by sourcing the file =~/.intellimacs/hybrid.vim=.
 
-Read [[./KEYBINDINGS.org]] to see all 200+ available key bindings.
+Read [[file:docs/KEYBINDINGS.org][KEYBINDINGS.org]] to see all 200+ available key bindings.
 
 * Installation
 1. Install IdeaVim by using the IDE's plugin manager (File -> Settings ->
@@ -69,10 +69,10 @@ Read [[./KEYBINDINGS.org]] to see all 200+ available key bindings.
 * Update
 In order to update run =git pull= inside the intellimacs directory.
 
-Read [[./CHANGELOG.org]] to see what changed.
+Read [[file:docs/CHANGELOG.org][CHANGELOG.org]] to see what changed.
 
 * Suggested plugins
-[[./PLUGINS.org]] contains a list of useful plugins that help to replicate the Spacemacs experience.
+[[file:docs/PLUGINS.org][PLUGINS.org]] contains a list of useful plugins that help to replicate the Spacemacs experience.
 
 * Tips
 
