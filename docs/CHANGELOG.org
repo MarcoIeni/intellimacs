@@ -1,19 +1,20 @@
-* Changelog
-  All notable changes to this project will be documented in this file.
+#+TITLE: Changelog
 
-  The format is based on [[https://keepachangelog.com/en/1.0.0/][Keep a Changelog]],
-  and this project adheres to [[https://semver.org/spec/v2.0.0.html][Semantic Versioning]].
+All notable changes to this project will be documented in this file.
 
-** [[https://github.com/marcoieni/intellimacs/compare/v0.0.1...HEAD][Unreleased]]
+The format is based on [[https://keepachangelog.com/en/1.0.0/][Keep a Changelog]],
+and this project adheres to [[https://semver.org/spec/v2.0.0.html][Semantic Versioning]].
 
-** [[https://github.com/marcoieni/intellimacs/tags/v0.0.1...v1.0.0][1.0.0]] - 2019-12-27
-   Manual intervention is required:
-   - execute =mv ~/intellispace ~/.intellimacs=
-   - change the occurrences of =intellispace= to =.intellimacs= inside your =.ideavimrc= file.
+* [[https://github.com/marcoieni/intellimacs/compare/v0.0.1...HEAD][Unreleased]]
 
-*** Changed
-    - Renamed project to intellimacs because intellispace is a registered trademark.
-    - Project saved to an hidden directory.
+* [[https://github.com/marcoieni/intellimacs/tags/v0.0.1...v1.0.0][1.0.0]] - 2019-12-27
+  Manual intervention is required:
+  - execute =mv ~/intellispace ~/.intellimacs=
+  - change the occurrences of =intellispace= to =.intellimacs= inside your =.ideavimrc= file.
 
-** [[https://github.com/MarcoIeni/intellimacs/releases/tag/v0.0.1][0.0.1]] - 2019-12-27
-   Initial release.
+** Changed
+   - Renamed project to intellimacs because intellispace is a registered trademark.
+   - Project saved to an hidden directory.
+
+* [[https://github.com/MarcoIeni/intellimacs/releases/tag/v0.0.1][0.0.1]] - 2019-12-27
+  Initial release.
