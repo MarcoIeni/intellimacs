@@ -98,6 +98,12 @@ In order to open a file in Emacs with a keyboard shortcut follow [[https://www.j
 - [[https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf][Intellij default keymap]]
 - [[https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#settings-repository][Share IDE settings]]
 
+* Contributions
+Intellimacs needs _you_ to keep it up to date and propose great and useful key
+bindings.
+
+Before contributing, be sure to read [[file:docs/CONTRIBUTING.org][CONTRIBUTING.org]] first!
+
 * Related projects
 - [[https://github.com/MarcoIeni/spaceclipse][Spaceclipse]] - Spacemacs' like key bindings for Eclipse
 - [[https://github.com/VSpaceCode/VSpaceCode][VSpaceCode]] - Spacemacs' like key bindings for Visual Studio Code (thanks for
