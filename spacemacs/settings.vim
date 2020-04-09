@@ -23,3 +23,10 @@ set smartcase
 
 " Emulate vim-surround. Commands: ys, cs, ds, S.
 set surround
+
+" Add text object for function arguments: aa (around argument), ia (inside argument)
+set argtextobj
+
+" Add text object for entire buffer: ae (around buffer), ie (inside buffer)
+set textobj-entire
+
