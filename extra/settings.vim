@@ -11,3 +11,8 @@ set textobj-entire
 
 " Replace with register content shortcut: https://github.com/vim-scripts/ReplaceWithRegister
 set ReplaceWithRegister
+
+" Intellimacs by default uses <A-X> to execute an action, if you want to use
+" this key binding with multiple-cursors plugin add the following line
+" (without ") at the end of your ~/.ideavimrc file
+" vunmap <A-X>
