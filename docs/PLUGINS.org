@@ -10,3 +10,6 @@ A list of useful plugins that help to replicate the Spacemacs experience.
 
 * String inflection
 [[https://plugins.jetbrains.com/plugin/7160-camelcase/][CamelCase]] allows you to switch easily between CamelCase, camelCase, snake_case and SNAKE_CASE.
+
+* Documentation Search (MacOs)
+[[https://kapeli.com/dash][Dash]] gives your Mac instant offline access to 200+ API documentation sets.

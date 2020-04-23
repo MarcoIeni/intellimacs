@@ -8,6 +8,7 @@ source ~/.intellimacs/spacemacs/applications.vim
 source ~/.intellimacs/spacemacs/buffers.vim
 source ~/.intellimacs/spacemacs/colors.vim
 source ~/.intellimacs/spacemacs/compile-comments.vim
+source ~/.intellimacs/spacemacs/docs.vim
 source ~/.intellimacs/spacemacs/errors.vim
 source ~/.intellimacs/spacemacs/files.vim
 source ~/.intellimacs/spacemacs/frame.vim
