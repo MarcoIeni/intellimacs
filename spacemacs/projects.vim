@@ -50,3 +50,7 @@ vnoremap <leader>pT    <Esc>:action RerunTests<CR>
 " Show local changes (git status)
 nnoremap <leader>pv    :action Vcs.Show.Local.Changes<CR>
 vnoremap <leader>pv    :action Vcs.Show.Local.Changes<CR>
+
+" Search in project
+nnoremap <leader>ps    :action FindInPath<CR>
+vnoremap <leader>ps    :action FindInPath<CR>
