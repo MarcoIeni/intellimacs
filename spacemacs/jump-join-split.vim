@@ -24,3 +24,7 @@ vnoremap <leader>jn    <Esc>i<CR><Esc>
 " Insert new line
 nnoremap <leader>jo    i<CR><Esc>k$
 vnoremap <leader>jo    <Esc>i<CR><Esc>k$
+
+" Jump to line (AceJump plugin required)
+nnoremap <leader>jl    :action AceLineAction<CR>
+vnoremap <leader>jl    :action AceLineAction<CR>
