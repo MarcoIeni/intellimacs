@@ -139,6 +139,7 @@ master branch.
 | ~SPC j D~   | Project window                       |
 | ~SPC j d~   | Project window                       |
 | ~SPC j j~   | Jump to character (AceJump required) |
+| ~SPC j l~   | Jump to line (AceJump required)      |
 | ~SPC j n~   | Insert new line and move down        |
 | ~SPC j o~   | Insert new line                      |
 

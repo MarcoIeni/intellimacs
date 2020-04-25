@@ -17,6 +17,10 @@ vnoremap <leader>jd    :action ActivateProjectToolWindow<CR>
 nnoremap <leader>jj    :action AceAction<CR>
 vnoremap <leader>jj    :action AceAction<CR>
 
+" Jump to line (AceJump plugin required)
+nnoremap <leader>jl    :action AceLineAction<CR>
+vnoremap <leader>jl    :action AceLineAction<CR>
+
 " Insert new line and move down
 nnoremap <leader>jn    i<CR><Esc>
 vnoremap <leader>jn    <Esc>i<CR><Esc>
