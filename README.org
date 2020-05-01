@@ -59,6 +59,10 @@ Read [[file:docs/KEYBINDINGS.org][KEYBINDINGS.org]] to see all 200+ available ke
   " My own vim commands
   nnoremap Y y$
 
+  " Comma for major mode
+  nmap , <leader>m
+  vmap , <leader>m
+
   " Add/edit actions
   nnoremap <leader>gl    :action Vcs.Show.Log<CR>
   vnoremap <leader>gl    :action Vcs.Show.Log<CR>
