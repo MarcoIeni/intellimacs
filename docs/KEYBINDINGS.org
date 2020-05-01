@@ -326,6 +326,7 @@ master branch.
 | ~SPC m h H~ | Show implementation   |
 | ~SPC m h h~ | Show documetation     |
 | ~SPC m h i~ | Inheritance hierarchy |
+| ~SPC m h t~ | Type definition       |
 | ~SPC m h U~ | Show usages           |
 | ~SPC m h u~ | Find usages           |
 

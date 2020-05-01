@@ -10,6 +10,7 @@ and this project adheres to [[https://semver.org/spec/v2.0.0.html][Semantic Vers
 ** Added
    - enable the following vim plugins: argtextobj, textobj-entire, ReplaceWithRegister
    - =SPC j l=: Jump to line (AceJump required)
+   - =SPC m h t=: Type definition
 
 * [[https://github.com/marcoieni/intellimacs/tags/v0.0.1...v1.0.0][1.0.0]] - 2019-12-27
   Manual intervention is required:

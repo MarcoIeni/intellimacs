@@ -14,6 +14,10 @@ vnoremap <leader>mhh      <Esc>:action QuickJavaDoc<CR>
 nnoremap <leader>mhi      :action TypeHierarchy<CR>
 vnoremap <leader>mhi      <Esc>:action TypeHierarchy<CR>
 
+" Type Definition
+nnoremap <leader>mht      :action QuickTypeDefinition<CR>
+vnoremap <leader>mht      :action QuickTypeDefinition<CR>
+
 " Show usages for symbol
 nnoremap <leader>mhU      :action ShowUsages<CR>
 vnoremap <leader>mhU      :action ShowUsages<CR>
