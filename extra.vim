@@ -7,7 +7,7 @@ source ~/.intellimacs/extra/settings.vim
 " Key bindings
 source ~/.intellimacs/extra/applications.vim
 
-let g:WhichKeyDesc_Buffers = "<leader>B    +bookmarks"
+let g:WhichKeyDesc_Bookmarks = "<leader>B    +bookmarks"
 source ~/.intellimacs/extra/bookmarks.vim
 source ~/.intellimacs/extra/buffers.vim
 source ~/.intellimacs/extra/compile-comments.vim
