@@ -1,4 +1,4 @@
-" Open terminal in project root
+" Activate terminal window
 nnoremap <leader>p!    :action ActivateTerminalToolWindow<CR>
 vnoremap <leader>p!    :action ActivateTerminalToolWindow<CR>
 

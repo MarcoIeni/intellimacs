@@ -11,24 +11,25 @@ master branch.
 
 ** leader
 
-| Key binding | Description          |
-|-------------+----------------------|
-| ~SPC SPC~   | Execute an action    |
-| ~SPC TAB~   | Last buffer          |
-| ~SPC !~     | Open terminal window |
-| ~SPC '~     | Open terminal window |
-| ~SPC *~     | Show usages          |
-| ~SPC ; ;~   | Comment lines        |
-| ~SPC ?~     | Show key bindings    |
+| Key binding | Description                   |
+|-------------+-------------------------------|
+| ~SPC SPC~   | Execute an action             |
+| ~SPC TAB~   | Last buffer                   |
+| ~SPC !~     | Open new terminal window      |
+| ~SPC '~     | Activate terminal window      |
+| ~SPC *~     | Show usages                   |
+| ~SPC ; ;~   | Comment lines                 |
+| ~SPC ?~     | Show key bindings             |
 
 ** applications
-| Key binding | Description          |
-|-------------+----------------------|
-| ~SPC a k~   | Plugins marketplace  |
-| ~SPC a o t~ | Show TODOs           |
-| ~SPC a P~   | Show CPU usage       |
-| ~SPC a p~   | List processes       |
-| ~SPC a s~   | Open terminal window |
+
+| Key binding | Description              |
+|-------------+--------------------------|
+| ~SPC a k~   | Plugins marketplace      |
+| ~SPC a o t~ | Show TODOs               |
+| ~SPC a P~   | Show CPU usage           |
+| ~SPC a p~   | List processes           |
+| ~SPC a s~   | Open new terminal window |
 
 ** buffers
 
@@ -155,7 +156,7 @@ master branch.
 
 | Key binding | Description                            |
 |-------------+----------------------------------------|
-| ~SPC p !~   | Open terminal in project root          |
+| ~SPC p !~   | Activate terminal window               |
 | ~SPC p a~   | Toggle between implementation and test |
 | ~SPC p b~   | Recent files                           |
 | ~SPC p h~   | Recent files                           |

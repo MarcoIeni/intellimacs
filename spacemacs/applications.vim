@@ -19,7 +19,7 @@ let g:WhichKeyDesc_Applications_Processes = "<leader>ap processes"
 nnoremap <leader>ap    :action ShowProcessWindow<CR>
 vnoremap <leader>ap    :action ShowProcessWindow<CR>
 
-" Open the terminal window
+" Open a new terminal window
 let g:WhichKeyDesc_Applications_Shell = "<leader>as shell"
 nnoremap <leader>as    :action Terminal.OpenInTerminal<CR>
 vnoremap <leader>as    :action Terminal.OpenInTerminal<CR>

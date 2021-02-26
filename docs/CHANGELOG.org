@@ -12,6 +12,9 @@ and this project adheres to [[https://semver.org/spec/v2.0.0.html][Semantic Vers
    - =SPC j l=: Jump to line (AceJump required)
    - =SPC m h t=: Type definition
 
+** Changed
+   - =SPC '=: Activate terminal window
+
 * [[https://github.com/marcoieni/intellimacs/tags/v0.0.1...v1.0.0][1.0.0]] - 2019-12-27
   Manual intervention is required:
   - execute =mv ~/intellispace ~/.intellimacs=

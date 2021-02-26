@@ -8,13 +8,15 @@ let g:WhichKeyDesc_Leader_LastBuffer = "<leader><Tab> last-buffer"
 nnoremap <leader><Tab>    <C-S-6>
 vnoremap <leader><Tab>    <Esc><C-S-6>
 
-" Open the terminal window (use :! for a single shell cmd)
+" Open a new terminal window (use :! for a single shell cmd)
 let g:WhichKeyDesc_Leader_OpenShell = "<leader>! open-shell"
 nnoremap <leader>!    :action Terminal.OpenInTerminal<CR>
 vnoremap <leader>!    :action Terminal.OpenInTerminal<CR>
+
+" Activate terminal window
 let g:WhichKeyDesc_Leader_OpenShell2 = "<leader>' open-shell"
-nnoremap <leader>'    :action Terminal.OpenInTerminal<CR>
-vnoremap <leader>'    :action Terminal.OpenInTerminal<CR>
+nnoremap <leader>'    :action ActivateTerminalToolWindow<CR>
+vnoremap <leader>'    :action ActivateTerminalToolWindow<CR>
 
 " Show usages for symbol.
 " Ideally this should be FindInPath the current word, but I think that it is
