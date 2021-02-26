@@ -1,8 +1,7 @@
 " List bookmarks
 " Create bookmark 0 with <C-S-0>, Create bookmark 1 with <C-S-1> and so on.
 " Go to bookmark 0 with <C-0>, go to bookmark 1 with <C-1> and so on.
-" Show bookmarks
-let g:WhichKeyDesc_Bookmarks_Show = "<leader>Bl show-bookmarks"
+let g:WhichKeyDesc_Bookmarks_List = "<leader>Bl list-bookmarks"
 nnoremap <leader>Bl    :action ShowBookmarks<CR>
 vnoremap <leader>Bl    :action ShowBookmarks<CR>
 
@@ -30,4 +29,3 @@ vnoremap <leader>BT    <Esc>:action ToggleBookmarkWithMnemonic<CR>
 let g:WhichKeyDesc_Bookmarks_Toggle = "<leader>Bt toggle-bookmark"
 nnoremap <leader>Bt    :action ToggleBookmark<CR>
 vnoremap <leader>Bt    :action ToggleBookmark<CR>
-
