@@ -4,7 +4,7 @@ let g:WhichKeyDesc_Zoom_FontSize = "<leader>zx +font-size"
 let g:WhichKeyDesc_Zoom_FontSize_Increase = "<leader>zx+ increase"
 nnoremap <leader>zx+    :action EditorIncreaseFontSize<CR>
 vnoremap <leader>zx+    :action EditorIncreaseFontSize<CR>
-let g:WhichKeyDesc_Zoom_FontSize_IncreaseAlt = "<leader>zx+ increase"
+let g:WhichKeyDesc_Zoom_FontSize_IncreaseAlt = "<leader>zx= increase"
 nnoremap <leader>zx=    :action EditorIncreaseFontSize<CR>
 vnoremap <leader>zx=    :action EditorIncreaseFontSize<CR>
 
