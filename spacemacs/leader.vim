@@ -35,3 +35,8 @@ vnoremap <leader>;     :action CommentByLineComment<CR>
 let g:WhichKeyDesc_Leader_ShowKeybindings = "<leader>? show-keybindings"
 nnoremap <leader>?    :map<CR>
 vnoremap <leader>?    <Esc>:map<CR>
+
+" Search in project files
+let g:WhichKeyDesc_Leader_SearchProject = "<leader>/ search-project"
+nnoremap <leader>/    :action FindInPath<CR>
+vnoremap <leader>/    :action FindInPath<CR>

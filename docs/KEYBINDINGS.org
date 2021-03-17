@@ -20,6 +20,7 @@ master branch.
 | ~SPC *~     | Show usages                   |
 | ~SPC ; ;~   | Comment lines                 |
 | ~SPC ?~     | Show key bindings             |
+| ~SPC /~     | Search in project files       |
 
 ** applications
 

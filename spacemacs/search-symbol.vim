@@ -14,7 +14,7 @@ vnoremap <leader>sh    <Esc>:action HighlightUsagesInFile<CR>
 nnoremap <leader>sP    :action FindUsages<CR>
 vnoremap <leader>sP    :action FindUsages<CR>
 
-" Search in project. Unfortunately <leader>/ does not work.
+" Search in project.
 nnoremap <leader>sp    :action FindInPath<CR>
 vnoremap <leader>sp    :action FindInPath<CR>
 nnoremap <leader>sl    :action FindInPath<CR>
