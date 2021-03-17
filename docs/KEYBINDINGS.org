@@ -178,6 +178,8 @@ master branch.
 | ~SPC q f~   | Close project              |
 | ~SPC q q~   | Close project              |
 | ~SPC q Q~   | Exit (close all projects)  |
+| ~SPC q r~   | Restart                    |
+| ~SPC q R~   | Restart                    |
 | ~SPC q s~   | Save all and close project |
 
 ** registers/rings/resume
