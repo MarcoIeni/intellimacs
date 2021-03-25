@@ -68,14 +68,17 @@ master branch.
 
 ** errors
 
-| Key binding | Description       |
-|-------------+-------------------|
-| ~SPC e l~   | List errors       |
-| ~SPC e N~   | Previous error    |
-| ~SPC e n~   | Next error        |
-| ~SPC e p~   | Previous error    |
-| ~SPC e s~   | Select inspection |
-| ~SPC e x~   | Explain error     |
+| Key binding | Description            |
+|-------------+------------------------|
+| ~SPC e L~   | Inspect code           |
+| ~SPC e l~   | List errors            |
+| ~SPC e N~   | Previous error         |
+| ~SPC e n~   | Next error             |
+| ~SPC e p~   | Previous error         |
+| ~SPC e R~   | Run inspection by name |
+| ~SPC e r~   | Resolve error          |
+| ~SPC e s~   | Inspection settings    |
+| ~SPC e x~   | Explain error          |
 
 ** frame
 
