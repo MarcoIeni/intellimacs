@@ -8,7 +8,7 @@ let g:WhichKeyDesc_Insertion_InsertLineAbove = "<leader>ik insert-line-above"
 nnoremap <leader>ik    O<Esc>j
 vnoremap <leader>ik    <Esc>O<Esc>j
 
-""" IDE Submenu ---------------------------------
+""" LoremIpsum Submenu ---------------------------------
 let g:WhichKeyDesc_Insertion_LoremIpsum = "<leader>il +lorem-ipsum"
 
 " Insert lorem ipsum paragraph
