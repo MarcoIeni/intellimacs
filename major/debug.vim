@@ -1,5 +1,5 @@
 " View Breakpoints
-let g:WhichKeyDesc_Major_Debug_ViewBreakkpoints = "<leader>mdB view-breakpoints"
+let g:WhichKeyDesc_Major_Debug_ViewBreakpoints = "<leader>mdB view-breakpoints"
 nnoremap <leader>mdB    :action ViewBreakpoints<CR>
 vnoremap <leader>mdB    <Esc>:action ViewBreakpoints<CR>
 
