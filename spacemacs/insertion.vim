@@ -17,7 +17,7 @@ nnoremap <leader>ilp    iLorem ipsum dolor sit amet, consectetuer adipiscing eli
 vnoremap <leader>ilp    <Esc>iLorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec hendrerit tempor tellus.  Donec pretium posuere tellus.  Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  Nulla posuere.  Donec vitae dolor.  Nullam tristique diam non turpis.  Cras placerat accumsan nulla.  Nullam rutrum.  Nam vestibulum accumsan nisl.<Esc>
 
 " Insert lorem ipsum sentence
-let g:WhichKeyDesc_Insertion_LoremIpsum_Sentence = "<leader>ilsl sentence"
+let g:WhichKeyDesc_Insertion_LoremIpsum_Sentence = "<leader>ils sentence"
 nnoremap <leader>ils    iLorem ipsum dolor sit amet, consectetuer adipiscing elit.
 vnoremap <leader>ils    <Esc>iLorem ipsum dolor sit amet, consectetuer adipiscing elit.
 """ ---------------------------------------------
