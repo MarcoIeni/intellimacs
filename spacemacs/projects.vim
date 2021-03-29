@@ -46,7 +46,7 @@ nnoremap <leader>pI    :action InvalidateCaches<CR>
 vnoremap <leader>pI    :action InvalidateCaches<CR>
 
 " Recent projects
-let g:WhichKeyDesc_Projects_RecentProject = "<leader>pp recent-projects"
+let g:WhichKeyDesc_Projects_RecentProjects = "<leader>pp recent-projects"
 nnoremap <leader>pp    :action ManageRecentProjects<CR>
 vnoremap <leader>pp    :action ManageRecentProjects<CR>
 
