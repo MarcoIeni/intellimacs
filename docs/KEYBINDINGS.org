@@ -11,24 +11,26 @@ master branch.
 
 ** leader
 
-| Key binding | Description          |
-|-------------+----------------------|
-| ~SPC SPC~   | Execute an action    |
-| ~SPC TAB~   | Last buffer          |
-| ~SPC !~     | Open terminal window |
-| ~SPC '~     | Open terminal window |
-| ~SPC *~     | Show usages          |
-| ~SPC ; ;~   | Comment lines        |
-| ~SPC ?~     | Show key bindings    |
+| Key binding | Description                   |
+|-------------+-------------------------------|
+| ~SPC SPC~   | Execute an action             |
+| ~SPC TAB~   | Last buffer                   |
+| ~SPC !~     | Open new terminal window      |
+| ~SPC '~     | Activate terminal window      |
+| ~SPC *~     | Show usages                   |
+| ~SPC ; ;~   | Comment lines                 |
+| ~SPC ?~     | Show key bindings             |
+| ~SPC /~     | Search in project files       |
 
 ** applications
-| Key binding | Description          |
-|-------------+----------------------|
-| ~SPC a k~   | Plugins marketplace  |
-| ~SPC a o t~ | Show TODOs           |
-| ~SPC a P~   | Show CPU usage       |
-| ~SPC a p~   | List processes       |
-| ~SPC a s~   | Open terminal window |
+
+| Key binding | Description              |
+|-------------+--------------------------|
+| ~SPC a k~   | Plugins marketplace      |
+| ~SPC a o t~ | Show TODOs               |
+| ~SPC a P~   | Show CPU usage           |
+| ~SPC a p~   | List processes           |
+| ~SPC a s~   | Open new terminal window |
 
 ** buffers
 
@@ -66,14 +68,17 @@ master branch.
 
 ** errors
 
-| Key binding | Description       |
-|-------------+-------------------|
-| ~SPC e l~   | List errors       |
-| ~SPC e N~   | Previous error    |
-| ~SPC e n~   | Next error        |
-| ~SPC e p~   | Previous error    |
-| ~SPC e s~   | Select inspection |
-| ~SPC e x~   | Explain error     |
+| Key binding | Description            |
+|-------------+------------------------|
+| ~SPC e L~   | Inspect code           |
+| ~SPC e l~   | List errors            |
+| ~SPC e N~   | Previous error         |
+| ~SPC e n~   | Next error             |
+| ~SPC e p~   | Previous error         |
+| ~SPC e R~   | Run inspection by name |
+| ~SPC e r~   | Resolve error          |
+| ~SPC e s~   | Inspection settings    |
+| ~SPC e x~   | Explain error          |
 
 ** frame
 
@@ -155,7 +160,7 @@ master branch.
 
 | Key binding | Description                            |
 |-------------+----------------------------------------|
-| ~SPC p !~   | Open terminal in project root          |
+| ~SPC p !~   | Activate terminal window               |
 | ~SPC p a~   | Toggle between implementation and test |
 | ~SPC p b~   | Recent files                           |
 | ~SPC p h~   | Recent files                           |
@@ -177,6 +182,8 @@ master branch.
 | ~SPC q f~   | Close project              |
 | ~SPC q q~   | Close project              |
 | ~SPC q Q~   | Exit (close all projects)  |
+| ~SPC q r~   | Restart                    |
+| ~SPC q R~   | Restart                    |
 | ~SPC q s~   | Save all and close project |
 
 ** registers/rings/resume

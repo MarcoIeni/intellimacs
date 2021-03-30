@@ -2,6 +2,8 @@
 
 [[http://spacemacs.org][file:https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg]]
 
+[[file:docs/preview.gif]]
+
 * Presentation
 This project tries to mimic [[http://spacemacs.org][Spacemacs]] key bindings in IDEs based on the [[https://www.jetbrains.com][IntelliJ]]
 platform, i.e. IntelliJ IDEA, PyCharm, CLion, PhpStorm, WebStorm, RubyMine,
@@ -38,8 +40,10 @@ mode, which may be enabled by sourcing the file =~/.intellimacs/hybrid.vim=.
 Read [[file:docs/KEYBINDINGS.org][KEYBINDINGS.org]] to see all 200+ available key bindings.
 
 * Installation
-1. Install IdeaVim by using the IDE's plugin manager (File -> Settings ->
-  Plugins -> Search for IdeaVim -> Install IdeaVim).
+1. Go to the IDE's plugin manager (File -> Settings -> Plugins) and install
+  the following plugins:
+   - [[https://plugins.jetbrains.com/plugin/164-ideavim][IdeaVim]]: vim emulation
+   - (Optional) [[https://plugins.jetbrains.com/plugin/15976-idea-which-key][IDEA Which-Key]]: menu that shows the available commands as you type
 2. Clone this repository in your home directory:
   #+begin_src sh
   git clone https://github.com/MarcoIeni/intellimacs ~/.intellimacs
@@ -50,20 +54,24 @@ Read [[file:docs/KEYBINDINGS.org][KEYBINDINGS.org]] to see all 200+ available ke
   the functionalities offered by Intellimacs.
   In this file you can also include your own vim commands.
   #+begin_src vimrc
-  " Selected Intellimacs modules
   source ~/.intellimacs/spacemacs.vim
+
+  " (Optional) Enable other Intellimacs modules
   source ~/.intellimacs/extra.vim
   source ~/.intellimacs/major.vim
   source ~/.intellimacs/hybrid.vim
 
-  " My own vim commands
+  " (Optional) Enable which-key plugin
+  source ~/.intellimacs/which-key.vim
+
+  " (Optional) My own vim commands
   nnoremap Y y$
 
-  " Comma for major mode
+  " (Optional) Comma for major mode
   nmap , <leader>m
   vmap , <leader>m
 
-  " Add/edit actions
+  " (Optional) Add/edit actions
   nnoremap <leader>gl    :action Vcs.Show.Log<CR>
   vnoremap <leader>gl    :action Vcs.Show.Log<CR>
   #+end_src
@@ -110,5 +118,6 @@ Before contributing, be sure to read [[file:docs/CONTRIBUTING.org][CONTRIBUTING.
 
 * Related projects
 - [[https://github.com/MarcoIeni/spaceclipse][Spaceclipse]] - Spacemacs' like key bindings for Eclipse
+- [[https://github.com/SpaceVim/SpaceVim][SpaceVim]] - A community-driven modular vim distribution
 - [[https://github.com/VSpaceCode/VSpaceCode][VSpaceCode]] - Spacemacs' like key bindings for Visual Studio Code (thanks for
   the inspiration)
