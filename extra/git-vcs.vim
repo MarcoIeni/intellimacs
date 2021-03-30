@@ -1,5 +1,5 @@
 " Git checkout
-let g:WhichKeyDesc_GitVcs_Checkout = "<leader>gb checkout"
+let g:WhichKeyDesc_GitVcs_Branches = "<leader>gb branches"
 nnoremap <leader>gb    :action Git.Branches<CR>
 vnoremap <leader>gb    :action Git.Branches<CR>
 
