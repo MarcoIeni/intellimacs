@@ -23,7 +23,7 @@ nnoremap <leader>gs    :action Vcs.Show.Local.Changes<CR>
 vnoremap <leader>gs    :action Vcs.Show.Local.Changes<CR>
 
 """ VCS Submenu ---------------------------------
-let g:WhichKeyDesc_GitVcs_Vcs = "<leader>gv +vcs"
+let g:WhichKeyDesc_GitVcs_VersionControl = "<leader>gv +version-control"
 
 " Update project (git pull)
 let g:WhichKeyDesc_GitVcs_Vcs_Pull = "<leader>gv+ pull"
