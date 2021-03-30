@@ -16,7 +16,7 @@ source ~/.intellimacs/major/help-hierarchy.vim
 let g:WhichKeyDesc_Major_Format = "<leader>m= +format"
 source ~/.intellimacs/major/leader.vim
 
-let g:WhichKeyDesc_Major_Package = "<leader>mp +package"
+let g:WhichKeyDesc_Major_Project = "<leader>mp +project"
 source ~/.intellimacs/major/projects.vim
 
 let g:WhichKeyDesc_Major_Refactoring = "<leader>mr +refactor"
