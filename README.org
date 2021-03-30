@@ -116,5 +116,6 @@ Before contributing, be sure to read [[file:docs/CONTRIBUTING.org][CONTRIBUTING.
 
 * Related projects
 - [[https://github.com/MarcoIeni/spaceclipse][Spaceclipse]] - Spacemacs' like key bindings for Eclipse
+- [[https://github.com/SpaceVim/SpaceVim][SpaceVim]] - A community-driven modular vim distribution
 - [[https://github.com/VSpaceCode/VSpaceCode][VSpaceCode]] - Spacemacs' like key bindings for Visual Studio Code (thanks for
   the inspiration)
