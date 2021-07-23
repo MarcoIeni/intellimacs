@@ -13,8 +13,8 @@ vnoremap <leader>qQ    <Esc>:action Exit<CR>
 
 " Restart
 let g:WhichKeyDesc_Quit_Restart = "<leader>qR restart"
-nnoremap <leader>qR    :action InvalidateCaches<CR>
-vnoremap <leader>qR    <Esc>:action InvalidateCaches<CR>
+nnoremap <leader>qR    :action RestartIde<CR>
+vnoremap <leader>qR    <Esc>:action RestartIde<CR>
 let g:WhichKeyDesc_Quit_RestartAlt = "<leader>qr restart"
 nnoremap <leader>qr    :action InvalidateCaches<CR>
 vnoremap <leader>qr    <Esc>:action InvalidateCaches<CR>
