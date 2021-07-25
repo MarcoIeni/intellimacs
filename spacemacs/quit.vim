@@ -12,12 +12,12 @@ nnoremap <leader>qQ    :action Exit<CR>
 vnoremap <leader>qQ    <Esc>:action Exit<CR>
 
 " Restart
-let g:WhichKeyDesc_Quit_Restart = "<leader>qR restart"
+let g:WhichKeyDesc_Quit_InvalidateCache = "<leader>qR invalidate-cache"
 nnoremap <leader>qR    :action InvalidateCaches<CR>
 vnoremap <leader>qR    <Esc>:action InvalidateCaches<CR>
-let g:WhichKeyDesc_Quit_RestartAlt = "<leader>qr restart"
-nnoremap <leader>qr    :action InvalidateCaches<CR>
-vnoremap <leader>qr    <Esc>:action InvalidateCaches<CR>
+let g:WhichKeyDesc_Quit_Restart = "<leader>qr restart"
+nnoremap <leader>qr    :action RestartIde<CR>
+vnoremap <leader>qr    <Esc>:action RestartIde<CR>
 
 " Save all and close project
 let g:WhichKeyDesc_Quit_SaveAllAndCloseProject = "<leader>qs save-all-close-project"

@@ -183,7 +183,7 @@ master branch.
 | ~SPC q q~   | Close project              |
 | ~SPC q Q~   | Exit (close all projects)  |
 | ~SPC q r~   | Restart                    |
-| ~SPC q R~   | Restart                    |
+| ~SPC q R~   | Invalidate cache           |
 | ~SPC q s~   | Save all and close project |
 
 ** registers/rings/resume
