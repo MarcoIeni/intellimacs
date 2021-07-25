@@ -2,9 +2,7 @@
 Please explain the changes you made here.
 
 ## Checklist
-- [ ] I have read
-[CONTRIBUTING](https://github.com/MarcoIeni/intellimacs/blob/master/docs/CONTRIBUTING.org)
-guidelines.
+- [ ] I have read [CONTRIBUTING](https://github.com/MarcoIeni/intellimacs/blob/master/docs/CONTRIBUTING.org) guidelines.
 
 #### [CHANGELOG](https://github.com/MarcoIeni/intellimacs/blob/master/docs/CHANGELOG.org):
 - [ ] Updated
