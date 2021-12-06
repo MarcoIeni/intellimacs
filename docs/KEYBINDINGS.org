@@ -97,7 +97,7 @@ master branch.
 | ~SPC f f~   | Find files            |
 | ~SPC f g~   | Search in project     |
 | ~SPC f R~   | Rename file           |
-| ~SPC f r~   | Recent fles           |
+| ~SPC f r~   | Recent files          |
 | ~SPC f S~   | Save all files        |
 | ~SPC f s~   | Save file             |
 | ~SPC f t~   | Project window        |
