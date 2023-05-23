@@ -44,9 +44,9 @@ Read [[file:docs/KEYBINDINGS.org][KEYBINDINGS.org]] to see all 200+ available ke
   the following plugins:
    - [[https://plugins.jetbrains.com/plugin/164-ideavim][IdeaVim]]: vim emulation
    - (Optional) [[https://plugins.jetbrains.com/plugin/15976-idea-which-key][IDEA Which-Key]]: menu that shows the available commands as you type
-2. Clone this repository in your home directory:
+2. Clone this repository in your home directory (Changed so I grab the correct repo):
   #+begin_src sh
-  git clone https://github.com/MarcoIeni/intellimacs ~/.intellimacs
+  git clone https://github.com/JJWJ/intellimacs ~/.intellimacs
   #+end_src
 3. In your home directory, create the file =.ideavimrc= and edit it in order to
   include the modules you want by sourcing the relative source files.
