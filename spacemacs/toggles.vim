@@ -1,3 +1,8 @@
+" Toggle visualbell
+let g:WhichKeyDesc_Toggles_VisualBell = "<leader>tb visual-bell"
+nnoremap <leader>tb    :set visualbell!<CR>
+vnoremap <leader>tb    <Esc>:set visualbell!<CR>
+
 " Toggle show indent guide
 let g:WhichKeyDesc_Toggles_IndentLines = "<leader>ti indent-lines"
 nnoremap <leader>ti    :action EditorToggleShowIndentLines<CR>
