@@ -43,7 +43,7 @@ Read [[file:docs/KEYBINDINGS.org][KEYBINDINGS.org]] to see all 200+ available ke
 1. Go to the IDE's plugin manager (File -> Settings -> Plugins) and install
   the following plugins:
    - [[https://plugins.jetbrains.com/plugin/164-ideavim][IdeaVim]]: vim emulation
-   - (Optional) [[https://plugins.jetbrains.com/plugin/15976-idea-which-key][IDEA Which-Key]]: menu that shows the available commands as you type
+   - (Optional) [[https://plugins.jetbrains.com/plugin/15976-which-key][Which-Key]]: menu that shows the available commands as you type
 2. Clone this repository in your home directory:
   #+begin_src sh
   git clone https://github.com/MarcoIeni/intellimacs ~/.intellimacs
@@ -121,3 +121,6 @@ Before contributing, be sure to read [[file:docs/CONTRIBUTING.org][CONTRIBUTING.
 - [[https://github.com/SpaceVim/SpaceVim][SpaceVim]] - A community-driven modular vim distribution
 - [[https://github.com/VSpaceCode/VSpaceCode][VSpaceCode]] - Spacemacs' like key bindings for Visual Studio Code (thanks for
   the inspiration)
+
+* Related projects (No Spacemacs keys)
+- [[https://glimpse.ieni.dev][Glimpse]] - Mnemonic key bindings for VSCode commands
