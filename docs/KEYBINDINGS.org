@@ -398,6 +398,7 @@ master branch.
 | ~SPC b $~   | Go to last tab  |
 | ~SPC b j~   | Previous tab    |
 | ~SPC b k~   | Next tab        |
+| ~SPC b t~   | Pin tab         |
 
 ** compile/comments
 
