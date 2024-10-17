@@ -7,6 +7,9 @@ and this project adheres to [[https://semver.org/spec/v2.0.0.html][Semantic Vers
 
 * [[https://github.com/marcoieni/intellimacs/compare/v1.1.0...HEAD][Unreleased]]
 
+** Added
+  - =SPC b t=: Pin tab
+
 ** Changed
    - =SPC q r=: Just restarts the IDE without invalidating the cache
 
