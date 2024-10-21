@@ -79,3 +79,8 @@ vnoremap <leader>wV    <Esc><C-w>v<C-w>l
 let g:WhichKeyDesc_Windows_OtherWindow = "<leader>ww other-window"
 nnoremap <leader>ww    :action NextSplitter<CR>
 vnoremap <leader>ww    <Esc>:action NextSplitter<CR>
+
+" Toggle maximized window
+let g:WhichKeyDesc_Windows_ToggleMaximizeWindow = "<leader>wm toggle-maximize-window"
+nnoremap <leader>wm    :action MaximizeEditorInSplit<CR>
+vnoremap <leader>wm    <Esc>:action MaximizeEditorInSplit<CR>
