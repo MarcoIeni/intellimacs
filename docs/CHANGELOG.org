@@ -12,6 +12,7 @@ and this project adheres to [[https://semver.org/spec/v2.0.0.html][Semantic Vers
 
 ** Changed
    - =SPC q r=: Just restarts the IDE without invalidating the cache
+   - =SPC w m=: Toggle maximize of active window. Old behaviour still exists at =SPC T m=
 
 * [[https://github.com/marcoieni/intellimacs/compare/v1.0.0...v1.1.0][1.1.0]] - 2020-03-30
 

@@ -18,11 +18,6 @@ let g:WhichKeyDesc_Windows_FocusWindowFarRight = "<leader>wL focus-window-far-ri
 nnoremap <leader>wL    10<C-w>l
 vnoremap <leader>wL    <Esc>10<C-w>l
 
-" Close all other windows
-let g:WhichKeyDesc_Windows_CloseAllOtherWindows = "<leader>wm close-all-other-windows"
-nnoremap <leader>wm    :action HideAllWindows<CR>
-vnoremap <leader>wm    :action HideAllWindows<CR>
-
 " Move tab to the opposite window
 let g:WhichKeyDesc_Windows_MoveTabToOppositeWindow = "<leader>wO move-tab-to-opposite-window"
 nnoremap <leader>wO    :action MoveEditorToOppositeTabGroup<CR>

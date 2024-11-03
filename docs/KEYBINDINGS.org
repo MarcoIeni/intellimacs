@@ -262,6 +262,7 @@ master branch.
 | ~SPC w S~     | Split window below and focus |
 | ~SPC w V~     | Split window right and focus |
 | ~SPC w w~     | Focus next window            |
+| ~SPC w m~     | Toggle maximize window       |
 
 ** zoom
 
@@ -494,7 +495,6 @@ master branch.
 | ~SPC w J~   | Focus window very bottom        |
 | ~SPC w K~   | Focus window very top           |
 | ~SPC w L~   | Focus window far right          |
-| ~SPC w m~   | Show only code windows          |
 | ~SPC w O~   | Move tab to the opposite window |
 
 ** zoom
